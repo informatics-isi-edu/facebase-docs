@@ -1,0 +1,36 @@
+- title: Getting Started
+  docs:
+  - home
+  - about
+  - site-walkthrough
+
+- title: Using FaceBase
+  docs:
+  - user-introduction
+  - user-key-concepts
+  - discovering-data
+  - search-page
+  - detail-page
+  - sharing-and-citing-data
+  - Exporting-Data-from-FaceBase
+  - human-data
+
+- title: Submitting and Curating Data
+  docs:
+  - Data-Submission-Key-Concepts
+  - Data-Submission-Process
+  - Create-a-Dataset
+  - Describe-Experiments-Biosamples-and-Replicates
+  - Upload-Files
+  - Quality-Control-Rules
+  - Self-Guided-Tutorial
+
+- title: More Data Howtos
+  docs:
+  - Define-Surface-Model
+  - Linking-Thumbnails-to-Files
+  - Dataset-Status
+
+- title: Tools
+  docs:
+  - Deriva-Clients
