@@ -12,7 +12,7 @@ git_address: https://github.com/informatics-isi-edu/facebase-curation/
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
-bootwatch: superhero # cerulean cosmo custom cyborg darkly flatly journal lumen paper readable sandstone simplex slate solar spacelab superhero united yeti
+bootwatch: cosmo # cerulean cosmo custom cyborg darkly flatly journal lumen paper readable sandstone simplex slate solar spacelab superhero united yeti
 # like:  flatly paper lumen cosmo  - i do like superhero, but might be too cool
 # Build settings
 markdown: kramdown
