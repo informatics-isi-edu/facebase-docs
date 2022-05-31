@@ -8,13 +8,12 @@
         <span class="icon-bar"></span>
       </button>
             <a class="navbar-brand" href="{{ site.baseurl }}/">
-                <span><img src="{{ "/assets/img/logonav.png"  | relative_url }}" alt="Logo"></span> {{ site.title }}
+                <span><img src="{{ "/assets/img/logonav.png"  | relative_url }}" alt="Logo"></span>
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li {% if page.sectionid=='users' %} class="active" {% endif %}><a href="{{ "/docs/user-introduction/" | relative_url }}">Users Guide</a></li>
-                <li {% if page.sectionid=='submitters' %} class="active" {% endif %}><a href="{{ "/docs/submitter-introduction/" | relative_url }}">Submitters Guide</a></li>
+                <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Documentation</a></li>
                 <li {% if page.sectionid=='support' %} class="active" {% endif %}><a href="{{ "/docs/getting-help/" | relative_url }}" }}">Support</a></li>
                 <li {% if page.sectionid=='blog' %} class="active" {% endif %}><a href="{{ site.posts.first.url | relative_url }}">Updates</a></li>
             </ul>
