@@ -17,6 +17,7 @@
 
 - title: Submitting and Curating Data
   docs:
+  - submitter-introduction
   - Data-Submission-Key-Concepts
   - Data-Submission-Process
   - Create-a-Dataset
