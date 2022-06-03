@@ -45,3 +45,24 @@ h2, .h2 {
 .panel-title>a, .panel-title>small, .panel-title>.small, .panel-title>small>a, .panel-title>.small>a {
   font-weight: 500;
 }
+
+.navbar {
+  height: 71px;
+}
+
+.container.navbar-container {
+  width: 100%;
+}
+
+.page-content {
+  padding-top: 21px;
+}
+
+.navbar-brand {
+  height: 71px;
+  width: 375px;
+}
+
+.navbar-brand img {
+  height: 71px;
+}
