@@ -41,3 +41,7 @@ h2, .h2 {
   background-color: #4d4d4d;
   border-color: #4C4C4C;
 }
+
+.panel-title>a, .panel-title>small, .panel-title>.small, .panel-title>small>a, .panel-title>.small>a {
+  font-weight: 500;
+}
