@@ -1,8 +1,8 @@
 - title: Getting Started
   docs:
   - home
-  - about
-  - site-walkthrough
+#  - about
+#  - site-walkthrough
 
 - title: Using FaceBase
   docs:
@@ -28,11 +28,13 @@
   - Quality-Control-Rules
   - Self-Guided-Tutorial
 
-- title: More Data Howtos
+- title: Data How tos
   docs:
+  - annotating-images
   - Define-Surface-Model
   - Linking-Thumbnails-to-Files
   - Dataset-Status
+  - Exporting-data-for-the-Bioinformatics-Pipeline
 
 - title: Tools
   docs:
