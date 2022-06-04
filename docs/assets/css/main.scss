@@ -66,3 +66,16 @@ h2, .h2 {
 .navbar-brand img {
   height: 71px;
 }
+
+a.navbar-brand span {
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+form.navbar-form.navbar-left {
+    margin-top: 14px;
+}
