@@ -3,8 +3,6 @@ title: Exporting Data from FaceBase
 permalink: /docs/Exporting-Data-from-FaceBase/
 ---
 
-(**add "cheatsheet" of steps towards the top?**)
-
 **On this page:**
 * [1. Export options](#1-export-options)
 * [2. Export the BAG](#2-export-the-BAG)
