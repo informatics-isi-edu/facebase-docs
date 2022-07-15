@@ -32,12 +32,12 @@ exclude:
   - README.md
 timezone: US/Phoenix
 defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
+# - scope:
+#     path: _posts
+#     type: posts
+#   values:
+#     layout: post
+#     sectionid: blog
 
 - scope:
     path: _docs
@@ -61,9 +61,9 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
+#   posts:
+#     permalink: /blog/:year/:month/:day/:title/
+#     output: true
 #  support:
 #    permalink: /:collection/:path/
 #    output: true
