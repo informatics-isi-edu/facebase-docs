@@ -1,5 +1,5 @@
 ---
-title: Detail Page
+title: Details Page
 permalink: /docs/detail-page/
 ---
 
