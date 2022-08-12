@@ -3,9 +3,11 @@ title: Sharing and Citing Data
 permalink: /docs/sharing-and-citing-data/
 ---
 
-It is becoming more and more important to be able to specifically cite data. This is one of the reasons why the FaceBase Hub places such an emphasis on adhering to [FAIR data principles](../user-key-concepts/#fair-principles).
+Citing data is a key part of the FaceBase Community. That's why the data you find on FaceBase is regarded as first-class scholarly works. Publishers increasingly are asking for authors to recognize the data contributions used in their work.
 
-To that end, every record in the FaceBase Data Browser is citable using Record IDs (RIDs) and the *Share and cite* button. A citation to a record in FaceBase is essentially equivalent to a citation to a paper or other scholarly work.
+This is why on every Dataset and Project page we offer an easy way to cite data using the Record IDs (RIDs) and the *Share and cite* button.
+
+A citation to a record in FaceBase is essentially equivalent to a citation to a paper or other scholarly work.
 
 ## Resource IDentifiers (RIDs)
 
@@ -13,19 +15,15 @@ Every record within Chaise has its own unique identifier, the Resource IDentifie
 
 The RID is displayed for every row of search results.
 
-![RIDs displayed on search results](images/rid-examples-recordset.png)
-
 You can also find the RID on every record page, as well as at the end of the URL to a record page.
 
 **IMPORTANT:** However, note that the URL of a record page does **not** hold the same citable significance as the "Share and cite" button described below. When sharing FaceBase records, we strongly recommend using the "Share and cite" button (see below).
-
-![RIDs displayed on search results](images/share-and-cite-large-view.png)
 
 ## Using *Share and cite* to cite any record
 
 Each record displays the "Share and cite" button.
 
-![TBD](TBD)
+![Example of the Share and cite button]({{ "/assets/img/fbshare-cite-button.png" | relative_url }})
 
 When you click this button, the "Share and cite" window appears with links that are permanent identifiers, which include the RID. These URLs are **guaranteed** to always link to the current location of the data.
 
@@ -34,7 +32,7 @@ There are two types of "Share and cite" links displayed:
 * Versioned Link: References the state of the record at a certain point of time (a day ago).
 * Live Link: References the state of the record at any point of time in the future.
 
-![TBD](TBD)
+![Example of citation information for a record]({{ "/assets/img/share-cite-window.png" | relative_url }})
 
 A full data citation should include the following information:
 
