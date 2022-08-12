@@ -26,7 +26,7 @@ Your search will start with the resulting search page, where you may then furthe
 
 ## General search
 
-![screenshot of a FaceBase Data Browser search page.](TBD)
+![FaceBase Data Browser search page]({{ "/assets/img/search-page.png" | relative_url }})
 
 What you see when start searching are:
 

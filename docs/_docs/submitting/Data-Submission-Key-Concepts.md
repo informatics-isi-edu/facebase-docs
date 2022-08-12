@@ -8,10 +8,15 @@ If you are submitting data to FaceBase, we recommend that you begin by reviewing
 ![Diagram of key concepts in FaceBase]({{ "/assets/img/data-key-concepts.jpg" | relative_url }})
 
 - **Project**: represents a research project (e.g., a R01 investigation, etc.). Projects include a set of **project investigators** and **project members** (not depicted).
+
 - **Dataset**: represents a unit of data collected and submitted to the FaceBase site. Typically, a dataset represents a whole or a logical unit of an investigation (i.e., a study within an overall investigation/project).
+
 - **Protocol**: a means of describing the methods used for an experiment. It should include sufficient details to reproduce the results of the experiment. The details may be entered in a rich text editor (online), attached as a document file, or a URL may be given to reference an already published protocol description. We recommend following the [Nature Protocol Exchange](https://protocolexchange.researchsquare.com/protocol-exchange/guidelines) or similar guidelines for documenting protocols.
+
 - **Experiment** (a.k.a., assay): represents an experiment at a fine-grained unit of detail. It is intended to broadly cover multiple "bioinformatics" (i.e., sequencing or array) and imaging (i.e., various forms of microscopy) assay types. An experiment will generally be conducted on multiple biological replicates. An experiment may reference another experiment as its "control." Additional concepts (not depicted) for specialized experiment types include **Enhancer** for enhancer reporter assays with transgenic information and **Clinical** for additional patient details relevant to clinical studies.
+
 - **Replicate**: used to create collections of mutant or control biosamples and associate them with an experiment. To keep things simple for data entry and display, the 'replicate' has simple numeric columns to record the "biological replicate number" and "technical replicate number."
+
 - **Biosample**: represents the biosample used in an study. There may be many biosamples in a dataset and biosamples are generally grouped together and associated with an Experiment as a collection of biological replicates. Note that FaceBase does not collect physical tissue samples. The 'biosample' here is only the metadata used to describe the physical samples used in your experiments.
 
 ## Vocabulary
