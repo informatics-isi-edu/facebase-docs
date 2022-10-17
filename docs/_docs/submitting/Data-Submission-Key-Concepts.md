@@ -1,5 +1,5 @@
 ---
-title: Key Concepts
+title: Key Concepts for Data Contributors
 permalink: /docs/Data-Submission-Key-Concepts/
 ---
 
