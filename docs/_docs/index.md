@@ -18,7 +18,7 @@ If you are new to FaceBase, we recommend these materials:
 
 ## For users who are searching for data and resources
 
-- [Key Concepts for FaceBase Users]({{ "/docs/user-key-concepts/" | relative_url }})
+- [Key Concepts for FaceBase Users]({{ site.url }}{{ site.baseurl }}/docs/user-key-concepts/)
 - [Browsing and Filtering Data]({{ "/docs/discovering-data/" | relative_url }})
 - [How to search for data in FaceBase - Bootcamp April 2022 (webinar)](https://youtu.be/pEF4SYzA_Aw)
 - [Walkthrough of the FaceBase site - Bootcamp April 2022 (webinar)](https://youtu.be/65G8gIcqd04)
@@ -34,7 +34,7 @@ If you are new to FaceBase, we recommend these materials:
 
 - [Creating a Dataset]({{ "/docs/Create-a-Dataset/" | relative_url}})
 - [Create Experiments, Biosamples, and Replicates]({{ "/docs/Describe-Experiments-Biosamples-and-Replicates/" | relative_url}})
-- [Upload Data Files]({{ "/docs/Upload-Files/" | relative_url}}) 
+- [Upload Data Files]({{ "/docs/Upload-Files/" | relative_url}})
 - [Submission Demo Part 1 - Setting up metadata records - Bootcamp April 2022 (webinar)](https://youtu.be/DtYjI2rAHCs)
 - [Submission Demo Part 2: Uploading files - Bootcamp April 2022 (webinar)](https://youtu.be/BoRrrBSAOow)
 - [Submitting Protocols - Bootcamp April 2022 (webinar)](https://youtu.be/vacr9pPzbBI)
