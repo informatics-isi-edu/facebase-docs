@@ -1,5 +1,5 @@
 ---
-title: Introduction for FaceBase Submitters
+title: Introduction for FaceBase Contributors
 permalink: /docs/submitter-introduction/
 ---
 

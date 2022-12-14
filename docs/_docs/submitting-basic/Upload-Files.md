@@ -1,5 +1,5 @@
 ---
-title: Upload Data Files
+title: Uploading Data Files
 permalink: /docs/Upload-Files/
 ---
 

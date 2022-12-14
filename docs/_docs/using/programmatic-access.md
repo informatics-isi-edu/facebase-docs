@@ -1,5 +1,5 @@
 ---
-title: Programmatic Access
+title: Accessing Data Programmatically
 permalink: /docs/programmatic-access/
 ---
 

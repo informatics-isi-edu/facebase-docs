@@ -17,7 +17,7 @@
   - 3d-viewers
   - nifti-files
 
-- title: Submitting and Curating Data
+- title: Submitting Data: Basics
   docs:
   - submitter-introduction
   - training-videos
@@ -27,15 +27,15 @@
   - Describe-Experiments-Biosamples-and-Replicates
   - Upload-Files
   - Quality-Control-Rules
+  - Dataset-Status
   - Self-Guided-Tutorial
 
-- title: Data How tos
+- title: Submitting Data: Advanced
   docs:
   - annotating-images
   - Define-Surface-Model
   - Linking-Thumbnails-to-Files
-  - Dataset-Status
-  - Exporting-data-for-the-Bioinformatics-Pipeline
+
 
 - title: Tools
   docs:

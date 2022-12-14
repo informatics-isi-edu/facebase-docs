@@ -1,5 +1,5 @@
 ---
-title: Guide to Video Tutorials and Webcasts
+title: Video Tutorials for Contributors
 permalink: /docs/training-videos/
 ---
 

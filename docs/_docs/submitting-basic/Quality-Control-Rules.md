@@ -5,7 +5,7 @@ permalink: /docs/Quality-Control-Rules/
 
 Version 1:
 
-The following is a list of metrics to measure the quality level of data in FaceBase. A program is run nightly that compares existing data to these metrics and flags discrepancies.
+The following is a list of metrics to measure the quality level of data in FaceBase. A program is run nightly that compares existing data to these metrics and flags discrepancies (only viewable when a contributor is logged in).
 
 ## 1. Dataset-level Requirements
 

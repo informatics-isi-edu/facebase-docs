@@ -1,5 +1,5 @@
 ---
-title: Create Experiments, Biosamples, and Replicates
+title: Creating Experiments, Biosamples, and Replicates
 permalink: /docs/Describe-Experiments-Biosamples-and-Replicates/
 ---
 

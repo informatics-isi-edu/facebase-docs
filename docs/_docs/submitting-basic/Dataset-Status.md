@@ -1,5 +1,5 @@
 ---
-title: Update Dataset Status
+title: Releasing Your Dataset
 permalink: /docs/Dataset-Status/
 ---
 
@@ -14,19 +14,8 @@ other users of the FaceBase site.
 
 First, review your dataset and all of its associated metadata (i.e.,
 experiments, biosample details, replicates) and data files. You may need to
-review with other members of your Spoke or the PI(s). Once you and your
+review with other members of your project or the PI(s). Once you and your
 colleagues decide the dataset is ready to be released, send an email to the Hub
-at help@facebase.org. A Hub curator will review your dataset and notify you
+at [help@facebase.org](mailto:help@facebase.org). A Hub curator will review your dataset and notify you
 either that the dataset has been released or that the dataset needs some
 additional data entry/edit by you.
-
-## Instructions for FaceBase Hub Curators
-
-These instructions are for the curators that are project *members of the FaceBase
-Hub*.
-
-1. Go to your Dataset record.
-2. Click the 'Edit' button near the upper right hand side of the page.
-3. Set 'Released' to 'true'
-4. Set the 'Release Date' to the current date
-5. Click the 'Submit Data' button
