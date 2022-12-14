@@ -17,7 +17,7 @@
   - 3d-viewers
   - nifti-files
 
-- title: Submitting Data: Basics
+- title: Submitting Data - Basics
   docs:
   - submitter-introduction
   - training-videos
@@ -30,7 +30,7 @@
   - Dataset-Status
   - Self-Guided-Tutorial
 
-- title: Submitting Data: Advanced
+- title: Submitting Data - Advanced
   docs:
   - annotating-images
   - Define-Surface-Model
