@@ -1,5 +1,5 @@
 ---
-title: Using the Annotations Editor for your 2D images
+title: Using the Annotations Editor (2D images)
 permalink: /docs/annotating-images/
 ---
 

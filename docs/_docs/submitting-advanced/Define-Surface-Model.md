@@ -1,5 +1,5 @@
 ---
-title: Define Surface Model
+title: Defining Surface Models (3D models)
 permalink: /docs/Define-Surface-Model/
 ---
 
