@@ -24,3 +24,5 @@ In order to access this data, you must follow the process outlined below:
 * [B. Complete the online Data Access Request (DAR) form (An IRB is required)](/docs/human-data/dar/)
 * [C. Select the Requested Datasets](/docs/human-data/select-datasets/)
 * [D. Print, sign and submit the DUC and DAR forms](/docs/human-data/print-sign-submit/)
+* [E. Await notification](/docs/human-data/notification/)
+* [F. Create/upload encryption key](/docs/human-data/encryption-keys/)
