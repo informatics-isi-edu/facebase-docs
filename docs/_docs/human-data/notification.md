@@ -1,6 +1,6 @@
 ---
 title: E. Await notification
-permalink: /docs/human-data/notification/
+permalink: /docs/notification/
 ---
 
 Once your request is processed, you will be notified via email whether or not your request is approved.

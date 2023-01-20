@@ -1,6 +1,6 @@
 ---
 title: D. Creating and uploading your encryption keys
-permalink: /docs/human-data/encryption-keys/
+permalink: /docs/encryption-keys/
 ---
 
 If your request is approved, you will receive email from the FaceBase Hub and will be requested to create and upload your encryption in order to access the data.

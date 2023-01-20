@@ -1,6 +1,6 @@
 ---
 title: C. Select the Requested Datasets
-permalink: /docs/human-data/select-datasets/
+permalink: /docs/select-datasets/
 ---
 
 On the DAR form you created in the previous step, you will select the desired datasets:
