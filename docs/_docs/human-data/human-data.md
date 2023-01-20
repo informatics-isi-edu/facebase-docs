@@ -22,9 +22,9 @@ You will need the following to complete this process:
 
 In order to access this data, you must follow the process outlined below:
 
-* [A. Read and complete the Data Use Certificate Agreement (DUC)](/docs/human-data/duc/)
-* [B. Complete the online Data Access Request (DAR) form (An IRB is required)](/docs/human-data/dar/)
-* [C. Select the Requested Datasets](/docs/human-data/select-datasets/)
-* [D. Print, sign and submit the DUC and DAR forms](/docs/human-data/print-sign-submit/)
-* [E. Await notification](/docs/human-data/notification/)
-* [F. Create/upload encryption key](/docs/human-data/encryption-keys/)
+* [A. Read and complete the Data Use Certificate Agreement (DUC)](/docs/duc/)
+* [B. Complete the online Data Access Request (DAR) form (An IRB is required)](/docs/dar/)
+* [C. Select the Requested Datasets](/docs/select-datasets/)
+* [D. Print, sign and submit the DUC and DAR forms](/docs/print-sign-submit/)
+* [E. Await notification](/docs/notification/)
+* [F. Create/upload encryption key](/docs/encryption-keys/)
