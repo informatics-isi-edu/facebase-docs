@@ -1,9 +1,11 @@
 ---
-title: Requesting Human Access Data
+title: Controlled Access Human Data - Policy and Requests
 permalink: /docs/human-data/
 ---
 
-Controlled-access data is not available until you have submitted the required documents and are approved by the Data Access Committee (DAC).
+Controlled-access data is not available until you have submitted the required documents and are approved by the Data Access Committee (DAC) in the process described in this section.
+
+### Controlled Access Data Policy
 
 Controlled-access data is limited to the following types of data:
 
