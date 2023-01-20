@@ -12,6 +12,11 @@
   - visualizations
   - sharing-and-citing-data
   - Exporting-Data-from-FaceBase
+  - programmatic-access
+  - 3d-viewers
+  - nifti-files
+- title: Controlled Access Human Data
+  docs:
   - human-data
   - duc
   - dar
@@ -19,10 +24,6 @@
   - print-sign-submit
   - notification
   - encryption-keys
-  - programmatic-access
-  - 3d-viewers
-  - nifti-files
-
 - title: Submitting Data - Basics
   docs:
   - submitter-introduction
