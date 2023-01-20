@@ -6,7 +6,7 @@
 
 - title: Using FaceBase
   docs:
-  - user-introduction
+#  - user-introduction
   - user-key-concepts
   - discovering-data
   - visualizations
@@ -26,7 +26,7 @@
   - encryption-keys
 - title: Submitting Data - Basics
   docs:
-  - submitter-introduction
+#  - submitter-introduction
   - training-videos
   - Data-Submission-Key-Concepts
   - Data-Submission-Process

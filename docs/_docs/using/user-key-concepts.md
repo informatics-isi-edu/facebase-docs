@@ -5,24 +5,21 @@ permalink: /docs/user-key-concepts/
 
 ## Searching on FaceBase: Faceted Navigation
 
-Our approach to search is more like the experience of shopping online. We'll use shopping for a car online as an example.
+Our approach to search is more like the experience of shopping online. For example, if you're shopping for a car online, Google text search might help narrow down which online resource to use for finding your car - but it will probably not help you find the specific car you want to buy. The reason is that sites like Google are good for searching for primarily text-based objects like documents and web sites.
 
-Google text search might help narrow down which online resource to use for finding your car - but it will probably not help you find the specific car you want to buy.The reason is that sites like Google are good for searching for primarily text-based objects like documents and web sites.
+But to identify a particular item - like a car - there are *specific attributes* that you can use to locate something of interest: a specific make or model, cost, at a certain location, etc. These attributes or **"facets"** classify this object.
 
-But to identify a particular item - like a car - there are specific attributes that you can use to locate something of interest: a specific make or model, cost, at a certain location, etc. These attributes or "facets" classify this object.
-
-This is way in many online shopping sites, you'll find a filtering sidebar that allows you to pick and choose whichever attributes are interesting to you. You can also change your choices to view different results. This approach is called "faceted navigation".
+This is why in many online shopping sites, you'll find a filtering sidebar that allows you to pick and choose whichever attributes are interesting to you. You can also change your choices to view different results. This approach is called **"faceted navigation"**.
 
 This method guides your search through **structured data** by their classification  or characteristics.
 
-Biomedical research involves experiments on a group of model organisms (mice, zebrafish, etc) with particular age stage or stages, there's at least one anatomical region of interest, and there are different assays (RNA-Seq, microCT, etc). These are the different categories or "facets" of the data.
+Biomedical research involves experiments on a group of *model organisms* (mice, zebrafish, etc) with particular age stage or stages, there's at least one anatomical region of interest, and there are different assays (RNA-Seq, microCT, etc). These are the different categories or "facets" of the data.
 
 FaceBase provides guided search based on these facets.
 
- ADD SCREENSHOT OF Data Browser
+![Screenshot of the FaceBase Data Browser]({{ "/assets/img/facebase-data-browser.png" | relative_url }})
 
 When you perform a search in FaceBase, you'll see the faceting navigation sidebar on the left, with the main search results on the right. As you explore the available facets and make choices, the main search results update to show what's available with those combination of facets.
-
 
 ## How data is structured in FaceBase (ie. the data model)
 

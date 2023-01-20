@@ -5,13 +5,13 @@ permalink: /docs/sharing-and-citing-data/
 
 Citing data is a key part of the FaceBase Community. That's why the data you find on FaceBase is regarded as first-class scholarly works. Publishers increasingly are asking for authors to recognize the data contributions used in their work.
 
-This is why on every Dataset and Project page we offer an easy way to cite data using the Record IDs (RIDs) and the *Share and cite* button.
+This is why on every Dataset and Project page we offer an easy way to cite data using the **Record IDs (RIDs)** and the **"Share and cite"** button.
 
 A citation to a record in FaceBase is essentially equivalent to a citation to a paper or other scholarly work.
 
 ## Resource IDentifiers (RIDs)
 
-Every record within Chaise has its own unique identifier, the Resource IDentifier (or RID). This is a permanent, citable, globally unique identifier displayed for every data record, much like an Accession number.
+Every record within Chaise has its own unique identifier, the *Resource IDentifier (or RID)*. This is a permanent, citable, globally unique identifier displayed for every data record, much like an Accession number.
 
 The RID is displayed for every row of search results.
 
@@ -21,7 +21,7 @@ You can also find the RID on every record page, as well as at the end of the URL
 
 ## Using *Share and cite* to cite any record
 
-Each record displays the "Share and cite" button.
+Each record displays the *"Share and cite" button*.
 
 ![Example of the Share and cite button]({{ "/assets/img/fbshare-cite-button.png" | relative_url }})
 
