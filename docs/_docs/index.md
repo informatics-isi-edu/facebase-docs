@@ -8,7 +8,7 @@ redirect_from:
 
 Welcome to the FaceBase documentation site. This site includes information for users on how best to use the FaceBase resource and information for data contributors on uploading and curating their datasets.
 
-Use the sidebar on the left to explore help topics organized under **"Using FaceBase"**, **"Submitting Data - Basics"** and **"Submitting Data - Advanced"**.
+Use the sidebar on the left to explore help topics such as **"Using FaceBase"**, **"Submitting Data - Basics"** and **"Submitting Data - Advanced"**.
 
 If you are new to FaceBase, we recommend getting started with these materials:
 

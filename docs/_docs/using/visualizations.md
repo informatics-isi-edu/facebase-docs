@@ -5,7 +5,7 @@ permalink: /docs/visualizations/
 
 The FaceBase system includes pipelines that convert data into helpful visualizations that can deepen a user's experience with the data.
 
-Available visualizations in FaceBase include an Image Volume viewer, Histology/Annotations viewer, and Single Cell viewer.
+The following viewers are available in FaceBase: Image Volume viewer, Histology/Annotations viewer, Surface Mesh viewer and Single Cell viewer.
 
 ## Image Volume viewer
 
