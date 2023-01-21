@@ -5,7 +5,11 @@ permalink: /docs/user-key-concepts/
 
 ## Searching on FaceBase: Faceted Navigation
 
-Our approach to search is more like the experience of shopping online. For example, if you're shopping for a car online, Google text search might help narrow down which online resource to use for finding your car - but it will probably not help you find the specific car you want to buy. The reason is that sites like Google are good for searching for primarily text-based objects like documents and web sites.
+Our approach to search is more like the experience of shopping online than it is performing a Google search.
+
+For example, if you're shopping for a car online, Google text search might help narrow down which online resource to use for finding your car - but it will probably not help you find the specific car you want to buy.
+
+The reason is that sites like Google are good for searching for primarily text-based objects like documents and web sites.
 
 But to identify a particular item - like a car - there are *specific attributes* that you can use to locate something of interest: a specific make or model, cost, at a certain location, etc. These attributes or **"facets"** classify this object.
 
@@ -13,7 +17,7 @@ This is why in many online shopping sites, you'll find a filtering sidebar that 
 
 This method guides your search through **structured data** by their classification  or characteristics.
 
-Biomedical research involves experiments on a group of *model organisms* (mice, zebrafish, etc) with particular age stage or stages, there's at least one anatomical region of interest, and there are different assays (RNA-Seq, microCT, etc). These are the different categories or "facets" of the data.
+Biomedical research involves experiments on a group of *model organisms* (mice, zebrafish, etc) with particular *age stages*, there's at least one *anatomical region of interest*, and there are different *assays* (RNA-Seq, microCT, etc). These are examples of the different categories or "facets" of the data.
 
 FaceBase provides guided search based on these facets.
 
