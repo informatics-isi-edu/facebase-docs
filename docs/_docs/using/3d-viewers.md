@@ -25,7 +25,7 @@ Click the *Enlarge* link below the preview to open a full-size viewer in a separ
 
 ![image alt text]({{ "/assets/img/3d-enlarge.png" | relative_url }})
 
-### Use keystrokes and the mouse to navigate the 3D viewer
+## Use keystrokes and the mouse to navigate the 3D viewer
 
 The 3D viewer allows you to use your mouse and keys to manipulate the view:
 
@@ -61,7 +61,7 @@ Note that Internet Explorer 11 only supports the ability of using the mouse whee
 
 * **r**: Reset the view to default based on bounding box of all visible objects or a manual configured camera position
 
-### Tools and Tips
+## Tools and Tips
 
 Here are some tools and tips:
 
@@ -73,7 +73,7 @@ Here are some tools and tips:
 
 * Learn [how to use your mouse and keyboard](https://www.facebase.org/help/using-the-data-browser/#using-mouse-keys-with-3Dviewer) to manipulate the 3D viewer.
 
-### Enable WebGL
+## Enable WebGL
 
 Make sure WebGL is enabled for your browser. WebGL (Web Graphics Library) is a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins and is supported by recent browsers. However, sometimes you need to configure a particular setting (specifically for Safari) or upgrade your hardware.
 

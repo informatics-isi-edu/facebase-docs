@@ -28,26 +28,28 @@ Your search will start with the resulting search page, where you may then furthe
 
 ![FaceBase Data Browser search page]({{ "/assets/img/search-page.png" | relative_url }})
 
-What you see when start searching are:
+What you see when you start searching are:
 
 * Search results based on filters.
 * Faceted navigation sidebar on the left
 * Search bar above the results
 
 
-The columns of the search results include the RID, Title, summary of Experiment Types, species, age stages, PIs and release date for the datasets. By default the data is sorted to display the most recently released data first.
+The columns of the search results include the *RID*, *Title*, *Experiment Types*, *Species*, *Stage(s)*, *PI(s)* and *Release Date* for the datasets. By default, the data is sorted to display the most recently released data first.
 
-On the left side is the faceted navigation based on characteristics of the data and experiments. If you'll scroll down, you'll see all of the categories of facets available to narrow down your search. Only the first few are open, so as you scroll, you can click on a category to open the list of attributes. Then click on the desired attributes and the search results on the right will automatically update.
+On the left side is the faceted navigation based on characteristics of the data and experiments. Scroll down to see all of the categories of facets available to narrow down your search.
 
-For long lists of attributes, click the "Show more" link to open a window where you can access the complete list (including synonyms and other information from the related controlled vocabularies or ontologies).
+Only the first few categories are open, so as you scroll, you can click on a category to open the list of facets. Then click on the desired facets and the search results on the right will automatically update.
 
-You can also use the small search box just above the facets to use a free text search.
+For long lists of facets, click the **Show more** link to open a window where you can browse the complete list (including synonyms and other information from the related controlled vocabularies or ontologies).
 
-Note: One of the facets is "Protected Human Data". This refers to [controlled-access data](https://www.facebase.org/access/policies/), which [requires going through the Data Access Request process](https://www.facebase.org/access/request/).
+You may also use the small search box just above the facets to use a free text search.
 
-You can choose any of the facets in any order. You can also choose as many facets within a category as you'd like.
+Note: One of the facets is "Protected Human Data". This refers to [controlled-access data]({{ "/docs/human-data/" | relative_url }}), which [requires going through the Data Access Request process]({{ "/docs/human-data/" | relative_url }}).
 
-As you choose facets, you can see your choices displayed in buttons above the search results.
+You may choose any of the facets in any order. You may also choose as many facets within a category as you'd like.
+
+As you choose facets, you will see them displayed as buttons above the search results.
 
 ## Image Search
 
