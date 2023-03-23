@@ -7,11 +7,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">
-                <span><img src="{{ "/assets/img/logonav.png"  | relative_url }}" alt="Logo"></span> {{ site.title }}
+            <a class="navbar-brand" href="https://dev.facebase.org">
+                <span><img src="{{ "/assets/img/logonav.png"  | relative_url }}" alt="Logo"></span>
             </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+              <li><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
+          </ul>
+
             <!--
             <ul class="nav navbar-nav">
                 <li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/home/" | relative_url }}">Docs</a></li>
