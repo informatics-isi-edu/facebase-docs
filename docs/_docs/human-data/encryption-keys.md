@@ -1,5 +1,5 @@
 ---
-title: D. Creating and uploading your encryption keys
+title: F. Create and upload your encryption keys
 permalink: /docs/encryption-keys/
 ---
 
