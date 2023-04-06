@@ -3,57 +3,60 @@ title: Visualizations in FaceBase Data
 permalink: /docs/visualizations/
 ---
 
-The FaceBase system includes pipelines that convert data into helpful visualizations that can deepen a user's experience with the data.
+The FaceBase system includes pipelines that convert data [of a specific resolution and format] into helpful visualizations that can deepen a user's experience with the data. Such visualizations include: Image Volumes, Histology/Annotations, Surface Mesh and Single Cell viewers.
 
-The following viewers are available in FaceBase: Image Volume viewer, Histology/Annotations viewer, Surface Mesh viewer and Single Cell viewer.
+Recommended viewing: <a href="https://www.youtube.com/watch?v=XwTeM8QnrmQ&t=3s" target="_blank">Imaging Data in FaceBase</a>
 
-## Image Volume viewer
+## Image Volume Viewer (3D images)
 
-Some imaging data is created in three dimensions, which is useful in understanding the shape and size of specific anatomical regions of the face and skull, for example when comparing control specimen with mutant specimen.
+Some imaging data is created in three dimensions, which is useful in understanding the shape and size of specific anatomical regions of the face and skull, for example when comparing control specimens with mutant specimens.
 
-Where a 3D image has been contributed, FaceBase provides a downsampled 3D preview inside your browser window.
+Where a 3D image has been contributed, FaceBase provides a downsampled 3D preview inside your browser window.  Use the following dataset to try it out - [TKT - microCT - Soft Tissue of Msx1 Control Mice at E16.5](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=TKT):
 
-Use your mouse to turn the 3D image in all directions and to zoom in and out.
+- Scroll down to the "Downsampled Image Previews" section.
+- You have the option to click the "Full Screen" button for a larger view.
+- Click the "Click here to load image".
+- Once the image loads, you can make the following adjustments:
+    - Use your mouse to turn the 3D image in all directions and to zoom in and out.
+    - The panels on the right side provide different views of the image. Use the sliders in each panel to step through slices of the image.
+- On the left side, hover over the "Volume" label to open the Volume panel where you can adjust the levels or brightness of the planes to virtually examine the structures in the image.
 
-Use the right panels to step through slices of the interior through different views.
+[Check out this video that demonstrates how to use the Image Volume Viewer.]({{ "/assets/img/using-fb-3D-viewer.mov" | relative_url }})
 
-You can also use the Volume panel to adjust the levels or brightness of the planes to virtually examine craniofacial structures from a variety of sources, all within your browser.
+## Histology/Annotations Viewer (2D images)
 
-Example datasets:
-- [https://www.facebase.org/chaise/record/#1/isa:dataset/RID=TKT](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=TKT)
-- [https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-SXC4](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-SXC4)
+Two dimensional images in the FaceBase repository are commonly histological (stains are used to show regions where a gene is expressed). Our pipeline accepts the raw image file from a microscope and converts it into an image may be viewed in a web browser page (Figure 1). The viewer is like an online, digital microscope, allowing the user to zoom in for a deep view of the image (depending on the resolution of the image - the higher the resolution, the more deeply you can zoom in) (Figure 2).
 
-NIFTI (and what other kinds?) files are converted into a online viewer in the browser.
+To download a screenshot of the current view that includes an accurate, click **Take a Screenshot**. This is ideal for use in publications and presentations.
 
-Using [this dataset](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=TKT), with full resolution NIFT and microCT data, as an example, scroll down to the section "Downsampled Image Previews".
+![Example of 2D image in default view]({{ "/assets/img/2d-default-img.png" | relative_url }})
+*Figure 1: Example of 2D image in default view (Scale at 100mm)*
 
-NIFTI is one medical imaging standard that's widely supported and can be viewable by most available tools.
+![Example of the same image zoomed in (Scale at 20 mm)]({{ "/assets/img/2D-image-zoomed-in.png" | relative_url }})
+*Figure 2: Example of the same image zoomed in (Scale at 20 mm)*
 
-Use the **Click here to load the image** button.
+Using the following dataset as an example: [1-SXC4 - Histology and schematic overview of mouse molar root development](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-SXC4):
+- Scroll down to the **Imaging Data** section (or use the links on the left side of the page)
+- Click *View* for one of the imaging records.
+- Click *Full screen* to enlarge the viewer.
 
-An orthogonal slice viewer displays different panes that 'slice' through different orientations of the 3D image.
+### Annotations
 
-Click the **Volumes** label in the top left and choose 3D. This converts the image to 3D Volume. Then use the Threshold bar to adjust as/if needed until the image is clear.
+Our viewer also supports annotations of anatomical regions in an image. Annotations link to the corresponding FaceBase anatomy page for that region, which displays more information on the region and lists any related data in the FaceBase repository.
 
-You can view this in action in [TBD video](#).
+To see if an image already has annotations, click **Show Annotations**. 
 
-## Histology/Annotations Viewer
+![Example of an annotated image]({{ "/assets/img/annotation-viewer.png" | relative_url }})
+*Figure 3: Example of an annotated image*
 
-Two dimensional images in the FaceBase repository are commonly histological – stains to show regions where a gene is expressed.
+Data contributors can use editing tools to mark a colored boundary around specific anatomical regions on an image and label them. [Data contributors can find documentation on how to use this feature here.](TBD)
 
-Our pipeline accepts the raw image file from a microscope and converts it to a high-resolution image that can be viewed in a browser page.
-
-Thus, the viewer acts like an online digital microscope, allowing the user to zoom in for a deep view.
-
-To download a screenshot of the current view, click “Take a Screenshot.” Note the accurate scale included with the image, which is crucial for researchers. This is ideal for use in publications and presentations.
-
+![Example of an annotated image]({{ "/assets/img/annotations-editor.png" | relative_url }})
+*Figure 3: Example of the Annotations Editor*
 
 Example dataset:
 - [https://www.facebase.org/chaise/record/#1/isa:imaging_data/RID=1-W96W](https://www.facebase.org/chaise/record/#1/isa:imaging_data/RID=1-W96W)  
 
-histology viewer: image 1-W96W displays new feature: Annotations.
-
-In this microscopy image, there are annotations of interest. You can zoom in and pan around. Our viewer supports very high resolution imaging, so depending on the resolution, you can zoom in deeply almost like an online microscope.
 
 Contributors can add annotations which are linked to our anatomy terms. For more information link TBD.
 
@@ -63,7 +66,7 @@ If a contributor provides surface mesh data - which depicts surfaces of interest
 
 This educational tool is especially powerful for new researchers to learn anatomical regions.
 
-## Single Cell Viewer
+## Single Cell Viewer (scatter plot of scRNA-Seq)
 
 Example datasets:
 - [https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-YSFP](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-YSFP)

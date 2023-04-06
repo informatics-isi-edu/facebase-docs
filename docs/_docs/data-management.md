@@ -5,7 +5,7 @@ permalink: /docs/data-management/
 
 The FaceBase Hub's goal is to provide high-quality data that is ready for reuse, reproducibility and (re)analysis for increased scientific utility.
 
-That means providing data that adheres to <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR principles</a> OR [FAIR principles](https://www.go-fair.org/fair-principles/) - Findable, Accessible, Interoperable, and Reuseable - to the best of our ability via the following where possible:
+That means providing data that adheres to <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR principles</a> - Findable, Accessible, Interoperable, and Reuseable - to the best of our ability via the following where possible:
 
 * Prioritizing acceptance of source/raw files of data.
 * Including metadata that aligns with existing ontologies or controlled vocabularies.
