@@ -1,6 +1,6 @@
 ---
 title: G. Renew access
-permalink: /docs/notification/
+permalink: /docs/renewing/
 ---
 
 Access to controlled human data **expires one year after the approval date**. After you have already been granted access to controlled data by the Data Access Committee (DAC), if you need more time to download data, fill out the following form and send it to the DAC at EMAIL to renew your request:
