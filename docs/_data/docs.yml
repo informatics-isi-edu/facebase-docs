@@ -26,7 +26,6 @@
   - notification
   - encryption-keys
   - renewing
-  - request-expires
 - title: Submitting Data - Basics
   docs:
 #  - submitter-introduction
