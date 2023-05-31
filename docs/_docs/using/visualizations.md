@@ -3,6 +3,8 @@ title: Visualizations in FaceBase Data
 permalink: /docs/visualizations/
 ---
 
+_This page is a work in progress._
+
 The FaceBase system includes pipelines that convert data of a specific resolution and format into helpful visualizations that can deepen a user's experience with the data. Such visualizations include: Image Volumes, Histology/Annotations, Surface Mesh and Single Cell viewers.
 
 Recommended viewing: <a href="https://www.youtube.com/watch?v=XwTeM8QnrmQ&t=3s" target="_blank">Imaging Data in FaceBase</a>
