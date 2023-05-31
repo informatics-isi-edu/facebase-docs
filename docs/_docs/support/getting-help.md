@@ -3,4 +3,4 @@ title: Getting Help
 permalink: /docs/getting-help/
 ---
 
-Blah blah blah
+Please contact the FaceBase Hub at help AT facebase.org.

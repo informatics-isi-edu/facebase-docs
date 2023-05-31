@@ -5,8 +5,8 @@ description: >
   This site provides documentation for users of and data contributors to the FaceBase resource.
 lang: en-US
 
-baseurl: "/facebase-curation" # the subpath of your site, e.g. /blog/
-url: https://informatics-isi-edu.github.io # the base hostname & protocol for your site
+#baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://docs.facebase.org # the base hostname & protocol for your site
 git_address: https://github.com/informatics-isi-edu/facebase-curation/
 #git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
