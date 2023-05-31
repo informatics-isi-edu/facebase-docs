@@ -3,4 +3,4 @@ title: FAQs
 permalink: /docs/faqs/
 ---
 
-Blah blah blah
+Please review our FAQs page on the main FaceBase website: (https://facebase.org/help/faqs/)[https://facebase.org/help/faqs/]
