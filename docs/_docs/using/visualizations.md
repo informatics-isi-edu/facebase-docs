@@ -10,7 +10,7 @@ The FaceBase system includes pipelines that convert data of a specific resolutio
 Recommended viewing: <a href="https://www.youtube.com/watch?v=XwTeM8QnrmQ&t=3s" target="_blank">Imaging Data in FaceBase</a>
 
 ## Image Volume Viewer (3D images)
-![TBD]({{ "/assets/img/" | relative_url }})
+
 *Figure 1: TBD*
 
 Some imaging data is created in three dimensions, which is useful in understanding the shape and size of specific anatomical regions of the face and skull, for example when comparing control specimens with mutant specimens.
