@@ -3,6 +3,8 @@ title: Using the Annotations Editor (2D images)
 permalink: /docs/annotating-images/
 ---
 
+*This page is a work in progress.*
+
 This capability allows data contributors to annotate 2D imaging data to draw borders around specific anatomical regions relating to ontological terms. These annotations then link out to the corresponding FaceBase anatomy page for that region, which displays more information on the region and lists any related data in the FaceBase repository.
 
 Annotations can be used for:
@@ -67,13 +69,7 @@ Markdown from viewer help on annotator:
 
 1. Make sure that you are logged in.
 
-	![](resources/annotation-documentation-images/Login%20Check.png){.chaise-wiki-image}
-
 2. On the left hand side, beside the image you will see a `New` button. Click on it to open the `Create annotation` panel.
-
-	![](resources/annotation-documentation-images/NewButton.png){.chaise-wiki-image}
-
-	![](resources/annotation-documentation-images/CreateAnnotationPanel.png){.chaise-wiki-image}
 
 3. Fill in the following fields:
 
@@ -89,15 +85,11 @@ Markdown from viewer help on annotator:
 
 5. Select the desired annotation shape from the `Annotation Toolbar`. You may choose from pencil icon (freehand drawing), rectangle or circle.
 
-	![](resources/annotation-documentation-images/AnnotationToolbar.png){.chaise-wiki-image}
-
 6. Draw the shape in the desired location on the image. (You may use multiple and different shapes within the annotation). See [Draw a shape](#draw-a-shape) for more details about the different drawing options.
 
 7. You may de-select the current shape by click on the same shape from the `Annotation Toolbar`.
 
 8. To save your annotation, click on the `Save` button in the `Create annotation` panel.
-
-	![](resources/annotation-documentation-images/SaveButton.png){.chaise-wiki-image}
 
 #### Edit/Delete an existing Annotation
 
@@ -105,31 +97,19 @@ Markdown from viewer help on annotator:
 
 2. Click on the `Edit Annotation` icon of the annotation that you want to edit.
 
-SCREENSHOT
-
 3. To change the color of the annotation, pick a different color from the color picker (red square). This will change the color of all the shapes of the annotation that share the original color.
-
-![](resources/annotation-documentation-images/ColorPicker.png){.chaise-wiki-image}
 
 4. To delete a shape from this annotation, select the `Erase` tool from the annotation toolbar and click on the shape that you want to delete.
 
-SCREENSHOT
-
 5. To add a new shape, select the shape that you want from the annotation toolbar and start drawing it on the image.
-
-SCREENSHOT
 
 6. After you are done making your changes, click on the `Save` button in the `Edit annotation` panel.
 
 7. To delete the entire annotation, click on the `Delete` button in the `Edit annotation` panel.
 
-	![](resources/annotation-documentation-images/DeleteButton.png){:.chaise-wiki-image}
-
 #### Draw a Shape
 
 1. Select the tool from the annotations toolbar. You choices include: path (pencil icon, where you can use your mouse to draw the shape), rectangle, circle or polygon.
-
-	![](resources/annotation-documentation-images/Path.png){.chaise-wiki-image}
 
 2. For most tools, you’ll press and hold the left mouse button where you want to start drawing the shape on the image. Then drag the mouse to draw the shape to your desired dimensions and let go of the button to stop drawing the shape. With the path (pencil) tool, you’ll press and hold the left mouse button at the starting point and keep dragging the mouse in the desired path until you come back to the original point and then let go of the button.
 
