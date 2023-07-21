@@ -5,7 +5,7 @@ permalink: /docs/dar/
 
 ## Create new DAR request
 
-Go to the [Data Access Request (DAR) page](/chaise/recordset/#1/isa:data_access_request) and click the **+ Create** button at the top right corner of the page (The DAR form will open in a new tab).
+Go to the [Data Access Request (DAR) page]([/chaise/recordset/#1/isa:data_access_request](https://www.facebase.org/chaise/recordset/#1/isa:data_access_request@sort(RCT::desc::,RID))) and click the **+ Create** button at the top right corner of the page (The DAR form will open in a new tab).
 
 ![tbd]({{ "/assets/img/create.png" | relative_url }})
 
