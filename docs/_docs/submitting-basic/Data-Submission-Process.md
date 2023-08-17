@@ -19,7 +19,7 @@ Advantages include:
 
 If you have not already submitted data _for your current project or investigation_, please make a request for review of your upcoming data submission. The request will be reviewed by a committee for FaceBase. Notification of approval to submit data to FaceBase should take no more than about 2 weeks.
 
-1. Review the page [How to Submit Data](https://www.facebase.org/contributing/submitting/) and follow its link to the "Data Submission Form"
+1. Review the page [How to Submit Data](https://www.facebase.org/contributing/submitting/) and follow its link to the "Data Submission Form" and fill it out. Note that this form is for grants that have been funded.
 2. The Hub will contact you within approximately 2 weeks with a decision on your data submission request.
 3. Upon approval, the Hub will setup a Project record on FaceBase and send you a link to create a FaceBase account (if you do not already have one) and to join your new Project. We also encourage scheduling a one-on-one tutorial with us to discuss specific details for your project.
 
