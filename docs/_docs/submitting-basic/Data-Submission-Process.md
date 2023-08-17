@@ -3,20 +3,25 @@ title: Data Submission Process
 permalink: /docs/Data-Submission-Process/
 ---
 
-
 ![Data Submission Overview]({{ "/assets/img/data-submit-overview.jpg" | relative_url }})
 
 ## When Should You Contact FaceBase?
 
-Consider contacting FaceBase before publishing or while your manuscript is _in preparation_ or _under review_. This is important so that you can include proper data citations to your datasets in your publications. You do not have to upload your data until your publication is _in press_, and we can still generate Digital Object Identifiers (DOIs) for your datasets while they are in preparation.
+We recommend filling out the Data Submission Form (see below) **once your grant is funded** and even **as you're generating your data** (ie, sooner than later).
+
+Advantages include:
+* We can help you organize your data as you are collecting it to make uploading easier in the future.
+* We also encourage entering your metadata even before you're ready to upload your data to make the process run more smoothly.
+* Helps "future proof" your data management process. Many times, the member of your lab who generated the data may not still be available once it's time to publish.
+* We will be able to provide proper data citations for your publication. You do not have to upload your data until your publication is released, but we can still generate Digital Object Identifiers (DOIs) for your datasets before you submit your publication.
 
 ## Before You Begin
 
-If you have not submitted data _for your current project or investigation_, please make a request for review of your upcoming data submission. The request will be reviewed by a committee for FaceBase. Notification of approval to submit data to FaceBase should take no more than about 2 weeks.
+If you have not already submitted data _for your current project or investigation_, please make a request for review of your upcoming data submission. The request will be reviewed by a committee for FaceBase. Notification of approval to submit data to FaceBase should take no more than about 2 weeks.
 
-1. Review the page [How to Submit Data](https://www.facebase.org/submit/submitting-data/) and follow its link to the "Data Submission Form"
+1. Review the page [How to Submit Data](https://www.facebase.org/contributing/submitting/) and follow its link to the "Data Submission Form"
 2. The Hub will contact you within approximately 2 weeks with a decision on your data submission request.
-3. Upon approval, the Hub will setup a Project record on FaceBase and send you a link to create a FaceBase account (if you do not already have one) and to join your new Project.
+3. Upon approval, the Hub will setup a Project record on FaceBase and send you a link to create a FaceBase account (if you do not already have one) and to join your new Project. We also encourage scheduling a one-on-one tutorial with us to discuss specific details for your project.
 
 You may then begin the data submission process described next.
 
