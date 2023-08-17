@@ -24,7 +24,7 @@ You may then begin the data submission process described next.
 
 The process for submitting data will generally include the following steps (in this order):
 1. [Create a Dataset entry](../Create-a-Dataset/)
-2. [Create Experiment, Biosample, and Replicate entries](../Describe-Experiments,-Biosamples,-and-Replicates/)
+2. [Create Experiment, Biosample, and Replicate entries](../Describe-Experiments-Biosamples-and-Replicates/)
 3. [Upload data files](../Upload-Files/)
 4. Finally, review and revise your dataset:
     - Review your completed datasets with your collaborators, PI or Co-PIs. Your data is only viewable by your project until the Hub releases it.
