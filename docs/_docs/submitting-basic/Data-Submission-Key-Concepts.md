@@ -30,15 +30,15 @@ additional information, see the [NCBO BioPortal](https://bioportal.bioontology.o
 
 Currently, we use the following vocabulary:
 
-| Category        | Source(s)         | Browse on FaceBase                                                 |
-|-----------------|-------------------|--------------------------------------------------------------------|
-| Experiment Type | OBI               | https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type |
-| Species         | NCBI Taxonomy     | https://www.facebase.org/chaise/recordset/#1/vocab:species         |
-| Gene            | NCBI Gene         | https://www.facebase.org/chaise/recordset/#1/vocab:gene            |
-| Phenotype       | MP, HPO, OCDM     | https://www.facebase.org/chaise/recordset/#1/vocab:phenotype       |
-| Stage           | Varies by species | https://www.facebase.org/chaise/recordset/#1/vocab:stage           |
-| Anatomy         | UBERON, OCDM      | https://www.facebase.org/chaise/recordset/#1/vocab:anatomy         |
-| Strain          | MGI               | https://www.facebase.org/chaise/recordset/#1/vocab:strain          |
+| Category        | Source(s)         | Available on FaceBase                                                             |
+|-----------------|-------------------|-----------------------------------------------------------------------------------|
+| Experiment Type | OBI               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type) |
+| Species         | NCBI Taxonomy     | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:species)         |
+| Gene            | NCBI Gene         | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:gene)            |
+| Phenotype       | MP, HPO, OCDM     | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:phenotype)       |
+| Stage           | Varies by species | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:stage)           |
+| Anatomy         | UBERON, OCDM      | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:anatomy)         |
+| Strain          | MGI               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:strain)          |
 
 When a needed term is not available in the standard vocabulary, we will work with data submitters to create a new term on FaceBase and promote it to the appropriate upstream vocabulary maintainers for future standardization.
 
