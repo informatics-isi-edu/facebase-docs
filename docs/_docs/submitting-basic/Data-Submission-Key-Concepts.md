@@ -28,6 +28,20 @@ others. Most vocabulary terms are managed by the FaceBase Hub. If you cannot fin
 you need in order to describe your data, please [contact us](mailto:help@facebase.org). For
 additional information, see the [NCBO BioPortal](https://bioportal.bioontology.org/).
 
+Currently, we use the following vocabulary:
+
+| Category        | Source(s)         | Browse on FaceBase                                                 |
+|-----------------|-------------------|--------------------------------------------------------------------|
+| Experiment Type | OBI               | https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type |
+| Species         | NCBI Taxonomy     | https://www.facebase.org/chaise/recordset/#1/vocab:species         |
+| Gene            | NCBI Gene         | https://www.facebase.org/chaise/recordset/#1/vocab:gene            |
+| Phenotype       | MP, HPO, OCDM     | https://www.facebase.org/chaise/recordset/#1/vocab:phenotype       |
+| Stage           | Varies by species | https://www.facebase.org/chaise/recordset/#1/vocab:stage           |
+| Anatomy         | UBERON, OCDM      | https://www.facebase.org/chaise/recordset/#1/vocab:anatomy         |
+| Strain          | MGI               | https://www.facebase.org/chaise/recordset/#1/vocab:strain          |
+
+When a needed term is not available in the standard vocabulary, we will work with data submitters to create a new term on FaceBase and promote it to the appropriate upstream vocabulary maintainers for future standardization.
+
 ### Experiment Types
 
 FaceBase data should be the product of or useful for craniofacial research. See the [experiment type terminology](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type@sort(name)) for a list of anticipated
