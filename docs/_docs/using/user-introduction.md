@@ -16,4 +16,4 @@ The FaceBase Data Browser is designed to allow the end user to:
 * Download available data files from a record.
 * Export metadata as a CSV file or export large files to a BDBAG and use our client tools to materialize the files to a local environment or remote cluster.
 * Use journal-quality citations to share data and include in your publications and presentations.
-* Request access to human data through a secure, HIPAA-compliant process.
+* Request access to human data through a secure process.
