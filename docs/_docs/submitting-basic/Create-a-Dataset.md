@@ -7,7 +7,7 @@ A **dataset** represents a unit of data collected and submitted to the FaceBase 
 
 This page describes how to create a dataset record and add tags that will allow your data to be discovered in searches.
 
-**Important**: make sure that you are on the [www.facebase.org](www.facebase.org) site. Do not use the _development_ or _staging_ site for data entry.
+**Important**: make sure that you are on the [www.facebase.org](https://www.facebase.org/) site. Do not use the _development_ or _staging_ site for data entry.
 
 ## 1. Create the Dataset record
 

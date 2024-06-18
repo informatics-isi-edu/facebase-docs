@@ -4,7 +4,7 @@ permalink: /docs/Define-Surface-Model/
 ---
 
 These instructions are for adding 3D models to the FaceBase site. We assume
-you have uploaded 'meshes' to the site per the [upload instructions](./Upload-Files).
+you have uploaded 'meshes' to the site per the [upload instructions](../Upload-Files).
 The instructions here assume you are logged in to the FaceBase site.
 
 ## Known Limitations

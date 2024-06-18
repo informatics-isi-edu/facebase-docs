@@ -28,4 +28,4 @@ It is intended to be used after the bootcamp to apply what you've learned about 
 
 7) Once the tool has scanned the content of the directory, click the “Upload” button to start uploading the files.
 
-8) Once the utility is finished, check your dataset to verify that the files have been added (you may need to refresh the browser page). Email us at [help@facebase.org](help@facebase.org) if you have any questions.
+8) Once the utility is finished, check your dataset to verify that the files have been added (you may need to refresh the browser page). Email us at [help@facebase.org](mailto:help@facebase.org) if you have any questions.
