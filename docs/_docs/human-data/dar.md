@@ -1,5 +1,5 @@
 ---
-title: B. Complete the online Data Access Request (DAR) form (An IRB is required)
+title: B. Complete the online Data Access Request (DAR) form
 permalink: /docs/dar/
 ---
 
