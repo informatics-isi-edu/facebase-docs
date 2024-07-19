@@ -34,4 +34,4 @@ Go to the [Data Access Request (DAR) page](https://www.facebase.org/chaise/recor
 
 ## If you are a researcher at an academic institute outside the US or if you are unfamiliar with IRBs...
 
-[Please see our relevant FAQ on the main FaceBase site](https://www.facebase.org/help/faqs/#irb) that points you to resources at the US NIH website for more information on IRBs. For institutes outside the US, they usually have a comparable “ethics board” or something similar that can provide the necessary information. You may also contact your own university offices that deal with research on human subjects and they should provide guidance.
+[Please see our relevant FAQ on the main FaceBase site](https://www.facebase.org/help/faqs/#access-policy) that points you to resources at the US NIH website for more information on IRBs. For institutes outside the US, they usually have a comparable “ethics board” or something similar that can provide the necessary information. You may also contact your own university offices that deal with research on human subjects and they should provide guidance.

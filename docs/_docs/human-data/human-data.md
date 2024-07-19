@@ -23,7 +23,7 @@ You will need the following to complete this process:
 In order to access this data, you must follow the process outlined below:
 
 * [A. Read and complete the Data Use Certificate Agreement (DUC)]({{ "/docs/duc/" | relative_url }})
-* [B. Complete the online Data Access Request (DAR) form (An IRB is required)]({{ "/docs/dar/" | relative_url }})
+* [B. Complete the online Data Access Request (DAR) form]({{ "/docs/dar/" | relative_url }})
 * [C. Select the Requested Datasets]({{ "/docs/select-datasets/" | relative_url }})
 * [D. Print, sign and submit the DUC and DAR forms]({{ "/docs/print-sign-submit/" | relative_url }})
 * [E. Await notification]({{ "/docs/notification/" | relative_url }})
