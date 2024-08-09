@@ -12,7 +12,7 @@ Use the sidebar on the left to explore help topics such as **"Using FaceBase"**,
 
 If you are new to FaceBase, we recommend getting started with these materials:
 
-| If you are... | Docs | Videos |
+| If you are... | Docs | <i class="fa fa-video-camera" aria-hidden="true"></i> Videos |
 |---|---|---|
 | searching for FB data | [Key Concepts for FaceBase Users]({{ "/docs/user-key-concepts/" | relative_url }})<br/><br/>[Browsing and Filtering Data]({{ "/docs/discovering-data/" | relative_url }}) | <a href="https://youtu.be/Xk39K6xxmKk?si=WrPxf6PAbP3TCqAl" target="_blank">Users Track - Bootcamp 2023 (webinar) <i class="fa fa-external-link-square" aria-hidden="true"></i></a> |
 | contributing data | [Key Concepts for FaceBase Contributors]({{ "/docs/Data-Submission-Key-Concepts/" | relative_url}})<br/><br/>[Data Submission Process]({{ "/docs/Data-Submission-Process/" | relative_url}}) | <a href="https://youtu.be/oxObpnoefaw?si=Ckn5KIiXYASMrtCh" target="_blank">Contributors Track - Bootcamp 2023 (webinar) <i class="fa fa-external-link-square" aria-hidden="true"></i></a> |
@@ -35,4 +35,3 @@ Learn about imaging data in FaceBase:
 Learn about omics data available in FaceBase:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pRG847lDulg?si=f9YutP3OH6sGdxo1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
