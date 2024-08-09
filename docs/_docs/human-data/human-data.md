@@ -29,6 +29,4 @@ In order to access this data, you must follow the process outlined below:
 * [E. Await notification]({{ "/docs/notification/" | relative_url }})
 * [F. Create/upload encryption key]({{ "/docs/encryption-keys/" | relative_url }})
 
-This video is from one of our online Bootcamps where we describe the process of requesting controlled-access data
-
-[Requesting controlled-access (human subjects) data](https://youtu.be/WQuRC71yMBw?si=KBOAyfxflzSxG95B)
+This video is from one of our online Bootcamps where we describe the process of requesting controlled-access data: <i class="fa-solid fa-video"></i> [Requesting controlled-access (human subjects) data](https://youtu.be/WQuRC71yMBw?si=KBOAyfxflzSxG95B)
