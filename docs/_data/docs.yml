@@ -16,7 +16,7 @@
   - 3d-viewers
   - nifti-files
   - convert-tif
-- title: Controlled Access Human Data
+- title: Requesting Controlled-Access Human Data
   docs:
   - human-data
   - duc

@@ -1,5 +1,5 @@
 ---
-title: Controlled Access Human Data - Policy and Requests
+title: Controlled-Access Human Data - Policy and Requests
 permalink: /docs/human-data/
 ---
 
@@ -28,3 +28,7 @@ In order to access this data, you must follow the process outlined below:
 * [D. Print, sign and submit the DUC and DAR forms]({{ "/docs/print-sign-submit/" | relative_url }})
 * [E. Await notification]({{ "/docs/notification/" | relative_url }})
 * [F. Create/upload encryption key]({{ "/docs/encryption-keys/" | relative_url }})
+
+This video is from one of our online Bootcamps where we describe the process of requesting controlled-access data
+
+[Requesting controlled-access (human subjects) data](https://youtu.be/WQuRC71yMBw?si=KBOAyfxflzSxG95B)
