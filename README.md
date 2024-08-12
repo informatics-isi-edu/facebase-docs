@@ -1,10 +1,6 @@
-# FaceBase Curation
+# FaceBase Docs
 
-This is the home for documentation and issue tracking for the [FaceBase Data Hub](https://www.facebase.org). For help, please contact the [help mail list](mailto:help@facebase.org).
-
-# Data Curation Guide
-
-For step-by-step instructions on how to submit data to FaceBase, see our [Data Curation Guide](https://github.com/informatics-isi-edu/facebase-curation/wiki).
+This is the home for documentation and issue tracking for the [FaceBase documentation site: docs.facebase.org](https://docs.facebase.org). For help, please contact the [help mail list](mailto:help@facebase.org).
 
 # Issue Tracker
 
