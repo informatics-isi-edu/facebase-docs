@@ -14,7 +14,7 @@ Controlled-access data is limited to the following types of data:
 
 ## Before You Begin...
 
-In order to create and submit the Data Access Request (DAR), **you must join the FaceBase Users' group** (if you have submitted data for FaceBase, you should already be in this group).
+To create and submit the Data Access Request (DAR), **you must join the FaceBase Users' group** (if you have submitted data for FaceBase, you should already be in this group).
 
 * Click the "Sign Up" link at the top right corner of the FaceBase site - [or use this link](https://app.globus.org/groups/143f5bdc-c127-11e4-ab32-22000a1dd033/about) - and follow the prompts to log in with Globus and ask to Join the "FaceBase Users" group.
 
