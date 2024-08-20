@@ -5,17 +5,24 @@ permalink: /docs/human-data/
 
 Controlled-access data is not available until you have submitted the required documents and are approved by the Data Access Committee (DAC) in the process described in this section.
 
-## Controlled Access Data Policy
+## Controlled-access Data Policy
 
 Controlled-access data is limited to the following types of data:
 
-* **All identifiable, individual-level human data**.
+* **All individual-level human data**.
 * Examples include demographic descriptors, phenotypic measures, 3D images, and sequencing data.
 
-## Before you begin...
+## Before You Begin...
 
-You will need the following to complete this process:
-* Be a member of the FaceBase Users' group (if you have submitted data for FaceBase, you should already be in this group). If you are not yet in this group, please click the "Sign Up" link at the top right corner of the FaceBase site - [or use this link](https://app.globus.org/groups/143f5bdc-c127-11e4-ab32-22000a1dd033/about) - and follow the prompts to log in with Globus and ask to Join the "FaceBase Users" group.
+In order to create and submit the Data Access Request (DAR), **you must join the FaceBase Users' group** (if you have submitted data for FaceBase, you should already be in this group). If you are not yet in this group, please click the "Sign Up" link at the top right corner of the FaceBase site - [or use this link](https://app.globus.org/groups/143f5bdc-c127-11e4-ab32-22000a1dd033/about) - and follow the prompts to log in with Globus and ask to Join the "FaceBase Users" group.
+
+You will also need to gather the following information to complete this process:
+
+* Research Use Statement – A description of your proposed work and how FaceBase data will be used. **Note:** If your access request is approved, this will be a publicly viewable description.
+* Non-Technical Summary - A brief lay summary of your proposed work. **Note:** If your access request is approved, this will be a publicly viewable description.
+* Brief description of how your proposed research is consistent with the Data Use Limitations (DULs) for the requested data.
+* Brief description of data security measures implemented to ensure protection of any downloaded data.
+* List of collaborators (internal and external)
 * If your desired dataset requires IRB approval, you will need an Institutional Review Board (IRB) letter and IRB-approved protocol describing how you will use the data for research purposes. If you have questions about the process or IRB requirement, please contact the DAC at <a href="mailto:nidcrfacebasedac@mail.nih.gov">nidcrfacebasedac@mail.nih.gov</a>. [Also see our FAQ about IRBs here](https://www.facebase.org/help/faqs/#irb).
 
 ## Applying for Access to Controlled Data

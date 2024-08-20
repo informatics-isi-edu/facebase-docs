@@ -23,8 +23,9 @@ Go to the [Data Access Request (DAR) page](https://www.facebase.org/chaise/recor
 - In fields *(3) Principal Investigator* and *(4) Mentor or Supervisor*, if you don't find the PI or Mentor names listed there, click on the **+ Create New** button to create a new person record in the system. Then select the newly created record from the list of investigators.
     ![tbd]({{ "/assets/img/create_user1.png" | relative_url }})
     ![tbd]({{ "/assets/img/create_user2.png" | relative_url }})
-    ![tbd]({{ "/assets/img/create_user3.png" | relative_url }})
-- In fields *(12) Submit a copy of the IRB letter...* and *(13) Submit a copy of the IRB-approved protocol...* click on the **Select file** button to the right of each field and select the file to upload from your local file system. The files will be uploaded to the FaceBase site once you save the form.
+    ![tbd]({{ "/assets/img/create_user3.png" | relative_url }})<br/><br/>
+
+- If the dataset requires IRB approval (per the *Data Use Limitations* field), then in fields *(12) Submit a copy of the IRB letter...* and *(13) Submit a copy of the IRB-approved protocol...* click on the **Select file** button to the right of each field and select the file to upload from your local file system. The files will be uploaded to the FaceBase site once you save the form.
 - Fields *(14)* and *(15)* should initially be left blank. **Once you print the complete DUC and DAR forms and obtain all required signatures you must edit this form to add the signed documents to these fields**.
 
 ## Save the form

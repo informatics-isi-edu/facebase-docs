@@ -19,5 +19,5 @@ permalink: /docs/print-sign-submit/
 ## Notes:
 
 - The encryption key does not need to be completed prior to approval. If your request is approved, you will need to create and upload your encryption key.
-- If you have questions on how to obtain an IRB approval from your institution, please consult the U.S. Department of Health & Human Services' site for the [Office of Human Protections (OHRP)](https://www.hhs.gov/ohrp/).
+- If the dataset requires IRB approval and you have questions on how to obtain this from your institution, please consult the U.S. Department of Health & Human Services' site for the [Office of Human Protections (OHRP)](https://www.hhs.gov/ohrp/).
 - **If you are a researcher at an academic institute outside the US:** [Please see our relevant FAQ on the main site](https://www.facebase.org/help/faqs/#irb). For institutes outside the US, they usually have a comparable “ethics board” or something similar that can provide the necessary information. You may also contact your own university offices that deal with research on human subjects and they should provide guidance.
