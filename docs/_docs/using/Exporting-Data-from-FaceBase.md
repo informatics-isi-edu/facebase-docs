@@ -13,14 +13,12 @@ permalink: /docs/Exporting-Data-from-FaceBase/
   * [3.1 Download and install DERIVA Client](#31-download-and-install-deriva-client)
   * [3.2 Using the GUI application](#32-using-the-gui-application)
   * [3.3 Using the command line client](#33-using-the-command-line-client)
-    * [3.3.1 Authenticate with the DERIVA Authentication Agent](#331-authenticate-with-the-DERIVA-authentication-agent)
-    * [3.3.2 Download the data files with the bdbag command](#332-download-the-data-files-with-the-bdbag-command)
-      * [3.3.2.1 Download to your local computer](#3321-download-to-your-local-computer)
-      * [3.3.2.2 Download to a remote cluster/server](#3322-download-to-a-remote-clusterserver)
+    * [3.3.1 Download the data files with the bdbag command](#332-download-the-data-files-with-the-bdbag-command)
+      * [3.3.1.1 Download to your local computer](#3321-download-to-your-local-computer)
+      * [3.3.1.2 Download to a remote cluster/server](#3322-download-to-a-remote-clusterserver)
 * [4. Troubleshooting](#4-troubleshooting)
-  * [4.1 If you used DERIVA Auth but are still getting an error that you are not allowed to download data](#41-if-you-used-deriva-auth-but-are-still-getting-an-error-that-you-are-not-allowed-to-download-data)
-  * [4.2 If your BAG export failed](#42-if-your-BAG-export-failed)
-  * [4.3 If you want to verify you received all of the files in the BAG](#43-if-you-want-to-verify-you-received-all-of-the-files-in-the-BAG)
+  * [4.1 If your BAG export failed](#42-if-your-BAG-export-failed)
+  * [4.2 If you want to verify you received all of the files in the BAG](#43-if-you-want-to-verify-you-received-all-of-the-files-in-the-BAG)
 
 ## 1. Export Options
 
@@ -78,7 +76,7 @@ If you haven't already signed up for a FaceBase account (ie, someone else create
 
 ### 3.1 Download and install DERIVA Client
 
-[DERIVA Client](https://github.com/informatics-isi-edu/deriva-client) is a set of software packages that includes the BDBag command line program (`bdbag`) and GUI, either of which may be used for downloading the files, and the DERIVA Authentication Agent for authenticating your downloads. (Note that there are other programs within this package that are useful for data submitters, such as the upload program.)
+[DERIVA Client](https://github.com/informatics-isi-edu/deriva-client) is a set of software packages that includes the BDBag command line program (`bdbag`) and GUI, either of which may be used for downloading. (Note that there are other programs within this package that are useful for data submitters, such as the upload program.)
 
 * Windows and Mac users or those who prefer a more "turnkey" installation: installers are available [here](https://github.com/informatics-isi-edu/deriva-client-bundle/releases/latest).
 * Linux users: DERIVA Client is built on Python and is available via the command `pip install deriva-client`. A Python 3.5.4 or greater system installation is required. The latest stable version of Python is recommended. [Detailed installation instructions are available here](https://github.com/informatics-isi-edu/deriva-client#deriva-client).
@@ -109,40 +107,11 @@ To use the GUI:
 
 ### 3.3 Using the command line client
 
-### 3.3.1 Authenticate with the DERIVA Authentication Agent
-
-In the DERIVA Client Tools directory, open the "DERIVA Authentication Agent" application:
-
-* Windows or Mac: Go to the applications folder, open the "DERIVA Client Tools" folder and double-click the icon for "DERIVA Authentication Agent".
-* Linux: Run `deriva-auth`.
-
-The first time you log in, you'll see a mostly-empty window:
-<br/>
-<br/>
-<img src="https://raw.githubusercontent.com/informatics-isi-edu/facebase-curation/master/wiki-images/login_deriva_auth.png" alt="export file unzipped" width="800"/>
-  <br/>
-  <br/>
-In the "Server:" field, type in `www.facebase.org` and click the _Add_ or _Login_ buttons.
-<br/>
-<br/>
-<img src="https://raw.githubusercontent.com/informatics-isi-edu/facebase-curation/master/wiki-images/login_deriva_server.png" alt="export file unzipped" width="800"/>
-  <br/>
-  <br/>
-You should now see the following screen:
-<br/>
-<br/>
-<img src="https://raw.githubusercontent.com/informatics-isi-edu/facebase-curation/master/wiki-images/login_to_facebase.png" alt="export file unzipped" width="800"/>
-  <br/>
-  <br/>
-Log in with the credentials you chose when you created your FaceBase account.
-
-After logging in, you'll see an "Authentication Successful" message.
-
-### 3.3.2 Download the data files with the `bdbag` command
+### 3.3.1 Download the data files with the `bdbag` command
 
 The following describe two methods of downloading the data files: to your local computer and to a remote server.
 
-#### 3.3.2.1 Download to your local computer
+#### 3.3.1.1 Download to your local computer
 
 **If you used a Window/Mac installer to install DERIVA Client**, go to the "DERIVA Client Tools" folder on your computer and open "DERIVA Command Line Applications". This will display a special Terminal window to run your BDBag commands.
 
@@ -187,7 +156,7 @@ You may find the complete list of command line options here:
 
 [https://github.com/fair-research/bdbag/blob/master/doc/cli.md#bdbag-command-line-interface-cli](https://github.com/fair-research/bdbag/blob/master/doc/cli.md#bdbag-command-line-interface-cli)
 
-#### 3.3.2.2 Download to a remote cluster/server
+#### 3.3.1.2 Download to a remote cluster/server
 
 If you want to download data files to a remote cluster or server, you will need to install the DERIVA Client tools on the remote environment as well as locally. The following instructions assume you have already installed DERIVA Client locally (as described in [3.1 Download and install DERIVA Client](#31-download-and-install-deriva-client)).
 
@@ -198,9 +167,7 @@ A Python 3.5.4 or greater system installation is required to use the client tool
 pip install bdbag
 ```
 
-2. On your local computer, log in using DERIVA Auth (as described in [3.3.1 Authenticate with the DERIVA Authentication Agent](#331-authenticate-with-the-DERIVA-authentication-agent)).
-
-3. Under the local folder `/home/username/.bdbag`, find the `deriva-cookies.txt` file and copy from your local computer to the remote server:
+2. Under the local folder `/home/username/.bdbag`, find the `deriva-cookies.txt` file and copy from your local computer to the remote server:
 
 <br/>
 <br/>
@@ -208,22 +175,18 @@ pip install bdbag
   <br/>
   <br/>
 
-4. Copy the downloaded and unzipped BAG folder (e.g. "dataset_1-DY3G") to the remote server.
+3. Copy the downloaded and unzipped BAG folder (e.g. "dataset_1-DY3G") to the remote server.
 
-5. SSH to the remote server and run the `bdbag` commands from [3.3.2.1 Download to your local computer](#3321-download-to-your-local-computer).
+4. SSH to the remote server and run the `bdbag` commands from [3.3.2.1 Download to your local computer](#3321-download-to-your-local-computer).
 
 ## 4. Troubleshooting
 
-### 4.1 If you used DERIVA Auth but are still getting an error that you are not allowed to download data
-
-Make sure that you logged in to the right server! This is more possible if you are using this procedure on different websites - you want to make sure that you are logging in to the correct website. Make sure to double-check the content of the "Server" field in DERIVA Authentication Agent.
-
-### 4.2 If your BAG export failed
+### 4.1 If your BAG export failed
 
 BDBag keeps track of what files were exported. If the transfer is interrupted, it will re-try several times.
 
 If the transfer completely stops, you can rerun the same command with the option `--missing` and it will only get the appropriately missing files.
 
-### 4.3 If you want to verify you received all of the files in the BAG
+### 4.2 If you want to verify you received all of the files in the BAG
 
 Re-run your BDBag command with `--validate full` at the end to confirm the data integrity.
