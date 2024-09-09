@@ -9,11 +9,17 @@ The FaceBase 2 Data Browser includes interactive 3D viewing when datasets includ
 
 Note that 3D viewing requires WebGL. It's enabled by default on the latest versions of browsers, but requires a certain amount of memory and bandwidth. [See this page for more information](https://www.facebase.org/help/using-3D-viewers/) if you're having issues viewing the images.
 
-Here is a detail page of a dataset that includes some 3D images. We'll scroll down to and expand the *Preview* section...
+Here is a screenshot showing the 3D viewer in use:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6G6eVzWoMz4?si=0nHF2R5-qDQdrH9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+You can find detailed description below from a dataset that includes some 3D images:
+
+First, scroll down to and expand the *Preview* section.
 
 ![image alt text]({{ "/assets/img/3d-previews.png" | relative_url }})
 
-and click *load* to load the smaller viewer into the page.
+Then click *load* to load the smaller viewer into the page.
 
 ![image alt text]({{ "/assets/img/3d-load.png" | relative_url }})
 

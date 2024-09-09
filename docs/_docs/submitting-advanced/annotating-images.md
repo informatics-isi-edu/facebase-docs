@@ -10,30 +10,34 @@ This capability allows data contributors to annotate 2D imaging data to draw bor
 Annotations can be used for:
 
 * Teaching craniofacial anatomy
-
 * Using the image in a manuscript/presentation
-
 * Comparing the phenotype between a control and mutant
 
-Features of annotations in FaceBase include:
+Features of annotated images in FaceBase include:
 
 * A scale displayed on the image that adjusts to the level you are zoomed in or out.
 
 * A Screenshot function to download a jpg file that includes the scale and uses the Record ID as the filename.
 
-* All data records in the FaceBase repository are citable. To share and cite an annotation, click the Share Annotation icon in the annotation row and choose one of the permanent identifier links. The Versioned Link refers to the current version of the annotation. The Live Link will take viewers to the live version.
+* All data records in the FaceBase repository are citable. To share and cite an annotation, click the *Share Annotation* icon in the annotation row and choose one of the permanent identifier links. The *Versioned Link* refers to the current version of the annotation. The *Live Link* will take viewers to the current version.
+
+![Example of an annotated image]({{ "/assets/img/annotation-viewer.png" | relative_url }})
+*Example of an annotated image*
 
 We offer two paths for annotation: online from your web browser or offline via a third-party tool called [QuPath](https://qupath.github.io/).
 
-## Online annotation in the Data Browser
+### Online annotation in the Data Browser
+
+![Example of the annotations editor]({{ "/assets/img/annotations-editor.png" | relative_url }})
+*Example of the Annotations Editor*
 
 1. Log in to FaceBase. This capability requires membership to the "FaceBase Curators" Globus group.
 If you have been set up with and joined a FaceBase Project, you should already be in this group.
 To check if you are part of “FaceBase Curators”, log in to FaceBase, click your username in the top right corner and choose “My Profile”. You will see a list of all the Globus Groups you are subscribed to.
 
-2. Navigate to the image of choice. From a Dataset page, you can scroll down to the *Imaging Data* section and click the **View Details** (x) icon of the image you want to annotate.
+2. Navigate to the image of choice. From a Dataset page, you can scroll down to the *Imaging Data* section and click the **View Details** icon of the image you want to annotate.
 
-3. Scroll down to the *Visualization* section. Depending on your display, you may want to click the **Full Screen** (x) icon.
+3. Scroll down to the *Visualization* section. Depending on your display, you may want to click the **Full Screen** icon.
 
 4. Click **Show Annotations** to open the Annotations interface.
 
@@ -51,7 +55,7 @@ NOTE:
 
 * If the anatomical region you want to annotate already exists, but there are additional annotations you want to make, make sure to **edit the existing annotation (click the pencil/Edit icon) instead of starting a new one**. This ensures annotations for a single anatomical region all use the same color (for identification purposes).
 
-## Offline annotation with QuPath
+### Offline annotation with QuPath
 
  [QuPath](https://qupath.github.io/) allows you to yadda yadda. Good for more complex annotations or if you just prefer to work offline. Now you can take your image (or download one from the GUDMAP/RBK repository), annotate it in QuPath (with x, y, z caveats) and then upload it back to the website where it will be available for viewing by the public along with the original file.
 
