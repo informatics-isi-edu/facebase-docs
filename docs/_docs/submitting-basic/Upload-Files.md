@@ -76,19 +76,19 @@ See the [Deriva Clients](../Deriva-Clients/) document for installation instructi
 ### Configure the DERIVA Upload Utility (DERIVA-Upload)
 
 1. Open the DERIVA-Upload application.
-2. First time use: you will be asked to "Add server configuration now?" Click "Yes".
+2. First time use: you will be asked to "Add server configuration now?" Click **Yes**.
 
     ![Add server configuration]({{ "/assets/img/deriva-config-screen1.png" | relative_url }})
 
-3. In the Server Configuration dialog enter host `www.facebase.org` and Catalog ID `1`. You may optionally add a Description `FaceBase`. Click "OK"
+3. In the Server Configuration dialog enter host `www.facebase.org` and Catalog ID `1`. You may optionally add a Description `FaceBase`. Click **OK**.
 
     ![Add server configuration]({{ "/assets/img/deriva-config-screen2.png" | relative_url }})
 
-4. From the Options dialog click "OK" again.
+4. From the Options dialog click **OK** again.
 
     ![Add server configuration]({{ "/assets/img/deriva-config-screen3.png" | relative_url }})
 
-5. From the main window, click "Login" to begin you session.
+5. From the main window, click **Login** to begin your session.
 
     ![Add server configuration]({{ "/assets/img/deriva-config-screen4.png" | relative_url }})
 
@@ -100,7 +100,7 @@ Now you can point to your data files to upload to the FaceBase system and link t
 ![Upload Files Interactive]({{ "/assets/img/upload-files-interactive.png" | relative_url }})
 
 1. Click **Browse** (upper right hand side)
-    - Find and select the directory with the data files your organized.
+    - Find and select the directory with the data files you organized.
     - Click **Open**.
 2. Confirm that your files are all accounted for in the "Pending" state.
 3. Click **Upload** (upper left hand side).
