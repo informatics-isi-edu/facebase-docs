@@ -34,10 +34,12 @@ Use the following dataset to try it out - [TKT - microCT - Soft Tissue of Msx1 C
 
 ## Histology/Annotations Viewer (2D images)
 
+Two dimensional images in the FaceBase repository are commonly histological (stains are used to show regions where a gene is expressed). Our pipeline accepts the raw image file from a microscope and converts it into an image may be viewed in a web browser page (Figure 2).
+
 ![Example of 2D image in default view]({{ "/assets/img/2d-default-img.png" | relative_url }})
 *Figure 2: Example of 2D image in default view (Scale at 100mm)*
 
-Two dimensional images in the FaceBase repository are commonly histological (stains are used to show regions where a gene is expressed). Our pipeline accepts the raw image file from a microscope and converts it into an image may be viewed in a web browser page (Figure 1). The viewer is like an online, digital microscope, allowing the user to zoom in for a deep view of the image (depending on the resolution of the image - the higher the resolution, the more deeply you can zoom in, see Figure 3).
+The viewer is like an online, digital microscope, allowing the user to zoom in for a deep view of the image (depending on the resolution of the image - the higher the resolution, the more deeply you can zoom in, see Figure 3 below).
 
 To download a screenshot of the current view that includes an accurate scale, click **Take a Screenshot**. This is ideal for use in publications and presentations.
 
@@ -51,10 +53,12 @@ Use the following dataset as an example: [1-SXC4 - Histology and schematic overv
 
 ### Annotations
 
+Our 2D viewer also supports annotations of anatomical regions in an image (see Figure 4).
+
 ![Example of an annotated image]({{ "/assets/img/annotation-viewer.png" | relative_url }})
 *Figure 4: Example of an annotated image*
 
-Our viewer also supports annotations of anatomical regions in an image (see Figure 4). Annotations link to the corresponding FaceBase anatomy page for that region, which displays more information on the region and lists any related data in the FaceBase repository.
+Annotations link to the corresponding FaceBase anatomy page for that region, which displays more information on the region and lists any related data in the FaceBase repository.
 
 To see if an image already has annotations, click **Show Annotations**.
 
@@ -65,10 +69,12 @@ Data contributors can use editing tools to mark a colored boundary around specif
 
 ## Surface Mesh Viewer
 
+If a contributor provides surface mesh data - which depicts surfaces of interest  - our Surface Mesh Viewer can create a ‘jigsaw puzzle’ effect where each surface mesh object is given its own color and channel, which can be toggled on and off (see Figure 6).
+
 ![Example of the Surface Mesh Viewer]({{ "/assets/img/screenshot-mesh-viewer.png" | relative_url }})
 *Figure 6: Example of the Surface Mesh Viewer*
 
-If a contributor provides surface mesh data - which depicts surfaces of interest  - our Surface Mesh Viewer can create a ‘jigsaw puzzle’ effect where each surface mesh object is given its own color and channel, which can be toggled on and off (see Figure 6). Surface meshes may be annotated with anatomical landmarks demarcating specific locations on a specimen. The distance between landmarks can also be calculated.
+Surface meshes may be annotated with anatomical landmarks demarcating specific locations on a specimen. The distance between landmarks can also be calculated.
 
 This educational tool is especially powerful for new researchers to learn anatomical regions.
 
@@ -90,10 +96,12 @@ View all available <a href="https://www.facebase.org/chaise/recordset/#1/viz:mod
 
 ## Single Cell Viewer (scRNA-Seq)
 
+Unique to FaceBase is the ability for contributors to upload their sequencing data and receive a processed visualization of their data (see Figure 7).
+
 ![Example of the Single Cell Viewer]({{ "/assets/img/single-cell-viewer.png" | relative_url }})
 *Figure 7: Example of the Single Cell Viewer*
 
-Unique to FaceBase is the ability for contributors to upload their sequencing data and receive a processed visualization of their data (see Figure 7). Single-cell RNAseq data from FaceBase datasets can be visualized by the [UCSC Cell Browser](https://cells.ucsc.edu/) and interactive viewer for single cell expression, where you can easily identify cell clusterings and gene-expression patterns.
+Single-cell RNAseq data from FaceBase datasets can be visualized by the [UCSC Cell Browser](https://cells.ucsc.edu/) and interactive viewer for single cell expression, where you can easily identify cell clusterings and gene-expression patterns.
 
 Use the following dataset as an example: [1-YSFP - Single cell transcriptomics of the talpid2 avian mutant mandibular prominence](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-YSFP)
 
