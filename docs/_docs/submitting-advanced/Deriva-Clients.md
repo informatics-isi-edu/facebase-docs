@@ -3,8 +3,9 @@ title: DERIVA Tools - Bulk upload and export
 permalink: /docs/Deriva-Clients/
 ---
 
-The DERIVA client tools are used for authenticating to the FaceBase server, bulk uploading of data, and bulk downloading of data. We provide both graphical
-desktop clients and command-line interface clients.
+These instructions are a supplement to the [documentation for uploading files to FaceBase](../Upload-Files/).
+
+The DERIVA client tools are used for authenticating to the FaceBase server, bulk uploading of data, and bulk downloading of data. We provide both graphical desktop clients and command-line interface clients.
 
 - DERIVA Client Tools
     - `DERIVA-Auth`: a desktop client for establishing an authentication token.
