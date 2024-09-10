@@ -3,19 +3,22 @@ title: Visualizations in FaceBase Data
 permalink: /docs/visualizations/
 ---
 
-_This page is a work in progress._
-
 The FaceBase system includes pipelines that convert data of a specific resolution and format into helpful visualizations that can deepen a user's experience with the data. Such visualizations include: Image Volumes, Histology/Annotations, Surface Mesh and Single Cell viewers.
 
-Recommended viewing: <a href="https://www.youtube.com/watch?v=XwTeM8QnrmQ&t=3s" target="_blank">Imaging Data in FaceBase</a>
+Recommended video **"Imaging Data in FaceBase":**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XwTeM8QnrmQ?si=4QiYn70NdGT4itG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Image Volume Viewer (3D images)
 
-*Figure 1: TBD*
-
 Some imaging data is created in three dimensions, which is useful in understanding the shape and size of specific anatomical regions of the face and skull, for example when comparing control specimens with mutant specimens.
 
-Where a 3D image has been contributed, FaceBase provides a downsampled 3D preview inside your browser window.  Use the following dataset to try it out - [TKT - microCT - Soft Tissue of Msx1 Control Mice at E16.5](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=TKT):
+Where a 3D image has been contributed, FaceBase provides a downsampled 3D preview inside your browser window.
+
+![Example of 3D image]({{ "/assets/img/image-volume-viewer-example.png" | relative_url }})
+*Figure 1: What a 3D image looks like rendered by our imaging pipeline.*
+
+Use the following dataset to try it out - [TKT - microCT - Soft Tissue of Msx1 Control Mice at E16.5](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=TKT):
 
 - Scroll down to the **Downsampled Image Previews** section.
 - You have the option to click the "Full Screen" button for a larger view.
@@ -25,7 +28,9 @@ Where a 3D image has been contributed, FaceBase provides a downsampled 3D previe
     - The panels on the right side provide different views of the image. Use the sliders in each panel to step through slices of the image.
 - On the left side, hover over the "Volume" label to open the Volume panel where you can adjust the levels or brightness of the planes to virtually examine the structures in the image.
 
-<a href="https://youtu.be/6G6eVzWoMz4" target="_blank">**Check out this video that demonstrates how to use the Image Volume Viewer.**</a>
+**Check out this video that demonstrates how to use the Image Volume Viewer:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6G6eVzWoMz4?si=EwkGO96zwnN-KO6Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Histology/Annotations Viewer (2D images)
 
@@ -79,9 +84,11 @@ Use the following dataset as an example: [3V4A - E18.5 wildtype mouse microCT](h
 View all available <a href="https://www.facebase.org/chaise/recordset/#1/viz:model@sort(RID)">Surface Mesh Model imaging data available in FaceBase</a>.
 
 
-<a href="https://youtu.be/B_glpcYuspo" target="_blank">**Check out this video that demonstrates how to use the Surface Mesh Viewer.**</a>
+**Check out this video that demonstrates how to use the Surface Mesh Viewer:**
 
-## Single Cell Viewer (scatter plot of scRNA-Seq)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B_glpcYuspo?si=-9dRadVnJfsD6D2Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Single Cell Viewer (scRNA-Seq)
 
 ![Example of the Single Cell Viewer]({{ "/assets/img/single-cell-viewer.png" | relative_url }})
 *Figure 7: Example of the Single Cell Viewer*

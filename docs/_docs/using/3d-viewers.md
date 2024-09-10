@@ -13,7 +13,8 @@ Here is a video demonstrating the 3D viewer:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6G6eVzWoMz4?si=0nHF2R5-qDQdrH9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-You can find detailed description below from a dataset that includes some 3D images:
+
+You can find detailed description below from [a dataset that includes some 3D images](https://www.facebase.org/id/TJR):
 
 First, scroll down to and expand the *Preview* section.
 
