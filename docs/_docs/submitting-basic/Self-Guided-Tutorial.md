@@ -21,7 +21,7 @@ It is intended to be used to practice creating records, adding metadata and uplo
 * Rename the directory called “Micro-CT-control-REPLICATE-RID” to the value of the RID of the micro-CT *control* Replicate. .
 * Rename the directory called “RNA-seq-REPLICATE-RID” to the value of the RID of the RNA-seq Replicate..
 
-6) Start the [DERIVA Upload Utility](https://github.com/informatics-isi-edu/facebase-curation/wiki/Deriva-Clients) and:
+6) Familiarize yourself with the [upload documentation here](../Upload-Files). Start the [DERIVA Upload Utility](https://github.com/informatics-isi-edu/facebase-curation/wiki/Deriva-Clients) and:
 * Click the **Options** button to verify that the server value is *www.facebase.org* .
 * Click the **Login** button to authenticate using the same credentials you used above.
 * Click the **Browse** button and select the directory that you’ve named with the value of the RID of your new dataset.
