@@ -20,13 +20,13 @@ Where a 3D image has been contributed, FaceBase provides a downsampled 3D previe
 
 Use the following dataset to try it out - [TKT - microCT - Soft Tissue of Msx1 Control Mice at E16.5](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=TKT):
 
-- Scroll down to the **Downsampled Image Previews** section.
-- You have the option to click the "Full Screen" button for a larger view.
-- Click the "Click here to load image".
-- Once the image loads, you can make the following adjustments:
+- Scroll down to the *Downsampled Image Previews* section.
+- You have the option to click the **Full Screen** button for a larger view.
+- Click the **Click here to load image** button.
+- Once the image loads, you can make many adjustments, including:
     - Use your mouse to turn the 3D image in all directions and to zoom in and out.
     - The panels on the right side provide different views of the image. Use the sliders in each panel to step through slices of the image.
-- On the left side, hover over the "Volume" label to open the Volume panel where you can adjust the levels or brightness of the planes to virtually examine the structures in the image.
+    - On the left side, hover over the "Volume" label to open the Volume panel where you can adjust the levels or brightness of the planes to virtually examine the structures in the image.
 
 **Check out this video that demonstrates how to use the Image Volume Viewer:**
 
@@ -47,9 +47,9 @@ To download a screenshot of the current view that includes an accurate scale, cl
 *Figure 3: Example of the same image zoomed in (Scale at 20 mm)*
 
 Use the following dataset as an example: [1-SXC4 - Histology and schematic overview of mouse molar root development](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-SXC4):
-- Scroll down to the **Imaging Data** section (or use the links on the left side of the page)
-- Click *View* for one of the imaging records.
-- Click *Full screen* to enlarge the viewer.
+- Scroll down to the *Imaging Data* section (or use the links on the left side of the page)
+- Click **View** for one of the imaging records.
+- Click **Full screen** to enlarge the viewer.
 
 ### Annotations
 
@@ -80,7 +80,7 @@ This educational tool is especially powerful for new researchers to learn anatom
 
 Use the following dataset as an example: [3V4A - E18.5 wildtype mouse microCT](https://www.facebase.org/id/3V4A)
 
-- Scroll down to the **3D Surface Models** section.
+- Scroll down to the *3D Surface Models* section.
 - Click **Full Screen** if you're on a smaller display.
 - Use the following buttons to explore the image: Zoom In, Zoom Out, Rotate.
 - Click **Meshes** to open a panel of anatomical regions identified in the image.
@@ -105,7 +105,7 @@ Single-cell RNAseq data from FaceBase datasets can be visualized by the [UCSC Ce
 
 Use the following dataset as an example: [1-YSFP - Single cell transcriptomics of the talpid2 avian mutant mandibular prominence](https://www.facebase.org/chaise/record/#1/isa:dataset/RID=1-YSFP)
 
-- Scroll down to the **Processed Data** section and browse the rows.
+- Scroll down to the *Processed Data* section and browse the rows.
 - Rows for R data (such as a Seurat object) display a thumbnail of a scatter plot. Click **View Details** for one of these rows.
 - When you open the record, scroll to the Cell Browser area to view the embedded UCSC Cell Browser viewer for this data. You can click **Full Screen** for a larger presentation if you're using a laptop, for example.
 - Access the Interactive Tutorial: At the menu at the top of the viewer, click **Help** and then **Tutorial**.
