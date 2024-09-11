@@ -14,36 +14,34 @@ The Data Browser represents data via records that can be filtered with attribute
 
 ## Beginning your search
 
-You may begin your search with the [All datasets link](https://www.facebase.org/chaise/recordset/#1/isa:dataset@sort(release_date::desc::,RID)). You can also start with a narrowed search by species. These are available in the top navigation menu.
+You may begin your search with the [All datasets link](https://www.facebase.org/chaise/recordset/#1/isa:dataset). You can also start with a narrowed search by species. These are available in the top navigation menu.
 
-<!--
-
-Your search will start with the resulting search page, where you may then further refine your search with the filtering sidebar and then you can drill down to a specific dataset on the detail page.
-
-* [Search page](../search-page/) - This page shows the records available in the deployment and the records that match filters.
-* [Detail page](../detail-page/) - This page shows the details for an individual record and its related tables.
--->
+![FaceBase Data menu]({{ "/assets/img/data-menu.png" | relative_url }})
 
 ## General search
 
-![FaceBase Data Browser search page]({{ "/assets/img/search-page.png" | relative_url }})
+What you see when you start searching the data browser are:
 
-What you see when you start searching are:
-
-* Search results based on filters.
+* Search results based on filters
 * Faceted navigation sidebar on the left
 * Search bar above the results
 
+![FaceBase Data Browser search page]({{ "/assets/img/search-page.png" | relative_url }})
 
 The columns of the search results include the *RID*, *Title*, *Experiment Types*, *Species*, *Stage(s)*, *PI(s)* and *Release Date* for the datasets. By default, the data is sorted to display the most recently released data first.
 
-On the left side is the faceted navigation based on characteristics of the data and experiments. Scroll down to see all of the categories of facets available to narrow down your search.
+On the left side is the faceted navigation based on characteristics of the data and experiments.
 
-Only the first few categories are open, so as you scroll, you can click on a category to open the list of facets. Then click on the desired facets and the search results on the right will automatically update.
+![FaceBase Data Browser search page]({{ "/assets/img/filtering-sidebar.png" | relative_url }})
 
-For long lists of facets, click the **Show more** link to open a window where you can browse the complete list (including synonyms and other information from the related controlled vocabularies or ontologies).
+Scroll down to see all of the categories of facets available to narrow down your search.
 
-You may also use the small search box just above the facets to use a free text search.
+Only the first few categories are open by default. As you scroll, you can click on each category to open the list of facets. Then click on the desired facets and the search results on the right will automatically update.
+
+For long lists of facets, you have two options:
+
+* Use the small search box just above the facets.
+* click the **Show more** link to open a window where you can browse the complete list (including synonyms and other information from the related controlled vocabularies or ontologies).
 
 Note: One of the facets is "Protected Human Data". This refers to [controlled-access data]({{ "/docs/human-data/" | relative_url }}), which [requires going through the Data Access Request process]({{ "/docs/human-data/" | relative_url }}).
 
