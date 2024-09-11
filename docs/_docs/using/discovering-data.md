@@ -14,7 +14,7 @@ The Data Browser represents data via records that can be filtered with attribute
 
 ## Beginning your search
 
-You may begin your search with the [All datasets link](https://www.facebase.org/chaise/recordset/#1/isa:dataset). You can also start with a narrowed search by species. These are available in the top navigation menu.
+You may begin your search with the [BROWSE ALL DATASETS link from the homepage](https://www.facebase.org/chaise/recordset/#1/isa:dataset). You can also start with a narrowed search by species. These are available in the top navigation menu.
 
 ![FaceBase Data menu]({{ "/assets/img/data-menu.png" | relative_url }})
 
@@ -51,13 +51,15 @@ As you choose facets, you will see them displayed as buttons above the search re
 
 ## Image Search
 
-If you are interested in browsing through the large amount of imaging data available, you can use the Image Search (available as a link on the homepage or through the Browse Data top navigation menu).
+If you are interested in browsing through the large amount of imaging data available, you can use the Image Search (available on the homepage or through the DATA top navigation menu).
 
-It's the same type of searching as described above, but specific only to the data files from imaging experiments. Note that there are examples of imaging data that do not result in an image: landmark data, some metadata, etc.
+![Image Search on the homepage]({{ "/assets/img/image-search-homepage.png" | relative_url }})
+
+It's the same type of searching as described before, but filtered for the data files from imaging experiments. Note that there are examples of imaging data that do not result in an image, such as landmark data, some metadata, etc.
 
 But where there is an image, a thumbnail will appear for each record.
 
-You can filter by experiment types (fluorescences microscopy, microCT, etc), species, age stages, etc.
+You can filter further by experiment types (fluorescences microscopy, microCT, etc), species, age stages, etc.
 
 Once you find an image of interest, there is a link to the related Dataset record where you can find more information about the study and experiment as well as any other related data.
 
