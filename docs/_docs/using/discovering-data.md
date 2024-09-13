@@ -14,7 +14,7 @@ The Data Browser represents data via records that can be filtered with attribute
 
 ## Beginning your search
 
-You may begin your search with the [BROWSE ALL DATASETS link from the homepage](https://www.facebase.org/chaise/recordset/#1/isa:dataset). You can also start with a narrowed search by species. These are available in the top navigation menu.
+You may begin your search with the [BROWSE ALL DATASETS link from the homepage](https://www.facebase.org/chaise/recordset/#1/isa:dataset). You can also start with a narrowed search by species. These are available in the top navigation menu under **DATA**.
 
 ![FaceBase Data menu]({{ "/assets/img/data-menu.png" | relative_url }})
 
@@ -28,12 +28,12 @@ What you see when you start searching the data browser are:
 
 ![FaceBase Data Browser search page]({{ "/assets/img/search-page.png" | relative_url }})
 
-The columns of the search results include the *RID*, *Title*, *Experiment Types*, *Species*, *Stage(s)*, *PI(s)* and *Release Date* for the datasets. By default, the data is sorted to display the most recently released data first.
+The columns of the search results include the *RID* (ie, the Record ID which is the persistent identifier in FaceBase), *Title*, *Experiment Types*, *Species*, *Stage(s)*, *PI(s)* and *Release Date* for the datasets. By default, the data is sorted to display the most recently released data first.
 
 On the left side is the faceted navigation based on characteristics of the data and experiments.
-
+<!--
 ![FaceBase Data Browser search page]({{ "/assets/img/filtering-sidebar.png" | relative_url }})
-
+-->
 Scroll down to see all of the categories of facets available to narrow down your search.
 
 Only the first few categories are open by default. As you scroll, you can click on each category to open the list of facets. Then click on the desired facets and the search results on the right will automatically update.
