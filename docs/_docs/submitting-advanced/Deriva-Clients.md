@@ -29,6 +29,11 @@ The DERIVA-Upload, DERIVA-Auth, and Command-Line clients are bundled for install
 2. Download the appropriate file for your Operating System.
 3. Run the installer.
 
+**Important note for Apple Silicon users**: If you are using an Apple Silicon-based computer (i.e., "M1", "M2", etc.), we have a hotfix for a bug that has been discovered and fixed in the development release of Deriva Client Tools.
+1. Install the [latest development release for Apple Silicon computers](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.0-202410011807-osx.dmg).
+2. If you have used Deriva Clients before, you will also need to delete the hidden directory `$HOME/.deriva`.
+3. Run the installer.
+
 #### Installation steps for Linux
 1. Open a terminal
 2. Use the Python PIP command: `pip3 install --user deriva-client`
