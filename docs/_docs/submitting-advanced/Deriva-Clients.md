@@ -3,60 +3,49 @@ title: DERIVA Tools - Bulk upload and export
 permalink: /docs/Deriva-Clients/
 ---
 
-These instructions are a supplement to the [documentation for uploading files to FaceBase](../Upload-Files/).
+DERIVA Clients are used for authenticating to the FaceBase server, bulk uploading of data, and bulk downloading of data.
+They include both graphical desktop applications and command-line applications.
 
-The DERIVA client tools are used for authenticating to the FaceBase server, bulk uploading of data, and bulk downloading of data. We provide both graphical desktop clients and command-line interface clients.
-
-- DERIVA Client Tools
-    - `DERIVA-Auth`: a desktop client for establishing an authentication token.
-    - `DERIVA-Upload`: a desktop client for uploading data files.
-- DERIVA Python command-line clients (Python 3.x)
-    - `deriva-upload-cli`: a command-line utility for uploading data files.
-    - `deriva-download-cli`: a command-line utility for downloading data files.
+- **DERIVA Upload Utility** and `deriva-upload-cli` for batch upload of files for data contributors.
+- **BDBag** and `bdbag` for batch download of files for all users.
+- `deriva-globus-auth-utils` for authentication for command-line applications.
 
 
-## Installing DERIVA Client Tools
+## Installing the DERIVA Client Bundle
 
-The DERIVA-Upload, DERIVA-Auth, and Command-Line clients are bundled for installation on Mac, Windows, and Linux.
+The DERIVA Clients are bundled for installation on Mac, Windows, and Linux.
 
-#### System Requirements
+### System Requirements
 - macOS,
 - Windows, or
 - Linux (recent distros of Ubunto and Fedora preferred with Python 3+)
 
-#### Installation steps for Windows and MacOS
-1. Go to the [Deriva Client Tools Releases](https://github.com/informatics-isi-edu/deriva-client-bundle/releases) page.
-2. Download the appropriate file for your Operating System.
-3. Run the installer.
+### Installation for Windows or MacOS users
 
-**Important note for Apple Silicon users**: If you are using an Apple Silicon-based computer (i.e., "M1", "M2", etc.), we have a hotfix for a bug that has been discovered and fixed in the development release of Deriva Client Tools.
-1. Install the [latest development release for Apple Silicon computers](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.0-202410011807-osx.dmg).
-2. If you have used Deriva Clients before, you will also need to delete the hidden directory `$HOME/.deriva`.
-3. Run the installer.
+Download and install the DERIVA Client Bundle from the [official releases page](https://github.com/informatics-isi-edu/deriva-client-bundle/releases).
 
-#### Installation steps for Linux
-1. Open a terminal
-2. Use the Python PIP command: `pip3 install --user deriva-client`
+**Important note for Mac users**: If you are using a Mac with Apple Silicon-based hardware (i.e., "M1", "M2", etc.), you 
+may experience an error that requires installation of our latest development build found [here](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.0-202410011807-osx.dmg).
+You will also need to delete the hidden directory `$HOME/.deriva` before re-running the applications.
 
-**Note**:
- - On Windows and MacOS, the installation will create launchers and icons for the desktop applications.
- - On Linux, the desktop applications can be invoked from a new terminal window with the commands `deriva-auth` and `deriva-upload`.
+### Installation for Linux users
+
+Install the clients from the Python PyPI package.
+```commandline
+$ pip3 install --user deriva-client
+```
+
+The `--user` option may be used at your discretion. Alternatively, consider creating and installing the package in
+a virtual environment.
+
+The desktop applications can be invoked with the commands `deriva-upload` and `bdbag-gui`.
 
 ## Authentication Tokens
 
 The command-line clients (cli) can be run from the local host or a remote
 server, such as a compute cluster used to process data. When running on a
-remove server, the `deriva-upload-cli` and `deriva-download-cli` utilities
-_require_ an authentication token, so you _must_ be able to install and run
-the desktop DERIVA-Auth utility on a Windows, macOS, or Linux desktop even
-if you plan to upload/download data files using the CLI from another server.
-The CLI can be run remotely from the DERIVA-Auth.
-
-Most likely if you are transferring large files to/from a cluster, you will run
-DERIVA-Auth on your local desktop to establish and maintain the authentication
-token, while you run the `deriva-upload-cli` or `deriva-download-cli` from your
-cluster just passing it the authentication token that you established with
-DERIVA-Auth as a parameter when you invoke the CLI.
+remove server, the `deriva-upload-cli` and `bdbag` utilities
+may require an authentication token.
 
 ### DO NOT SHARE YOUR TOKEN
 
@@ -68,36 +57,32 @@ simple terms. Treat it as you would your FaceBase username and password.
 ### Authentication Token Lifetime
 
 The authentication token will **expire in 30 minutes** by default. However, the
-DERIVA-Auth client will refresh the token so long as you leave the DERIVA-Auth
-client open and running on your desktop.
-
-For long transfers, keep the authentication agent running on your local
-system while the remote transfer is in progress. If you close the DERIVA-Auth
-client, any ongoing transfers (past the 30 minute limit) will fail and report
-'not authorized' errors.
+authentication client will refresh the token so long as you use the `--refresh` 
+option.
 
 ### Establish an Authentication Token
 
-Now you need to establish and copy your authentication token for use with the command-line client:
+Use the following command to establish an authentication token with the server.
 
-1. Open the DERIVA-Auth application.
-2. First time use:
-    - In the *Server:* input box enter `www.facebase.org`
-    - Click **Add**.
-3. Subsequent use:
-    - Ensure that the *Server:* field indicates `www.facebase.org`
-    - Click **Login**.
-3. Follow the prompts in the main panel to login.
-4. Copy the "bearer" token:
-    - Click **Show Token**.
-    - Click **Show Details...** (see the figure below).
-    - Copy the token.
-    - Click **Close**.
+```commandline
+$ deriva-globus-auth-utils login --refresh --host www.facebase.org
+```
 
-![Window that will allow you to copy the token]({{ "/assets/img/deriva-clients-auth-tok.jpeg" | relative_url }})
+The command will open a browser window unless you use the `--no-browser` flag. By using
+the `--no-browser` flag, the client will instead instruct you to follow a URL to authenticate
+to FaceBase and then return to the terminal window to enter the authentication token. This 
+method is typical for users transfering files from a remote server such as a cluster where their
+data files are stored. The `--refresh` flag is optional but recommended to ensure your session 
+remains active for the duration of your data transfer operation.
 
-If there are any errors, they should be reported in the status panel beneath the file listing panel.
+Note that the `deriva-globus-auth-utils` and the command-line applications for upload or download
+must be run on the same computer. You do not copy tokens between computers or applications.
 
 ### Terminate an Authentication Token
 
-When you are finished using the authentication token, click **Logout** and exit the application. When you do this, the token will be invalidated immediately.
+When you are finished using the authentication token, logout using the following command _on the same computer_ 
+that you issued the login command. When you do this, the token will be invalidated immediately.
+
+```commandline
+$ deriva-globus-auth-utils logout
+```
