@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://docs.facebase.org/docs/home/</loc>
-    <lastmod>2024-8-04</lastmod>
+    <lastmod>2024-08-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/data-management/</loc>
-    <lastmod>2023-4-05</lastmod>
+    <lastmod>2023-04-05</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/user-key-concepts/</loc>
-    <lastmod>2023-1-20</lastmod>
+    <lastmod>2023-01-20</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/discovering-data/</loc>
-    <lastmod>2024-9-04</lastmod>
+    <lastmod>2024-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/visualizations/</loc>
-    <lastmod>2024-9-04</lastmod>
+    <lastmod>2024-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/sharing-and-citing-data/</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Exporting-Data-from-FaceBase/</loc>
-    <lastmod>2024-8-04</lastmod>
+    <lastmod>2024-08-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/programmatic-access/</loc>
@@ -34,11 +34,11 @@
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/3d-viewers/</loc>
-    <lastmod>2024-9-04</lastmod>
+    <lastmod>2024-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/nifti-files/</loc>
-    <lastmod>2022-9-04</lastmod>
+    <lastmod>2022-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/convert-tif/</loc>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/human-data/</loc>
-    <lastmod>2024-8-04</lastmod>
+    <lastmod>2024-08-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/duc/</loc>
@@ -54,43 +54,43 @@
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/dar/</loc>
-    <lastmod>2024-8-04</lastmod>
+    <lastmod>2024-08-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/select-datasets/</loc>
-    <lastmod>2023-8-04</lastmod>
+    <lastmod>2023-08-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/print-sign-submit/</loc>
-    <lastmod>2024-8-04</lastmod>
+    <lastmod>2024-08-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/notification/</loc>
-    <lastmod>2023-9-04</lastmod>
+    <lastmod>2023-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/encryption-keys/</loc>
-    <lastmod>2023-9-04</lastmod>
+    <lastmod>2023-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/renewing/</loc>
-    <lastmod>2023-9-04</lastmod>
+    <lastmod>2023-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/training-videos/</loc>
-    <lastmod>2024-9-04</lastmod>
+    <lastmod>2024-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Data-Submission-Key-Concepts/</loc>
-    <lastmod>2023-9-04</lastmod>
+    <lastmod>2023-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Data-Submission-Process/</loc>
-    <lastmod>2023-9-04</lastmod>
+    <lastmod>2023-09-04</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Create-a-Dataset/</loc>
-    <lastmod>2024-6-12</lastmod>
+    <lastmod>2024-06-12</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Describe-Experiments-Biosamples-and-Replicates/</loc>
@@ -110,19 +110,19 @@
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Self-Guided-Tutorial/</loc>
-    <lastmod>2024-9-12</lastmod>
+    <lastmod>2024-09-12</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/annotating-images/</loc>
-    <lastmod>2024-9-12</lastmod>
+    <lastmod>2024-09-12</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Define-Surface-Model/</loc>
-    <lastmod>2024-9-12</lastmod>
+    <lastmod>2024-09-12</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Linking-Thumbnails-to-Files/</loc>
-    <lastmod>2022-9-12</lastmod>
+    <lastmod>2022-09-12</lastmod>
   </url>
   <url>
     <loc>https://docs.facebase.org/docs/Deriva-Clients/</loc>
