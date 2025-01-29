@@ -49,3 +49,5 @@ if you have controlled access data that is of interested to FaceBase, please mak
 For sequencing experiments involving human subjects data (even if your IRB classifies it as not human subjects data), you must only submit your raw sequencing data (i.e., fastq files) through the human subjects data submission protocol. However, we encourage you to submit your track data files that contain _only_ frequencies or genomic positions through the online tools for display in our genome browser.
 
 If you have already deposited your data at dbGaP, or another similar repository, you should include the dbGaP accession numbers for the relevant data in the "Related Datasets" field of your Dataset entries on FaceBase.
+
+If your research was _not_ sponsored by the NIH, we will request the following documentation: Federalwide Assurance (FWA) number, IRB approval letter (or letter from equivalent ethics board at your institution), description of variables, and contact information of PIs.
