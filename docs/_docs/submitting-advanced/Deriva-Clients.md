@@ -99,11 +99,11 @@ $ deriva-globus-auth-utils logout
 
 _The documentation here is under review. Do not attempt to use it unless you have first contacted the FaceBase team._
 
-If you are building tools or other services that interface with the FaceBase platform, you will need the #Basic-Installation described above. We have two example scripts to demonstrate how to use the APIs to (a) create a dataset and then (b) upload files.
+If you are building tools or other services that interface with the FaceBase platform, you will need the [basic installation](#basic-installation) described above. We have two example scripts to demonstrate how to use the APIs to (a) create a dataset and then (b) upload files.
 
 ### Before You Begin
 
-You must first #Establish-an-Authentication-Token in order to use the APIs to make any modifications to the FaceBase data. You must have a registered FaceBase user account and you must be a member of a FaceBase "project" that has been approved to upload datasets. If you are unsure about any of this, please contact help@facebase.org .
+You must first [establish an authentication token](#establish-an-authentication-token) in order to use the APIs to make any modifications to the FaceBase data. You must have a registered FaceBase user account and you must be a member of a FaceBase "project" that has been approved to upload datasets. If you are unsure about any of this, please contact [help@facebase.org](mailto:help@facebase.org).
 
 ### Create a Dataset
 
