@@ -58,8 +58,8 @@ def create_dataset(hostname, catalog_id, project_rid, metadata):
 
 def main():
     parser = argparse.ArgumentParser(description='Example of creating a dataset (metadata) record in FaceBase')
-    parser.add_argument('--hostname', help='hostname', default='dev.facebase.org')
-    parser.add_argument('--catalog_id', help='catalog identifier', default='3')
+    parser.add_argument('--hostname', help='hostname', default='www.facebase.org')
+    parser.add_argument('--catalog_id', help='catalog identifier', default='1')
     parser.add_argument('--controlled_access', action='store_true', help='controlled access dataset')
     parser.add_argument('project_rid', help='project record ID (RID)')
     parser.add_argument('title', help='dataset title')

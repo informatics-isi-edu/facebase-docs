@@ -55,8 +55,8 @@ def upload_files(hostname, catalog_id, path):
         
 def main():
     parser = argparse.ArgumentParser(description='Example of uploading files to FaceBase')
-    parser.add_argument('--hostname', help='hostname', default='dev.facebase.org')
-    parser.add_argument('--catalog_id', help='catalog identifier', default='3')
+    parser.add_argument('--hostname', help='hostname', default='www.facebase.org')
+    parser.add_argument('--catalog_id', help='catalog identifier', default='1')
     parser.add_argument('path')
     args = parser.parse_args()
     print(args)    

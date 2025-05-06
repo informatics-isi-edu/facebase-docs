@@ -48,66 +48,79 @@ If you only want the programming interfaces (APIs) and command line interfaces (
 $ pip3 install --user deriva
 ```
 
-## Authentication Tokens
+## Authentication
 
-The command-line clients (cli) can be run from the local host or a remote
-server, such as a compute cluster used to process data. When running on a
-remove server, the `deriva-upload-cli` and `bdbag` utilities
-may require an authentication token.
+The command-line clients (CLI) can be run from the local host or a remote
+server, such as a compute cluster used to process data. Often, using a 
+CLI will require an access token. Below, we describe how to establish an 
+access token (a.k.a., bearer token) for use with the CLIs.
 
-### DO NOT SHARE YOUR TOKEN
-
-The authentication token is equivalent to a short-term, temporary password, in
+**IMPORTANT**: _Do not share your access token._
+The access token is equivalent to a short-term, temporary password, in
 simple terms. Treat it as you would your FaceBase username and password.
 - Do not share it with anyone.
 - Do not copy and paste it into an email.
+- Do not store it anywhere visible to others.
 
-### Authentication Token Lifetime
+### Establish an Access Token
 
-The authentication token will **expire in 30 minutes** by default. However, the
-authentication client will refresh the token so long as you use the `--refresh` 
-option.
-
-### Establish an Authentication Token
-
-Use the following command to establish an authentication token with the server.
+Use the following command to establish an access token.
 
 ```commandline
 $ deriva-globus-auth-utils login --refresh --host www.facebase.org
 ```
 
-The command will open a browser window unless you use the `--no-browser` flag. By using
-the `--no-browser` flag, the client will instead instruct you to follow a URL to authenticate
-to FaceBase and then return to the terminal window to enter the authentication token. This 
-method is typical for users transfering files from a remote server such as a cluster where their
-data files are stored. The `--refresh` flag is optional but recommended to ensure your session 
-remains active for the duration of your data transfer operation.
+Running the above command will open a web browser to initiate the user login.
+Follow the usual steps to login using your FaceBase username and password. See 
+the `--no-browser` option for more details.
 
-Note that the `deriva-globus-auth-utils` and the command-line applications for upload or download
-must be run on the same computer. You do not copy tokens between computers or applications.
+#### The `--no-browser` Option
 
-### Terminate an Authentication Token
+By default, the `deriva-globus-auth-utils login` command will open a web browser
+on the computer on which it was run. You may, however, want to run these commands
+on a remote computer -- for example, if you are transfering data to or from a 
+compute cluster or other server. In this case, you will want to run the command 
+from the remote computer using the `--no-browser` option.
 
-When you are finished using the authentication token, logout using the following command _on the same computer_ 
-that you issued the login command. When you do this, the token will be invalidated immediately.
+```commandline
+$ deriva-globus-auth-utils login --refresh --host www.facebase.org --no-browser
+```
+
+Using the `--no-browser` flag will instead instruct you to follow a `URL` to authenticate
+to FaceBase and then return to the terminal window to enter the access token. Simply
+open a web browser on your local computer (laptop or desktop), copy and paste the `URL`,
+follow the login procedures as usual, copy the resulting access token, and finally paste
+the token into the prompt given by the `deriva-globus-auth-utils login` command.
+
+#### The `--refresh` Option
+
+The `--refresh` flag is optional but recommended to ensure your token 
+remains active for the duration of your data transfer operation. By default, 
+the access token is valid for approximately 48-72 hours. For long-running data
+transfers, you may need more than 48 hours and therefore using `--refresh` will 
+keep your access token from expiring.
+
+### Terminate an Access Token
+
+When you are finished using the access token, logout using the following command 
+_on the same computer_ that you issued the login command. When you do this, the token 
+will be invalidated immediately.
 
 ```commandline
 $ deriva-globus-auth-utils logout
 ```
 
-## Programmatic Interface Examples (Preview)
-
-_The documentation here is under review. Do not attempt to use it unless you have first contacted the FaceBase team._
+## Programmatic Interface Examples
 
 If you are building tools or other services that interface with the FaceBase platform, you will need the [basic installation](#basic-installation) described above. We have two example scripts to demonstrate how to use the APIs to (a) create a dataset and then (b) upload files.
 
 ### Before You Begin
 
-You must first [establish an authentication token](#establish-an-authentication-token) in order to use the APIs to make any modifications to the FaceBase data. You must have a registered FaceBase user account and you must be a member of a FaceBase "project" that has been approved to upload datasets. If you are unsure about any of this, please contact [help@facebase.org](mailto:help@facebase.org).
+You must first [establish an access token](#authentication) in order to use the APIs to make any modifications to the FaceBase data. You must have a registered FaceBase user account and you must be a member of a FaceBase "project" that has been approved to upload datasets. If you are unsure about any of this, please contact [help@facebase.org](mailto:help@facebase.org).
 
 ### Create a Dataset
 
-Your code must import the `DerivaServer`, connect to the "catalog", resolve the project identifier, and insert a minimal metadata record, and get back the dataset's record identifier (RID).
+Your code must instantiate the `DerivaServer`, connect to the "catalog", resolve the project identifier, and insert a minimal metadata record, and get back the dataset's record identifier (RID).
 
 ```python
 from deriva.core import DerivaServer, get_credential
