@@ -3,7 +3,7 @@ title: FaceBase Data Philosophy
 permalink: /docs/data-management/
 ---
 
-The FaceBase Hub's goal is to provide high-quality data that is ready for reuse, reproducibility and (re)analysis for increased scientific utility.
+The FaceBase's goal is to provide high-quality data that is ready for reuse, reproducibility and (re)analysis for increased scientific utility.
 
 That means providing data that adheres to <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR principles</a> - Findable, Accessible, Interoperable, and Reuseable - to the best of our ability via the following where possible:
 

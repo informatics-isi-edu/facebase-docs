@@ -5,9 +5,9 @@ permalink: /docs/user-key-concepts/
 
 ## Searching on FaceBase: Faceted Navigation
 
-Our approach to search is more like the experience of shopping online than it is performing a Google search.
+Our approach to search is more like the experience of shopping online than it is performing a web search.
 
-For example, if you're shopping for a car online, Google text search might help narrow down which online resource to use for finding your car - but it will probably not help you find the specific car you want to buy.
+For example, if you're shopping for a car online, web search might help narrow down which online resource to use for finding your car - but it will probably not help you find the specific car you want to buy.
 
 The reason is that sites like Google are good for searching for primarily text-based objects like documents and web sites.
 
@@ -34,8 +34,8 @@ Instead of just providing a title, abstract and files, FaceBase data is organize
 * **Projects** record the details of the projects that have contributed data in order to provide proper attribution. A Project is equivalent to an R01 investigation for example.
 * The resulting data from a project is organized into **Datasets** which describe a study as a whole.
 * Within each dataset is one or more **Experiments** which are described by their **Protocols**.
-* Each Experiment has **Biosamples** and groups of **Replicates** those Biosamples belong to.
-* **Data Files** are associated with the specific replicate they were produced from. Which means you know the exact biological specimen where every data file came from, the biological characteristics of the image you're looking at and the related Experiment.
+* Each Experiment has **Biosamples** that describe the biological characteristics of the specimens.
+* **Files** are associated with the specific biosample they were produced from. Which means you know the exact biological specimen where every data file came from, the biological characteristics of the image, raw sequencing read, or other data you're looking at and the related Experiment.
 
 ## FAIR Principles
 

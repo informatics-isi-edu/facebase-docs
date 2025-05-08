@@ -12,19 +12,11 @@ There are two ways to upload files:
 
 ## Before You Begin
 
-You must first [create a dataset](../Create-a-Dataset/) and [describe the experiments, biosamples, and replicates](../Describe-Experiments-Biosamples-and-Replicates/) used for that dataset. Once you have completed those steps you may upload data files.
+You must first [create a dataset](../Create-a-Dataset/) and [describe the experiments and biosamples](../Describe-Experiments-and-Biosamples/) used for that dataset. Once you have completed those steps you may upload data files.
 
 ## Interactive File Upload
 
-To upload files from your web browser:
-
-1. Go to a **Replicate** record (to find Replicate records, go to the Dataset, select the Experiment and then you'll see a listing of Replicates for that Experiment). You will see sections for various data types such as: sequencing, processed, track, imaging, and/or mesh data files.
-2. For the data type section related to your data, click the **Add Record** button. A new browser tab opens with the data entry form.
-3. In the "Url" field, click the **Select file** button to select the data file.
-4. In the "File Type" field, click the field to open the "Select File Type" modal window. Find the appropriate extension under the "Name" column and select it.
-5. When you are finished, click **Save** to upload the file.
-
-Repeat for each file you want to upload.
+To upload files from your web browser, see instructions for file upload [here](../Describe-Experiments-and-Biosamples/).
 
 ## Batch File Upload
 
@@ -35,39 +27,16 @@ Use DERIVA client tools for batch upload of files for a dataset.
 The upload application will scan a directory of your choice and identify the files for upload. It will process them according to rules based on the subdirectories it finds them in. Please organize your files as follows:
 
 ```
-<dataset-RID>/<replicate-RID>/
-    seq/
-        raw sequencing files (.fastq.gz)
-    proc/<mapping-assembly>/
-        processed data (.bam, .bam.bai, .count, .tsv, .fastqc{.tgz|.zip})
-        track data (.bed, .bb, .bw)
-    img/
-        high-resolution imaging data (.nii.gz, .ome.tif[f], .aim, .tif[f], .jp[e]g)
-    mesh/
-        3D model mesh objects (.obj.gz)
-    thumb/<derived-from>/
-        low-resolution "thumbnail" images (.jp[e]g, .png)
-    array/
-        microarray data (.CEL.gz)
+<dataset-RID>/...
 ```
 
-Where:
-- `<dataset-RID>` is the Dataset's Record ID (RID), e.g., `1-BBC4`
-- `<replicate-RID>` is the Replicates's Record ID (RID), e.g., `1-BBCA`
-- `<mapping-assembly>` is the reference genome mapping assembly, i.e., `mm9`,
-    `mm10`, `hg18`, `hg19`
-- `<derived-from>` is a directory using the _exact_ same name as a filename
-    _including file extension_ from your raw images under the `img` directory,
-    e.g., `.../my-confocal-image.ome.tiff/...`.
+Where `<dataset-RID>` is the Dataset's Record ID (RID), e.g., `1-BBC4` found on your Dataset record page in the browser.
 
 **NOTE**: If you use 'special characters' in your filenames such as `;`, `#`, 
 spaces `' '`, and `$` the special characters will be encoded per Web standards. 
 For more information, see this [Wikipedia article on Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding).
 
-The following figure is an example of the directory structure for a dataset 
-ready for upload.
-
-![File Organization]({{ "/assets/img/upload-files-organize.png" | relative_url }})
+You may organize your files in any hierarchy _under the dataset RID_ parent directory. Recall that if you use a `local identifier` in your Biosample records, we may be able to assist with automated linking of your files to your Biosample records.
 
 ### Install the DERIVA client tools
 
@@ -131,11 +100,7 @@ include any listed errors. Run the command with the `--debug` option to provide 
 
 ## Review the uploaded files
 
-Return to the FaceBase site to your Dataset record. Drill down through the Experiments
-and Replicates in order to see the data files that you have uploaded. Make sure that
-their metadata are correct. For example, if you uploaded raw sequencing files, make sure 
-that the "paired" and "read" attributes are correct in the metadata seen on the site. If 
-they are incorrect, click the 'edit' icon (pencil), correct the attribute(s), and click **Save**.
+Return to the FaceBase site to your Dataset record. Scroll down to the File section. For each file, click the 'edit' icon (pencil), go to the Biosample field, click the drop down, find the Biosample associated with the file (e.g., the file is an image of a specific biological sample), select the Biosample, update or confirm the rest of the File attributes, and click **Save**.
 
 #### Display of thumbnails
 

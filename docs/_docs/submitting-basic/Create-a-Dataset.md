@@ -80,4 +80,4 @@ Your new dataset is only visible to you and other members of your project until 
 
 ## Review
 
-Review your dataset record and then you are ready to continue to the next phase: [creating Experiment, Biosample, and Replicate entries](../Describe-Experiments-Biosamples-and-Replicates/).
+Review your dataset record and then you are ready to continue to the next phase: [creating Experiment, Biosample, and Replicate entries](../Describe-Experiments-and-Biosamples/).
