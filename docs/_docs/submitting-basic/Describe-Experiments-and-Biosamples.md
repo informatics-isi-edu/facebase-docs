@@ -15,10 +15,7 @@ All of the instructions that follow assume you are [logged in to the FaceBase si
 The main steps are:
 1. [Create experiments](#1-create-experiments) to describe the experimental details of the study.
 2. [Create biosamples](#2-create-biosamples) to describe the biological samples for the study.
-3. [Upload files](#3-upload-files) to associate experiments with biosamples.
-
-If you are entering enhancer data or clinical/human subjects metadata, you may skip directly to the following section:
-- [Create other assays](#5-creating-records-for-other-assay-types)
+3. [Upload files](#3-upload-files) associated with specific biosamples.
 
 ## What are Local Identifiers?
 
@@ -103,7 +100,7 @@ submitted as one unit. There are no partial successes when submitting multiple
 records.
 
 
-## 3. Uploading Files
+## 3. Upload Files
 
 When you have created your Biosample records, you are now ready to
 [upload files](../Upload-Files/). There are two options for uploading files:
