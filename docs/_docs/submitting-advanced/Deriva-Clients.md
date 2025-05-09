@@ -22,11 +22,14 @@ The DERIVA Clients are bundled for installation on Mac, Windows, and Linux.
 
 ### Installation for Windows or MacOS users
 
-Download and install the DERIVA Client Bundle from the [official releases page](https://github.com/informatics-isi-edu/deriva-client-bundle/releases).
+**Prerelease**: Due to a recent upgrade of the FaceBase platform, we are asking users to install a prerelease version of our client software. An official release will follow shortly.
+
+**DO:** Download and install the DERIVA Client Bundle from the [nightly build](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/).
+
+**DO NOT:** Do not install from the official releases [page](https://github.com/informatics-isi-edu/deriva-client-bundle/releases).
 
 **Important note for Mac users**: If you are using a Mac with Apple Silicon-based hardware (i.e., "M1", "M2", etc.), you 
-may experience an error that requires installation of our latest development build found [here](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.0-202410011807-osx.dmg).
-You will also need to delete the hidden directory `$HOME/.deriva` before re-running the applications.
+may experience an error that requires installation of our latest development build found [here](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.0-202410011807-osx.dmg). You will also need to delete the hidden directory `$HOME/.deriva` before re-running the applications.
 
 ### Installation for Linux users
 

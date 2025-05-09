@@ -32,11 +32,13 @@ The upload application will scan a directory of your choice and identify the fil
 
 Where `<dataset-RID>` is the Dataset's Record ID (RID), e.g., `1-BBC4` found on your Dataset record page in the browser.
 
-**NOTE**: If you use 'special characters' in your filenames such as `;`, `#`, 
-spaces `' '`, and `$` the special characters will be encoded per Web standards. 
-For more information, see this [Wikipedia article on Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding).
-
 You may organize your files in any hierarchy _under the dataset RID_ parent directory. Recall that if you use a `local identifier` in your Biosample records, we may be able to assist with automated linking of your files to your Biosample records.
+
+#### Filename Conventions
+
+The Deriva Upload utility will attempt to identify the file format of each file based on the filename extension. For example, TIFF images typically use either `.tif` or `.tiff` file extensions, and so on. To avoid ambiguity, we ask that you refrain from using the `.` character anywhere other than to demarcate the file extension. For example, currently the uploader would not support a file named `mm_het5.e15.tiff` because the file extension `.e15.tiff` or `.tiff` is ambiguous. You may, however, use the web browser interface to upload your files with any naming convention including `.` characters because the web browser form does not attempt to automatically infer the file format. We are working to resolve this current limitation.
+
+If you use 'special characters' in your filenames such as `;`, `#`, spaces `' '`, and `$` the special characters will be encoded per Web standards. For more information, see this [Wikipedia article on Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding).
 
 ### Install the DERIVA client tools
 
