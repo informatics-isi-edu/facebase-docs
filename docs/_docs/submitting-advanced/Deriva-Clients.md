@@ -10,6 +10,11 @@ They include both graphical desktop applications and command-line applications.
 - **BDBag** and `bdbag` for batch download of files for all users.
 - `deriva-globus-auth-utils` for authentication for command-line applications.
 
+# STOP!
+
+**DO NOT USE the Deriva Upload utilities until further notice.** 
+
+At the moment, FaceBase is undergoing a planned maintenance upgrade. We are working to update the client software and are close to making a new release that will work with the updated services. You may continue to upload files using the online forms on the website. Thanks in advance for your patience.
 
 ## Installing the DERIVA Client Bundle
 
