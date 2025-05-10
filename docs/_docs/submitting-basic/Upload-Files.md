@@ -18,6 +18,12 @@ You must first [create a dataset](../Create-a-Dataset/) and [describe the experi
 
 To upload files from your web browser, see instructions for file upload [here](../Describe-Experiments-and-Biosamples/).
 
+# STOP!
+
+**DO NOT USE the Deriva Upload utilities until further notice.** 
+
+At the moment, FaceBase is undergoing a planned maintenance upgrade. We are working to update the client software and are close to making a new release that will work with the updated services. You may continue to upload files using the online forms on the website. Thanks in advance for your patience.
+
 ## Batch File Upload
 
 Use DERIVA client tools for batch upload of files for a dataset.
@@ -36,7 +42,7 @@ You may organize your files in any hierarchy _under the dataset RID_ parent dire
 
 #### Filename Conventions
 
-The Deriva Upload utility will attempt to identify the file format of each file based on the filename extension. For example, TIFF images typically use either `.tif` or `.tiff` file extensions, and so on. To avoid ambiguity, we ask that you refrain from using the `.` character anywhere other than to demarcate the file extension. For example, currently the uploader would not support a file named `mm_het5.e15.tiff` because the file extension `.e15.tiff` or `.tiff` is ambiguous. You may, however, use the web browser interface to upload your files with any naming convention including `.` characters because the web browser form does not attempt to automatically infer the file format. We are working to resolve this current limitation.
+The Deriva Upload utility will attempt to identify the file format of each file based on the filename extension. For example, TIFF images typically use either `.tif` or `.tiff` file extensions, and so on. To avoid ambiguity, we ask that you refrain from using the `.` character in the filename before the file extension. For example, currently the uploader would not support a file named `mm_het5.e15.tiff` because the file extension `.e15.tiff` or `.tiff` is ambiguous. It is okay to use `.` characters in the a subdirectory name, however, such as `mm_het5.e15/image.tiff`. Also, you may use the web browser interface to upload your files with any naming convention including `.` characters because the web browser form does not attempt to automatically infer the file format. We are working to resolve this current limitation.
 
 If you use 'special characters' in your filenames such as `;`, `#`, spaces `' '`, and `$` the special characters will be encoded per Web standards. For more information, see this [Wikipedia article on Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding).
 
