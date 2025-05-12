@@ -141,7 +141,7 @@ _ = catalog.getPathBuilder()
 projects = _.isa.project.filter(_.isa.project.RID == project_rid).entities()
 
 # insert minimal metadata record
-dataset_records = _.isa.dataset.insert([metadata], defaults={'id', 'accession', 'released'}
+dataset_records = _.isa.dataset.insert([metadata], defaults={'id', 'accession', 'released', 'release_date'}
 
 rid = dataset_records[0]['RID']
 ```
@@ -150,7 +150,7 @@ A complete example may be found in [create_dataset_record_example.py](/assets/fi
 
 ### Organize Files
 
-Next you must re-organize your files under a directory named according to the dataset RID. Let's say that your RID is `1-2345`. Your files must be organized under `path/to/1-2345`. They may have any subdirectory hierarchy or none at all, for example `path/to/1-2345/my_image.png` and `path/to/1-2345/a/B/c/my_tabular_data.csv` are allowable. There are many standard APIs for moving or copying files, so the steps here are left as an exercise for the reader.
+Next you must re-organize your files under a directory named according to the dataset RID. Let's say that your RID is `1-2345`. Your files must be organized under `path/to/1-2345`. For complete details on allowable file names, please review our [filename conventions](../Upload-Files/#filename-conventions). There are many standard APIs for moving or copying files, so the steps here are left as an exercise for the reader.
 
 ### Upload Files
 

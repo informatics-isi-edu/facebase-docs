@@ -51,7 +51,7 @@ def create_dataset(hostname, catalog_id, project_rid, metadata):
     metadata['project'] = projects[0]['id']
 
     # insert the dataset record in the FaceBase catalog (ie, database)
-    dataset_records = _.isa.dataset.insert([metadata], defaults={'id', 'accession', 'released'})
+    dataset_records = _.isa.dataset.insert([metadata], defaults={'id', 'accession', 'released', 'release_date'})
     assert dataset_records, 'this should never be empty if no exception was raised'
     return dataset_records[0]
 
