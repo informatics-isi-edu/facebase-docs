@@ -22,7 +22,7 @@ If you are submitting data to FaceBase, we recommend that you begin by reviewing
 FaceBase has adopted [external, standardized "vocabulary" a.k.a. "ontology"](https://en.wikipedia.org/wiki/Ontology_(information_science))
  for most terminology used to describe data. These include experiment types, species,
 age and development stages, anatomical terms, phenotypes, syndromes, gene nomenclature, and
-others. Most vocabulary terms are managed by FaceBase. If you cannot find a term that
+others. Most vocabulary terms are sourced by FaceBase. If you cannot find a term that
 you need in order to describe your data, please [contact us](mailto:help@facebase.org). For
 additional information, see the [NCBO BioPortal](https://bioportal.bioontology.org/).
 
@@ -30,13 +30,18 @@ Currently, we use the following vocabulary:
 
 | Category        | Source(s)         | Available on FaceBase                                                             |
 |-----------------|-------------------|-----------------------------------------------------------------------------------|
+| Anatomy         | UBERON, OCDM      | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:anatomy)         |
+| Diagnosis       | FaceBase          | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:diagnosis)       |
+| Ethnicity       | NIH               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:ethnicity)       |
 | Experiment Type | OBI               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type) |
-| Species         | NCBI Taxonomy     | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:species)         |
 | Gene            | NCBI Gene         | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:gene)            |
 | Phenotype       | MP, HPO, OCDM     | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:phenotype)       |
+| Race            | NIH               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:race)            |
+| Sex             | UBERON            | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:sex)             |
+| Species         | NCBI Taxonomy     | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:species)         |
 | Stage           | Varies by species | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:stage)           |
-| Anatomy         | UBERON, OCDM      | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:anatomy)         |
 | Strain          | MGI               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:strain)          |
+| Treatment       | FaceBase          | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:treatment)       |
 
 When a needed term is not available in the standard vocabulary, we will work with data submitters to create a new term on FaceBase and promote it to the appropriate upstream vocabulary maintainers for future standardization.
 
