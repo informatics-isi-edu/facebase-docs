@@ -3,7 +3,9 @@ title: Key Concepts for Data Contributors
 permalink: /docs/Data-Submission-Key-Concepts/
 ---
 
-If you are submitting data to FaceBase, we recommend that you begin by reviewing the following key concepts and relationships. The diagram here is a high-level representation of the database model (i.e., the way information are structured) in FaceBase.
+In this section, you will learn about the key concepts and relationships in the FaceBase database, [vocabulary](#vocabulary) terms used to label data in FaceBase, and the supported [data types and file formats](#data-types-and-file-formats). If you are planning to submit data to FaceBase, see our listing of currently supported [Experiment Types](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type). Please [contact us](mailto:help@facebase.org) if you do not see your experiment type on the list.
+
+The following diagram depicts the structure of the FaceBase database.
 
 ![Diagram of key concepts in FaceBase]({{ "/assets/img/data-key-concepts.jpg" | relative_url }})
 
@@ -11,20 +13,17 @@ If you are submitting data to FaceBase, we recommend that you begin by reviewing
 
 - **Dataset**: represents a unit of data collected and submitted to the FaceBase site. Typically, a dataset represents a whole or a logical unit of an investigation (i.e., a study within an overall investigation/project).
 
-- **Protocol**: a means of describing the methods used for an experiment. It should include sufficient details to reproduce the results of the experiment. The details may be entered in a rich text editor (online), attached as a document file, or a URL may be given to reference an already published protocol description. We recommend following the [Nature Protocol Exchange](https://protocolexchange.researchsquare.com/protocol-exchange/guidelines) or similar guidelines for documenting protocols.
+- **Protocol**: represents the documentation for the research protocol and should include sufficient details to reproduce the results of the experiment. The details may be entered in a rich text editor (online), attached as a file, or may reference a published protocol. We recommend following the [Nature Protocol Exchange](https://protocolexchange.researchsquare.com/protocol-exchange/guidelines) or similar guidelines for documenting protocols.
 
-- **Experiment** (a.k.a., assay): represents an experiment at a fine-grained unit of detail. It is intended to broadly cover multiple "bioinformatics" (i.e., sequencing or array) and imaging (i.e., various forms of microscopy) assay types. An experiment will generally be conducted on multiple biological samples. An experiment may reference another experiment as its control.
+- **Experiment** (a.k.a., assay): represents an experiment at a fine-grained unit of detail. It is intended to broadly cover multiple "bioinformatics" (i.e., sequencing or microarray) and imaging (i.e., various forms of microscopy) assay types. An experiment will generally be conducted on multiple biological samples. An experiment may reference another experiment as its control.
 
-- **Biosample**: represents the biological sample used in a study. There may be many biosamples in a dataset and biosamples are generally grouped together and associated with an Experiment as a collection of biological replicates. Note that FaceBase does not collect physical tissue samples. The 'biosample' here is only the metadata used to describe the physical samples used in your experiments.
+- **Biosample**: represents the biological sample used in a study. There may be many biosamples in a dataset and biosamples are generally grouped together and associated with an Experiment as a collection of [biological replicates](https://en.wikipedia.org/wiki/Replicate_(biology)). Note that FaceBase does not collect physical tissue samples. The 'biosample' here is only the metadata used to describe the physical samples used in your experiments.
+
+- **File**: represents the data file produced by the experimental or analytic procedures of the experiment. Files may be linked to biosamples to indicate more precisely the provenance of the data file. See [data types and file formats](#data-types-and-file-formats) for more details.
 
 ## Vocabulary
 
-FaceBase has adopted [external, standardized "vocabulary" a.k.a. "ontology"](https://en.wikipedia.org/wiki/Ontology_(information_science))
- for most terminology used to describe data. These include experiment types, species,
-age and development stages, anatomical terms, phenotypes, syndromes, gene nomenclature, and
-others. Most vocabulary terms are sourced by FaceBase. If you cannot find a term that
-you need in order to describe your data, please [contact us](mailto:help@facebase.org). For
-additional information, see the [NCBO BioPortal](https://bioportal.bioontology.org/).
+In order for your data to best reusable and interoperable with other data, it is important to label them with shared terminology broadly understood by other researchers. FaceBase has adopted [external, standardized "vocabulary" a.k.a. "ontology"](https://en.wikipedia.org/wiki/Ontology_(information_science)) for most terminology wherever possible. If you cannot find a term that you need in order to describe your data, please [contact us](mailto:help@facebase.org). To search for terms not already available in FaceBase, see the [NCBO BioPortal](https://bioportal.bioontology.org/).
 
 Currently, we use the following vocabulary:
 
@@ -45,27 +44,17 @@ Currently, we use the following vocabulary:
 
 When a needed term is not available in the standard vocabulary, we will work with data submitters to create a new term on FaceBase and promote it to the appropriate upstream vocabulary maintainers for future standardization.
 
-### Experiment Types
-
-FaceBase data should be the product of or useful for craniofacial research. See the [experiment type terminology](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type@sort(name)) for a list of anticipated
-experiment types for data submissions. Again, if you do not see your experiment type on the list, please
-[contact us](mailto:help@facebase.org) so that we can discuss the right terminology to add to FaceBase.
-
 ## Data Types and File Formats
 
-Most studies will produce one or more of the following types of data. We list here the types
-and formats of data that we recognize. We are always open to discussing the inclusion of
-additional data types and formats, if they can be of value to craniofacial and dental research.
-We generally favor data formats that are either "open" (either as a standard or _de facto_) and for
-which free or widely used tools are available for using the data files.
+Most studies will produce one or more of the following types of data. We are always open to discussing additional data types and formats, if they can be of value to our research community. We accept data formats that are "open" (either a formal or _de facto_ standard) and for which free or widely used tools are available for using the data files.
 
 - **Sequencing Data**: "raw" sequencing data (fastq files). These must be gzipped and use the '.fastq.gz' file extension. If you use the common naming scheme to indicate the sequence read number, 'example_1.fastq.gz' or 'example_R2.fastq.gz', the system will automatically extract the read number from the file name.
 - **Processed Data**: data that are derived from sequencing data through a particular pipeline. Usually fastqc reports (.fastqc.tgz or .fastqc.zip), count files (.count, .tpm, .fpkm), measures in tab-separated format (.tsv), and of course alignment mapping files (.bam) and indexes (.bam.bai).
 - **Track Data**: data that are derived from sequencing or processed data and used in genome browsers, such as BED (.bed), bigBed (.bb), and bigWig (.bw) files. Use binary formats (bigBed and bigWig) if you would like them available for online visualization.
-- **Array Data**: "raw" microarray data (CEL files). These must be gzipped and use the '.CEL.gz' file extension.
-- **Imaging Data**: high-resolution 3D or 2D imaging data, such as micro-CT accepted in NIfTI format gzipped (.nii.gz), confocal or other microscopy sources in TIFF or OME-TIFF (.tiff or .ome.tiff), and other sources in JPEG (.jpg or .jpeg). Other formats may be considered on an as needed basis.
-- **Surface Model / Mesh Data**: 3D surface models (a.k.a., "polygon mesh" files) that are generally derived from hard tissue imaging data. Currently, we only accept Wavefront OBJ format and it must be gzipped (.obj.gz). If you want these files to be visible online in the online mesh viewer, we strongly advise that you limit the size of any model (which may include more than one obj.gz mesh object) to under 10 MB. The entire model must be downloaded to the user's browser in order to view, and therefore larger models can be prohibitively time consuming to download for users on slower networks. Multiple mesh data entities can be associated with each imaging data entity. Note that _human subjects_ "mesh" files are handled through a completely separate and secure data upload process and released only under approval of our Data Access Committee (DAC).
-- **Thumbnails**: smaller images that give a representation of imaging data. These thumbnails are displayed online in the data browser and do not require login for users to view and therefore a good way of showing users enough about the images to encourage them to login (or signup) and download your data. Multiple thumbnails can be associated with each imaging data entity.
+- **Microarray Data**: "raw" microarray data (CEL files). These must be gzipped and use the '.CEL.gz' file extension.
+- **Imaging Data**: high-resolution 3D or 2D imaging data, such as micro-CT accepted in NIfTI format gzipped (.nii.gz), confocal or other microscopy sources in TIFF or OME-TIFF (.tiff or .ome.tiff), and other sources in JPEG (.jpg or .jpeg). Other formats may be considered on an as needed basis. When it comes to microscopy, we understand that proprietary file formats are the norm. As stated above, we accept files that can be open and read with widely used tools. To test if your data are acceptable for submission, we recommend tht you test if you can use them with ImageJ, Fiji, or Bioformats.
+- **Surface Model / Mesh Data**: 3D surface models (a.k.a., "polygon mesh" files) that are generally derived from hard tissue imaging data. Currently, we accept Wavefront (OBJ) and Polygon File Format (PLY). For OBJ, prefer that OBJ files be gzipped (.obj.gz) as it reduces the storage size and more importantly the load time for online visualization. If you want these files to be visible online in the online mesh viewer, you should limit the size of any model (which may include multiple mesh files) to under 10 MB. The entire model must be downloaded to the user's browser in order to view, and therefore larger models can be prohibitively time consuming to download for users on slower networks. Multiple mesh data entities can be associated with each imaging data entity.
+- **Thumbnails**: smaller images that give a representation of imaging data. FaceBase will attempt to generate thumbnails of your uploaded image files and will display them along with your downloadable files. You may also upload thumbnails on your dataset page itself as a preview for users to learn more about your data before downloading any files.
 - **Other**: additionally, you may share documents, spreadsheets, and other types of data files that were generated from your study.
 
 For a complete listing of our most current recognized data types and formats consult the following:
