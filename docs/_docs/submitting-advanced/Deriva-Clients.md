@@ -6,15 +6,9 @@ permalink: /docs/Deriva-Clients/
 DERIVA Clients are used for authenticating to the FaceBase server, bulk uploading of data, and bulk downloading of data.
 They include both graphical desktop applications and command-line applications.
 
-- **DERIVA Upload Command Line Interface** and `deriva-upload-cli` for batch upload of files for data contributors.
+- **DERIVA Upload** and `deriva-upload-cli` for batch upload of files for data contributors.
 - **BDBag** and `bdbag` for batch download of files for all users.
 - `deriva-globus-auth-utils` for authentication for command-line applications.
-
-# STOP!
-
-**DO NOT USE the Deriva Upload utilities until further notice.** 
-
-At the moment, FaceBase is undergoing a planned maintenance upgrade. We are working to update the client software and are close to making a new release that will work with the updated services. You may continue to upload files using the online forms on the website. Thanks in advance for your patience.
 
 ## Installing the DERIVA Client Bundle
 
@@ -23,16 +17,23 @@ The DERIVA Clients are bundled for installation on Mac, Windows, and Linux.
 ### System Requirements
 - macOS,
 - Windows, or
-- Linux (recent distros of Ubunto and Fedora preferred with Python 3+)
+- Linux
 
 ### Installation for Windows or MacOS users
 
+**NOTICE**: At the moment, FaceBase is undergoing a planned maintenance upgrade. We are working to update the client software and are close to making a new release that will work with the updated services. For now, you must use the latest development releases of the DERIVA Client software.
+
+ - [MacOS download](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.4-202505130521-osx.dmg)
+ - [Windows download](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.4-202505130525-win64.msi)
+
+<!--
 Download and install the DERIVA Client Bundle:
- - [official releases](https://github.com/informatics-isi-edu/deriva-client-bundle/releases) -- **recommended** for most users.
+ - [official releases](https://github.com/informatics-isi-edu/deriva-client-bundle/releases) -- **new release coming soon** for most users.
  - [nightly builds](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/) -- for testing pre-release software.
 
 **Important note for Mac users**: If you are using a Mac with Apple Silicon-based hardware (i.e., "M1", "M2", etc.), you 
 may experience an error that requires installation of our latest development build found [here](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.0-202410011807-osx.dmg). You will also need to delete the hidden directory `$HOME/.deriva` before re-running the applications.
+//-->
 
 ### Installation for Linux users
 

@@ -8,21 +8,13 @@ There are two ways to upload files:
 - **Interactive**: upload files individually from your web browser (recommended for smaller datasets).
 - **Batch**: upload files in a batch using command-line utilities or desktop applications (recommended for large volumes of data).
 
-**IMPORTANT**: Do NOT upload _Human Subjects_ data using these procedures described below. Please contact [FaceBase Help](mailto:help@facebase.org) for more information.
-
 ## Before You Begin
 
 You must first [create a dataset](../Create-a-Dataset/) and [describe the experiments and biosamples](../Describe-Experiments-and-Biosamples/) used for that dataset. Once you have completed those steps you may upload data files.
 
 ## Interactive File Upload
 
-To upload files from your web browser, see instructions for file upload [here](../Describe-Experiments-and-Biosamples/).
-
-# STOP!
-
-**DO NOT USE the Deriva Upload utilities until further notice.** 
-
-At the moment, FaceBase is undergoing a planned maintenance upgrade. We are working to update the client software and are close to making a new release that will work with the updated services. You may continue to upload files using the online forms on the website. Thanks in advance for your patience.
+To upload files from your web browser, see instructions for file upload [here](../Describe-Experiments-and-Biosamples/#upload-files).
 
 ## Batch File Upload
 
@@ -36,7 +28,7 @@ The upload application will scan a directory of your choice and identify the fil
 <dataset-RID>/...
 ```
 
-Where `<dataset-RID>` is the Dataset's Record ID (RID), e.g., `1-BBC4` found on your Dataset record page in the browser.
+Where `<dataset-RID>` is the Dataset's Record ID (RID), e.g., `1-2345` found on your Dataset record page in the browser.
 
 You may organize your files in any hierarchy _under the dataset RID_ parent directory. Recall that if you use a `local identifier` in your Biosample records, we may be able to assist with automated linking of your files to your Biosample records.
 
