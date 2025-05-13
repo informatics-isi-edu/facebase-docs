@@ -44,7 +44,17 @@ You may organize your files in any hierarchy _under the dataset RID_ parent dire
 
 The Deriva Upload utility will attempt to identify the file format of each file based on the filename extension. For example, TIFF images typically use either `.tif` or `.tiff` file extensions, and so on. To avoid ambiguity, we ask that you refrain from using the `.` character in the filename before the file extension. For example, currently the uploader would not support a file named `mm_het5.e15.tiff` because the file extension `.e15.tiff` or `.tiff` is ambiguous. It is okay to use `.` characters in the a subdirectory name, however, such as `mm_het5.e15/image.tiff`. Also, you may use the web browser interface to upload your files with any naming convention including `.` characters because the web browser form does not attempt to automatically infer the file format. We are working to resolve this current limitation.
 
-If you use 'special characters' in your filenames such as `;`, `#`, spaces `' '`, and `$` the special characters will be encoded per Web standards. For more information, see this [Wikipedia article on Percent-encoding](https://en.wikipedia.org/wiki/Percent-encoding).
+When using Deriva Upload, it will attempt to match the filename extension with a known extension (see [Data Types and File Formats](../Data-Submission-Key-Concepts/#data-types-and-file-formats)). If the Deriva Upload encounters an unknown file extension, you will see an error such as this:
+
+```
+...
+/path/to/1-2345/file.bad.extension.gz -- [RuntimeError] Metadata query did not return any results: /attribute/vocab:file_extension/extension=bad.extension.gz/vocab:file_format/file_format_id:=id?limit=1
+...
+```
+
+If your filename complies with our [Filename Conventions](#filename-conventions), i.e., you do not have any extraneous `.` characters in the filename itself, then please contact [help](mailto:help@facebase.org) to request support for a new file format. Otherwise, consider replacing the `.` characters such as renaming `file.bad.extension.gz` to `file-bad-extension.gz` for the example given. Deriva Upload does support multi-part extensions such as `.nii.gz`, `.fastq.gz`, `.CEL.gz`, etc.
+
+Finally, 'special characters' in your filenames such as `;`, `#`, spaces `' '`, and `$` will be encoded per Web standards. For more information, see [Percent-encoding (Wikipedia)](https://en.wikipedia.org/wiki/Percent-encoding).
 
 ### Install the DERIVA client tools
 

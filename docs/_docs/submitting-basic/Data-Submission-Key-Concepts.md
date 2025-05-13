@@ -51,10 +51,10 @@ FaceBase data should be the product of or useful for craniofacial research. See 
 experiment types for data submissions. Again, if you do not see your experiment type on the list, please
 [contact us](mailto:help@facebase.org) so that we can discuss the right terminology to add to FaceBase.
 
-## Data Types and Formats
+## Data Types and File Formats
 
-Most experiments will produce one or more of the following types of data. We list here the types
-and formats of data that our users prefer. We are always open to discussing the inclusion of
+Most studies will produce one or more of the following types of data. We list here the types
+and formats of data that we recognize. We are always open to discussing the inclusion of
 additional data types and formats, if they can be of value to craniofacial and dental research.
 We generally favor data formats that are either "open" (either as a standard or _de facto_) and for
 which free or widely used tools are available for using the data files.
@@ -67,6 +67,10 @@ which free or widely used tools are available for using the data files.
 - **Surface Model / Mesh Data**: 3D surface models (a.k.a., "polygon mesh" files) that are generally derived from hard tissue imaging data. Currently, we only accept Wavefront OBJ format and it must be gzipped (.obj.gz). If you want these files to be visible online in the online mesh viewer, we strongly advise that you limit the size of any model (which may include more than one obj.gz mesh object) to under 10 MB. The entire model must be downloaded to the user's browser in order to view, and therefore larger models can be prohibitively time consuming to download for users on slower networks. Multiple mesh data entities can be associated with each imaging data entity. Note that _human subjects_ "mesh" files are handled through a completely separate and secure data upload process and released only under approval of our Data Access Committee (DAC).
 - **Thumbnails**: smaller images that give a representation of imaging data. These thumbnails are displayed online in the data browser and do not require login for users to view and therefore a good way of showing users enough about the images to encourage them to login (or signup) and download your data. Multiple thumbnails can be associated with each imaging data entity.
 - **Other**: additionally, you may share documents, spreadsheets, and other types of data files that were generated from your study.
+
+For a complete listing of our most current recognized data types and formats consult the following:
+ - [Data Types](https://www.facebase.org/chaise/recordset/#1/vocab:data_type)
+ - [File Formats and Recognized File Extensions](https://www.facebase.org/chaise/recordset/#1/vocab:file_format)
 
 ## References to External Data and Visualization
 
