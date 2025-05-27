@@ -43,11 +43,10 @@ So once you have joined the right group and are logged in to the FaceBase Data B
 
 ## Submitting Human Subjects Data (Controlled Access Data)
 
-Please see the [data access policy](https://www.facebase.org/methods/policies/) on the FaceBase site, regarding what data are classified as 'controlled access' (human subjects) data. **Do not** upload any 'controlled access' data to the FaceBase site. Instead,
-if you have controlled access data that is of interested to FaceBase, please make that clear during the approval process and FaceBase will provide you with special instructions for handling of human subjects data.
-
-For sequencing experiments involving human subjects data (even if your IRB classifies it as not human subjects data), you must only submit your raw sequencing data (i.e., fastq files) through the human subjects data submission protocol. However, we encourage you to submit your track data files that contain _only_ frequencies or genomic positions through the online tools for display in our genome browser.
+Please see the [data access policy](https://www.facebase.org/methods/policies/) on the FaceBase site, regarding what data are classified as 'controlled access' (human subjects) data.
 
 If you have already deposited your data at dbGaP, or another similar repository, you should include the dbGaP accession numbers for the relevant data in the "Related Datasets" field of your Dataset entries on FaceBase.
 
 If your research was _not_ sponsored by the NIH, we will request the following documentation: Federalwide Assurance (FWA) number, IRB approval letter (or letter from equivalent ethics board at your institution), description of variables, and contact information of PIs.
+
+For more details about submitting human subjects data, see [Guidelines for Submitting Controlled Access Data](../Controlled-Access-Data-Requirements/).
