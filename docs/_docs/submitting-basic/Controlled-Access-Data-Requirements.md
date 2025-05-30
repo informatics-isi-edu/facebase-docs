@@ -3,9 +3,7 @@ title: Guidelines for Submitting Controlled Access Data
 permalink: /docs/Controlled-Access-Data-Requirements/
 ---
 
-The purpose of this document is to provide guidelines for the submission of controlled access data to FaceBase. For a more general overview of Data Management and Sharing (DMS) with respect to controlled access data, please see:
-
-[https://sharing.nih.gov/data-management-and-sharing-policy/protecting-participant-privacy-when-sharing-scientific-data/designating-scientific-data-for-controlled-access](https://sharing.nih.gov/data-management-and-sharing-policy/protecting-participant-privacy-when-sharing-scientific-data/designating-scientific-data-for-controlled-access)
+The purpose of this document is to provide guidelines for the submission of controlled access data to FaceBase. For a more general overview of Data Management and Sharing (DMS) with respect to controlled access data, please see [Designating Scientific Data for Controlled Access (NIH)](https://sharing.nih.gov/data-management-and-sharing-policy/protecting-participant-privacy-when-sharing-scientific-data/designating-scientific-data-for-controlled-access).
 
 
 ## Subject-level Data
@@ -22,7 +20,7 @@ Investigators **MUST** de-identify their research data, removing all Personally 
 
 ## Metadata
 
-Metadata is defined as "data that describes other data". FaceBase provides a number of online forms for entering metadata, as described in the [FaceBase Documentation](docs.facebase.org). These forms cover details about experiments, biological samples, protocols, and other related information to help researchers understand and reuse your data. Investigators **SHOULD** submit _de-identified_ metadata for their data. Investigators **SHOULD** enter as much demographic, disease, phenotype, anatomic, and other biological characteristics and experimental metadata as possible, so long as it does not include any PII or PHI. In addition, Investigators **SHOULD NOT** include implicitly identifiable information on subjects that could be combined with other information to re-identify the data.
+Metadata is defined as "data that describes other data". FaceBase provides a number of online forms for entering metadata. These forms cover details about experiments, biological samples, protocols, and other related information to help researchers understand and reuse your data. Investigators **SHOULD** submit _de-identified_ metadata for their data. Investigators **SHOULD** enter as much demographic, disease, phenotype, anatomic, and other biological characteristics and experimental metadata as possible, so long as it does not include any PII or PHI. In addition, Investigators **SHOULD NOT** include implicitly identifiable information on subjects that could be combined with other information to re-identify the data.
 
 ### Local Identifiers
 
@@ -42,9 +40,9 @@ The structure follows the form:
 ```
 dataset/
 	    file1
-		file2
-		...
-		fileN
+	    file2
+	    ...
+	    fileN
 ```
 
 For example:
@@ -54,10 +52,10 @@ For example:
 	   mappings.csv
 	   checksums.md5
 	   dirA/
-		   dirB/
-			   fileA.ext
+		dirB/
+			fileA.ext
 	   dirC/
-		   fileB.ext
+		fileB.ext
 	   fileC.ext
 	   dirZ/
 		   fileD.ext
