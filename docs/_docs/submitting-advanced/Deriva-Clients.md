@@ -21,17 +21,14 @@ The DERIVA Clients are bundled for installation on Mac, Windows, and Linux.
 
 ### Installation for Windows or MacOS users
 
-**NOTICE**: At the moment, FaceBase is undergoing a planned maintenance upgrade. We are working to update the client software and are close to making a new release that will work with the updated services. For now, you must use the latest development releases of the DERIVA Client software.
+Download latest `.msi` file for Windows users or `.dmg` file for Mac OS users:
+ - [Official Releases (Recommended)](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/release/)
+ - [Nightly Builds](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/)
 
- - [Nightly Builds](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/) (download latest `.msi` for Windows users or `.dmg` for Mac OS users)
+Double-click the downloaded installer, and follow the prompts to complete the installation.
 
 <!--
- - [MacOS download](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.4-202505130521-osx.dmg)
- - [Windows download](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/DERIVA-Client-Tools-1.7.4-202505130525-win64.msi)
-
-Download and install the DERIVA Client Bundle:
- - [official releases](https://github.com/informatics-isi-edu/deriva-client-bundle/releases) -- **new release coming soon** for most users.
- - [nightly builds](https://buildbot.derivacloud.org/~buildbot/deriva-client-bundle/dev/) -- for testing pre-release software.
+THIS NOTE SHOULD NOT BE RELEVANT ANY MORE
 
 **Important note for Mac users**: If you are using a Mac with Apple Silicon-based hardware (i.e., "M1", "M2", etc.), you 
 may experience an error that requires installation of our latest development build. You will also need to delete the hidden directory `$HOME/.deriva` before re-running the applications.
