@@ -25,12 +25,12 @@ Use DERIVA client tools for batch upload of files for a dataset.
 The upload application will scan a directory of your choice and identify the files for upload. It will process them according to rules based on the subdirectories it finds them in. Please organize your files as follows:
 
 ```
-<dataset-RID>/...
+facebase/<dataset-RID>/...
 ```
 
-Where `<dataset-RID>` is the Dataset's Record ID (RID), e.g., `1-2345` found on your Dataset record page in the browser.
+Where `facebase` is a directory containing a subdirectory named `<dataset-RID>` according to the Dataset's Record ID (RID), e.g., `1-2345` found on your Dataset record page in the browser.
 
-You may organize your files in any hierarchy _under the dataset RID_ parent directory. Recall that if you use a `local identifier` in your Biosample records, we may be able to assist with automated linking of your files to your Biosample records.
+You may organize your files in any hierarchy _under the dataset RID_ directory. Recall that if you use a `local identifier` in your Biosample records, we may be able to assist with automated linking of your files to your Biosample records.
 
 #### Filename Conventions
 
@@ -40,7 +40,7 @@ When using Deriva Upload, it will attempt to match the filename extension with a
 
 ```
 ...
-/path/to/1-2345/file.bad.extension.gz -- [RuntimeError] Metadata query did not return any results: /attribute/vocab:file_extension/extension=bad.extension.gz/vocab:file_format/file_format_id:=id?limit=1
+/path/to/facebase/1-2345/file.bad.extension.gz -- [RuntimeError] Metadata query did not return any results: /attribute/vocab:file_extension/extension=bad.extension.gz/vocab:file_format/file_format_id:=id?limit=1
 ...
 ```
 
