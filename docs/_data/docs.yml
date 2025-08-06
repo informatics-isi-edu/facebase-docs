@@ -26,7 +26,7 @@
   - notification
   - encryption-keys
   - renewing
-- title: Submitting Data - Basics
+- title: Submitting Data
   docs:
 #  - submitter-introduction
   - training-videos
@@ -40,16 +40,12 @@
   - Dataset-Status
   - Self-Guided-Tutorial
 
-- title: Submitting Data - Advanced
-  docs:
-  - annotating-images
-  - Define-Surface-Model
-  - Linking-Thumbnails-to-Files
-
-
 - title: Tools
   docs:
   - Deriva-Clients
+  - annotating-images
+  - Define-Surface-Model
+  - Linking-Thumbnails-to-Files
 
 - title: Support
   docs:
