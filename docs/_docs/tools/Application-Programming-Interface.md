@@ -3,13 +3,13 @@ title: Application Programming Interface
 permalink: /docs/Application-Programming-Interface/
 ---
 
-If you are building software or services that interface with the FaceBase platform, you will need to install the [Deriva Client API (deriva-py)]({{ "/docs/Deriva-Clients/" | relative_url }}). Below, we give examples of how to use the APIs for a few key operations: lookup vocabulary terms, create a dataset and upload files.
+If you are building software or services that interface with the FaceBase platform, you will need to install the [Deriva Client API (deriva-py)]({{ "/docs/Deriva-Clients/#basic-installation" | relative_url }}). Below, we give examples of how to use the APIs for a few key operations: lookup vocabulary terms, create a dataset and upload files.
 
 ## Before You Begin
 
 Many operations on FaceBase that are read-only do not require authentication. However, operations that access pre-release data (i.e., your own data), retrieve controlled access data, or operations that make updates for your own data submission will require authentication.
 
-For these operations that require authentication, you must first [establish an access token](#authentication) in order to use the APIs. You must have a registered FaceBase user account and you must be a member of a FaceBase [project](https://www.facebase.org/chaise/recordset/#1/isa:project) that has been approved to upload datasets or be a member of an approved controlled access Data Access Request. If you are unsure about any of this, please contact [help@facebase.org](mailto:help@facebase.org).
+For these operations that require authentication, you must first [establish an access token](../Deriva-Clients/#authentication) in order to use the APIs. You must have a registered FaceBase user account and you must be a member of a FaceBase [project](https://www.facebase.org/chaise/recordset/#1/isa:project) that has been approved to upload datasets or be a member of an approved controlled access Data Access Request. If you are unsure about any of this, please contact [help@facebase.org](mailto:help@facebase.org).
 
 ## Lookup Vocabulary Terms
 
