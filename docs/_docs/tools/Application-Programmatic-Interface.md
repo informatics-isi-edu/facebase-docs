@@ -3,15 +3,13 @@ title: Application Programmatic Interface
 permalink: /docs/Application-Programmatic-Interface/
 ---
 
-## Programmatic Interface Examples
+If you are building tools or other services that interface with the FaceBase platform, you will need the [basic installation described on this page]({{ "/docs/Deriva-Clients/" | relative_url }}). We have two example scripts to demonstrate how to use the APIs to (a) create a dataset and then (b) upload files.
 
-If you are building tools or other services that interface with the FaceBase platform, you will need the [basic installation](#basic-installation) described above. We have two example scripts to demonstrate how to use the APIs to (a) create a dataset and then (b) upload files.
-
-### Before You Begin
+## Before You Begin
 
 You must first [establish an access token](#authentication) in order to use the APIs to make any modifications to the FaceBase data. You must have a registered FaceBase user account and you must be a member of a FaceBase "project" that has been approved to upload datasets. If you are unsure about any of this, please contact [help@facebase.org](mailto:help@facebase.org).
 
-### Create a Dataset
+## Create a Dataset
 
 Your code must instantiate the `DerivaServer`, connect to the "catalog", resolve the project identifier, and insert a minimal metadata record, and get back the dataset's record identifier (RID).
 
