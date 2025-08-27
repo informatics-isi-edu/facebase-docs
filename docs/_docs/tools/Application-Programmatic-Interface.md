@@ -1,13 +1,37 @@
 ---
-title: Application Programmatic Interface
-permalink: /docs/Application-Programmatic-Interface/
+title: Application Programming Interface
+permalink: /docs/Application-Programming-Interface/
 ---
 
-If you are building tools or other services that interface with the FaceBase platform, you will need the [basic installation described on this page]({{ "/docs/Deriva-Clients/" | relative_url }}). We have two example scripts to demonstrate how to use the APIs to (a) create a dataset and then (b) upload files.
+If you are building software or services that interface with the FaceBase platform, you will need to install the [Deriva Client API (deriva-py)]({{ "/docs/Deriva-Clients/" | relative_url }}). Below, we give examples of how to use the APIs for a few key operations: lookup vocabulary terms, create a dataset and upload files.
 
 ## Before You Begin
 
-You must first [establish an access token](#authentication) in order to use the APIs to make any modifications to the FaceBase data. You must have a registered FaceBase user account and you must be a member of a FaceBase "project" that has been approved to upload datasets. If you are unsure about any of this, please contact [help@facebase.org](mailto:help@facebase.org).
+Many operations on FaceBase that are read-only do not require authentication. However, operations that access pre-release data (i.e., your own data), retrieve controlled access data, or operations that make updates for your own data submission will require authentication.
+
+For these operations that require authentication, you must first [establish an access token](#authentication) in order to use the APIs. You must have a registered FaceBase user account and you must be a member of a FaceBase [project](https://www.facebase.org/chaise/recordset/#1/isa:project) that has been approved to upload datasets or be a member of an approved controlled access Data Access Request. If you are unsure about any of this, please contact [help@facebase.org](mailto:help@facebase.org).
+
+## Lookup Vocabulary Terms
+
+If you retrieve FaceBase data, it is typically annotated with vocabulary term identifiers such as `UBERON:0001684`. You may want to lookup the preferred name, in this case, `mandible`.
+
+```python
+from deriva.core import DerivaServer
+
+# establish connection
+server = DerivaServer('https', hostname)
+catalog = server.connect_ermrest(catalog_id)
+_ = catalog.getPathBuilder()
+
+# first get a handle to the vocabular table; this will fail if no such table exists.
+vocabulary = _.vocab.tables[vocab_table_name]
+
+# now lookup the term; this will return a `ResultSet` that behaves like a python 
+# sequence and it will not have any entries if there is no match for the `term_id`.
+terms = vocabulary.filter(vocabulary.id == term_id).entities()
+```
+
+A complete example may be found in [lookup_vocab_example.py](/assets/files/lookup_vocab_example.py).
 
 ## Create a Dataset
 
