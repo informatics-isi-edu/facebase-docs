@@ -30,16 +30,19 @@ Currently, we use the following vocabulary:
 | Category        | Source(s)         | Available on FaceBase                                                             |
 |-----------------|-------------------|-----------------------------------------------------------------------------------|
 | Anatomy         | UBERON, OCDM      | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:anatomy)         |
+| Data Use (DUL)  | NIH               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:data_use)        |
 | Diagnosis       | FaceBase          | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:diagnosis)       |
 | Ethnicity       | NIH               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:ethnicity)       |
 | Experiment Type | OBI               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type) |
 | Gene            | NCBI Gene         | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:gene)            |
+| Genotype        | FaceBase          | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:genotype)        |
 | Phenotype       | MP, HPO, OCDM     | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:phenotype)       |
 | Race            | NIH               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:race)            |
 | Sex             | UBERON            | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:sex)             |
 | Species         | NCBI Taxonomy     | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:species)         |
 | Stage           | Varies by species | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:stage)           |
 | Strain          | MGI               | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:strain)          |
+| Syndrome        | MONDO             | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:syndrome)        |
 | Treatment       | FaceBase          | [View online](https://www.facebase.org/chaise/recordset/#1/vocab:treatment)       |
 
 When a needed term is not available in the standard vocabulary, we will work with data submitters to create a new term on FaceBase and promote it to the appropriate upstream vocabulary maintainers for future standardization.
