@@ -4,7 +4,7 @@
   - data-management
 #  - site-walkthrough
 
-- title: Using FaceBase
+- title: Accessing Data
   docs:
 #  - user-introduction
   - user-key-concepts
@@ -43,6 +43,7 @@
 - title: Tools
   docs:
   - Deriva-Clients
+  - Application-Programmatic-Interface
   - annotating-images
   - Define-Surface-Model
   - Linking-Thumbnails-to-Files
