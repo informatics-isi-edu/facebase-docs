@@ -32,7 +32,7 @@ terms = vocabulary.filter(vocabulary.id == term_id).entities()
 ```
 
 A complete example may be found in [lookup_vocab_example.py](/assets/files/lookup_vocab_example.py). For a list
-of all vocabularies, see [Vocabulary]((../Data-Submission-Key-Concepts/#vocabulary)). The table names in the 
+of all vocabularies, see [Vocabulary](../Data-Submission-Key-Concepts/#vocabulary). The table names in the 
 database are `snake_case` so for example "Data Use" will be found in table `data_use`.
 
 ## Create a Dataset
