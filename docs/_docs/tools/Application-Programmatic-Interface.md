@@ -24,12 +24,14 @@ catalog = server.connect_ermrest(catalog_id)
 _ = catalog.getPathBuilder()
 
 # first get a handle to the vocabular table; this will fail if no such table exists.
-vocabulary = _.vocab.tables[vocab]
-    
+vocabulary = _.vocab.tables[vocab_table_name]
+
 # now lookup the term; this will return a `ResultSet` that behaves like a python 
 # sequence and it will not have any entries if there is no match for the `term_id`.
-terms = vocabulary.filter(vocabulary.ID == term_id).entities()
+terms = vocabulary.filter(vocabulary.id == term_id).entities()
 ```
+
+A complete example may be found in [lookup_vocab_example.py](/assets/files/lookup_vocab_example.py).
 
 ## Create a Dataset
 
