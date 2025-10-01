@@ -17,6 +17,8 @@ Advantages include:
 
 ## Before You Begin
 
+**Delayed approvals:** Due to the expiration of funding for much of the federal government that occurred at midnight on Tuesday, September 30, NIDCR program staff are unable to review new data submissions. Therefore, expect delays in the approval of your data submission until further notice.
+
 If you have not already submitted data _for your current project or investigation_, please make a request for review of your upcoming data submission. The request will be reviewed by a committee for FaceBase. Notification of approval to submit data to FaceBase should take no more than about 2 weeks.
 
 1. Review the page [How to Submit Data](https://www.facebase.org/contributing/submitting/) and follow its link to the "Data Submission Form" and fill it out. Note that this form is for grants that have been funded.
