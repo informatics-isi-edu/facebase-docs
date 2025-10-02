@@ -5,8 +5,6 @@ permalink: /docs/human-data/
 
 Controlled-access data is not available until you have submitted the required documents and are approved by the Data Access Committee (DAC) in the process described in this section.
 
-<p style="background-color:#fcf8e3;padding:15px;"><strong>Delayed approvals:</strong> Due to the expiration of funding for much of the federal government that occurred at midnight on Tuesday, September 30, NIDCR program staff are unable to review new data submissions. Therefore, expect delays in the approval of your data submission until further notice.</p>
-
 ## Controlled-access Data Policy
 
 Controlled-access data is limited to the following types of data:
