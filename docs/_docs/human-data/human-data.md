@@ -7,7 +7,7 @@ Controlled-access data is available to authorized users for specific research us
 
 ## Before You Begin...
 
-1. Review required credentials for who may submit a Data Access Request (DAR) and for institutional signing official. Additional roles and definitions are detailed in the Data Use Certification agreement.
+1. Review [required credentials]({{ "/assets/files/FaceBase-Access-Standards-Required-Credentials-for-Controlled-Access.pdf" | relative_url }}) for who may submit a Data Access Request (DAR) and for institutional signing official. Additional roles and definitions are detailed in the Data Use Certification agreement.
 
 2. To create and submit the Data Access Request (DAR), **you must join the FaceBase Users' group** as described below. If you have submitted data for FaceBase, you should already be in this group.
 
