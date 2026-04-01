@@ -11,11 +11,11 @@ Approved access may be renewed by submitting a Project Renewal prior to the expi
 
 To submit your renewal request, complete the following form and send it to the DAC at nidcrfacebasedac AT mail DOT nih.gov:
 
-[FaceBase Data Access Request Renewal Form (pdf)]({{ "/assets/files/2026-01-21_FaceBase_DAR-Renewal_Analog-Form_final.pdf" | relative_url }})
+- [FaceBase Data Access Request Renewal Form (pdf)]({{ "/assets/files/2026-01-21_FaceBase_DAR-Renewal_Analog-Form_final.pdf" | relative_url }})
 
-Note: You will soon be able to submit a request for renewal from the online DAC process you used to process the original request.{: .bg-info}
+!!! note You will soon be able to submit a request for renewal from the online DAC process you used to process the original request.
 
-If you have any questions regarding this process or need help with downloads please contact the FaceBase Help Desk via email: **help AT facebase.org**.
+If you have any questions regarding this process or need help with downloads please contact the FaceBase Help Desk via email: help AT facebase DOT org.
 
 ## Submit Closeout
 
@@ -23,4 +23,4 @@ When access to data is no longer needed, the Data Requester must submit a Projec
 
 To submit your closeout, complete the following form and send it to the DAC at nidcrfacebasedac AT mail DOT nih.gov:
 
-[FaceBase Project Close-out Form (pdf)]({{ "/assets/files/7_FaceBase Project Close Out Report_Fillable.pdf" | relative_url }})
+- [FaceBase Project Close-out Form (pdf)]({{ "/assets/files/7_FaceBase Project Close Out Report_Fillable.pdf" | relative_url }})
