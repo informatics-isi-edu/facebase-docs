@@ -13,7 +13,7 @@ To submit your renewal request, complete the following form and send it to the D
 
 - [FaceBase Data Access Request Renewal Form (pdf)]({{ "/assets/files/2026-01-21_FaceBase_DAR-Renewal_Analog-Form_final.pdf" | relative_url }})
 
-!!! note You will soon be able to submit a request for renewal from the online DAC process you used to process the original request.
+<p style="background-color:#fcf8e3;padding:15px;"><strong>Note:</strong> You will soon be able to submit a request for renewal from the online DAC process you used to process the original request.</p>
 
 If you have any questions regarding this process or need help with downloads please contact the FaceBase Help Desk via email: help AT facebase DOT org.
 
