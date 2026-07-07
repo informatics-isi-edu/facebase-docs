@@ -5,6 +5,10 @@ permalink: /docs/Controlled-Access-Data-Requirements/
 
 The purpose of this document is to provide guidelines for the submission of controlled access data to FaceBase. For a more general overview of Data Management and Sharing (DMS) with respect to controlled access data, please see [Designating Scientific Data for Controlled Access (NIH)](https://sharing.nih.gov/data-management-and-sharing-policy/protecting-participant-privacy-when-sharing-scientific-data/designating-scientific-data-for-controlled-access).
 
+## FaceBase as an NIH-Designated Genomic Data Repository
+
+FaceBase is listed by NIH as an NIH Controlled-Access Data Repository (CADR), and is designated on that list as an NIH-Designated Genomic Data Repository. This means it satisfies the "dbGaP or similar" repository requirement referenced in NIH data sharing policy and journal data availability requirements. If a journal or reviewer questions whether FaceBase meets this requirement for a manuscript based on human subjects data, you may cite FaceBase's listing on the NIH page above as documentation. Please contact [help@facebase.org](help@facebase.org) with any questions or if you need further documentation for a journal or funder.
+
 ## Required submission certification
 
 Controlled access data submissions must be accompanied by an [Institutional Certification](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/gds/institutional-certifications),  a submission certificate signed by the submitting institution (Institutional Certificate) that provides assurance that the data are appropriate to share and that the data will be shared in a way that is consistent with the informed consent of the original study participants and/or the preferences of the original study population. Contact **help@facebase.org** with questions regarding completing and submitting the Institutional Certification covering your FaceBase controlled access data submission.

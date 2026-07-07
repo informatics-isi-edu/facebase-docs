@@ -3,7 +3,7 @@ title: Key Concepts for Data Contributors
 permalink: /docs/Data-Submission-Key-Concepts/
 ---
 
-In this section, you will learn about the key concepts and relationships in the FaceBase database, [vocabulary](#vocabulary) terms used to label data in FaceBase, and the supported [data types and file formats](#data-types-and-file-formats). If you are planning to submit data to FaceBase, see our listing of currently supported [Experiment Types](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type). Please [contact us](mailto:help@facebase.org) if you do not see your experiment type on the list.
+In this section, you will learn about the key concepts and relationships in the FaceBase database, [vocabulary](#vocabulary) terms used to label data in FaceBase, and the supported [data types and file formats](#data-types-and-file-formats). If you are planning to submit data to FaceBase, see our listing of currently supported [Experiment Types](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type). Please [contact us](mailto:help@facebase.org) if you do not see your experiment type on the list. Note that FaceBase is designated by NIH as an [NIH-Designated Genomic Data Repository](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/accessing-data/requirements). Please see [Guidelines for Submitting Controlled Access Data]({{ "/docs/Controlled-Access-Data-Requirements/" | relative_url }}) for details, particularly relevant if you need to satisfy a journal's data-sharing repository requirement.
 
 The following diagram depicts the structure of the FaceBase database.
 
