@@ -7,6 +7,15 @@ In this section, you will learn about the key concepts and relationships in the 
 
 Note that FaceBase is designated by NIH as an [NIH-Designated Genomic Data Repository](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/accessing-data/requirements). Please see [Guidelines for Submitting Controlled Access Data]({{ "/docs/Controlled-Access-Data-Requirements/" | relative_url }}) for details, particularly relevant if you need to satisfy a journal's data-sharing repository requirement.
 
+## Contents
+
+- [Database Structure](#database-structure)
+- [Vocabulary](#vocabulary)
+- [Data Types and File Formats](#data-types-and-file-formats)
+- [References to External Data and Visualization](#references-to-external-data-and-visualization)
+
+## Database Structure
+
 The following diagram depicts the structure of the FaceBase database.
 
 ![Diagram of key concepts in FaceBase]({{ "/assets/img/data-key-concepts.jpg" | relative_url }})
