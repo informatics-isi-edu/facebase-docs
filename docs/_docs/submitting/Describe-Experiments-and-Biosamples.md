@@ -1,128 +1,152 @@
 ---
-title: Creating Experiments and Biosamples
+title: Creating Biosamples and Experiments
 permalink: /docs/Describe-Experiments-and-Biosamples/
 ---
 
-If you have [created a Dataset](../Create-a-Dataset/) then you are ready to
-describe the experiments and biosamples for your dataset.
+If you have [created a Dataset](../Create-a-Dataset/), you are ready to describe the biosamples and experiments in it.
 
-**Experiments** (also known as **assays**) represent an experiment at a fine-grained unit of detail. It is intended to broadly cover multiple "bioinformatics" (i.e., sequencing or array) and imaging (i.e., various forms of microscopy) assay types. An experiment will generally be conducted on multiple biological replicates. An experiment may reference another experiment as its "control."
+## Which path does my data take? {#which-path}
 
-**Biosample** records in the database represent the biological characteristics of the specimen used within an Experiment. Typically, each experiment will include multiple biological samples with essentially the same biological characteristics (e.g., biological replicates).
+Not all assay types are entered the same way. Find your data in the table below before you start.
+
+| If your dataset contains | How to enter it |
+| --- | --- |
+| Sequencing, array, imaging, or microscopy data — RNA-seq, ChIP-seq, arrays, micro-CT, confocal, and similar | Follow the [four steps](#the-four-steps) on this page. These assays have data files, and files attach to biosamples, so biosamples are created first. |
+| Clinical assays or enhancer reporter assays | Create the record directly from the Dataset page. See [Clinical and enhancer reporter records](#other-assay-types). No separate biosample or experiment record is needed. |
+
+### Key terms
+
+**Biosamples** represent the biological characteristics of the specimen used within an experiment. Typically, each experiment includes multiple biological samples with essentially the same biological characteristics (e.g., biological replicates).
+
+> **Note:** FaceBase does not collect tissue or other physical samples. The biosamples described here are *metadata* about the physical samples you used in your experiments.
+
+**Experiments** (also known as **assays**) represent an experiment at a fine-grained unit of detail. The record type broadly covers both "bioinformatics" (sequencing or array) and imaging (various forms of microscopy) assay types. An experiment is generally conducted on multiple biological replicates, and may reference another experiment as its control.
+
+**Local identifiers** let you reference your own laboratory's identification schema for your experiments and biosamples. Both forms include a "Local Identifier" field. These are useful for correlating FaceBase entries with your own records — for example, if someone using your data has a question, you can look the item up in your own records. They are also what we use to match your files to your biosamples if you ask us to automate that step.
+
+### The four steps {#the-four-steps}
 
 All of the instructions that follow assume you are [logged in to the FaceBase site](../Data-Submission-Process/#prerequisites-for-submitting-data).
 
-The main steps are:
-1. [Create experiments](#1-create-experiments) to describe the experimental details of the study.
-2. [Create biosamples](#2-create-biosamples) to describe the biological samples for the study.
-3. [Upload files](#3-upload-files) associated with specific biosamples.
+1. [Create biosamples](#create-biosamples) to describe the biological samples in your study.
+2. [Upload files](#upload-files) — in batch with the DERIVA client tools, or one at a time through the browser.
+3. [Link files to their biosamples](#link-files) so each file is associated with the sample it came from.
+4. [Create experiments](#create-experiments) to describe the experimental details, and link each biosample to its experiment.
 
-## What are Local Identifiers?
+## Step 1. Create biosamples {#create-biosamples}
 
-You will notice that the biosample and the experiment forms have fields for entering a *Local Identifier*. Local identifiers provides a way to reference your own laboratory's local identification schema for your experiments and biosamples. This can be useful for correlating FaceBase data entries with your own records. For example, if a user of your data has a question, you may be able to use these local identifiers as a means of looking up items from your own records.
-
-## 1. Create Experiments
-
-Create an experiment record if you are entering RNA-seq, ChIP-seq, array, imaging
-(micro-CT), or microscopy (confocal) experiments. Because the form covers a wide
-range of experiment types, in many cases you will only fill in a small (sometimes
-only 1-2) number of fields.
-
-1. Go to the Dataset record
-2. Scroll down the page to find the _Experiment_ section.
-    - If you do not see the _Experiment_ section, click the 'Show All Related Records'
-      link near the top right of the page.
-3. To the right of the heading, click the _Add Record_ button. This will open a new browser tab with the data entry form.
-
-![Add Experiment]({{ "/assets/img/add-experiment.png" | relative_url }})
-
-![Experiment Form - Sequencing]({{ "/assets/img/experiment-form-seq.png" | relative_url }})
-
-4. Fill in the form as completely as possible for the fields relevant to your data.
-    The example above shows a hypothetical RNA-seq experiment. Note that many fields
-    are left blank because they are not relevant to this experiment type.
-
-5. To link your Experiment to a protocol, click the Protocol field to display the "Select Protocol" modal window.
-
-![Link Experiment to Protocol]({{ "/assets/img/link-experiment-to-protocol.png" | relative_url }})
-
-From here you can:
-
-- Search for a protocol that is already in the system and select it.
-- Click the _Create New_ button to add a protocol to the system and then select it. This will open a new browser tab. Your choices for adding a new protocol are:
-    - Fill in the fields with the protocol information for online display.
-    - Enter a link to an existing online source in the "Protocol Uri" field.
-    - Upload a file (PDF, Word doc, etc) by clicking "Select File" at the "File Url" field.
-    - When you are done, click the _Submit_ button and you will see the information you entered. You can then close this browser tab and go back to the "Select Protocol" modal window to select the Protocol record you just entered.
-
-    ![Create Protocol]({{ "/assets/img/create-protocol.png" | relative_url }})
-
-6. When you are finished entering the Experiment information, click on the _Submit_ button and you will see the newly entered Experiment information.
-
-## 2. Create Biosamples
-
-Enter metadata regarding the biosamples in your dataset. *FaceBase does not collect
-tissue or other physical samples. The 'biosamples' here are metadata to describe the
-physical samples you used in your experiments only.*
-
-1. Go to an Experiment record page.
-    - Do not use the _edit_ mode of the page; remain on the display page.
-2. Scroll down the page to find the _Biosample_ section.
-    - If you do not see the _Biosample_ section, click the _Show All Related Records_
-      link near the top right of the page.
-3. To the right of the _Biosample_ heading, click the _Add Record_ button. This will open a new browser tab with the data entry form.
+1. Go to the Dataset record.
+2. Scroll down the page to find the *Biosample* section.
+    - If you do not see the *Biosample* section, click the *Show empty sections* link near the top right of the page.
+3. To the right of the *Biosample* heading, click the *Add Record* button. A new browser tab opens with the data entry form.
 
   ![Add Biosample]({{ "/assets/img/add-biosample.png" | relative_url }})
 
   ![Biosample Form]({{ "/assets/img/biosample-form.png" | relative_url }})
 
-4. Fill in the form as completely as possible for the fields relevant to your data.
-5. When you are done, click the _Submit_ button in the upper right corner.
+4. Fill in the form as completely as possible for the fields relevant to your data. Leave the "Experiment" field blank — you will fill it in at [Step 4](#create-experiments), after your experiment records exist.
+5. When you are done, click the *Save* button in the upper right corner.
 6. Review the confirmation page that displays the entered data.
-7. When you are done viewing the confirmation page, close the browser tab and
-    return to the Dataset page. You should now see the newly entered Biosample. You may need to refresh your browser page.
+7. Close the browser tab and return to the Dataset page. You should now see the newly entered biosample. You may need to refresh the page.
 
-### Entering multiple records (multi-edit)
+### Entering several biosamples at once {#multi-record-entry}
 
-You can choose to enter multiple records at a time. From a record page, click the _Copy_ button near the upper right side of the page. A new form appears with the same values as the record you copied.
+You do not have to enter records one at a time. This also works for File and Experiment records.
 
-Click the _Clone_ button in the upper right corner to expand a new data entry form each time you click.
+1. From an existing record page, click the *Copy* button near the upper right. A new form opens with the same values as the record you copied.
+2. Click the *Clone* button in the upper right to add another data entry form each time you click. To add several at once, type a number in the field beside *Clone* before clicking. You can expand the form to up to 200 records at a time.
 
-You can also enter the number of copies in the number field before clicking _Clone_ to create that number of new data entry forms. You can expand the form with up to 200 records at a time.
-
-Note that when you click Clone, the new data entry form will include any values from the right-most existing form. You can use this to streamline data entry by filling in some fields that are shared by multiple entries, pressing the _Clone_ button multiple times, then filling in the unique field values for each record on the page.
+Each new form inherits the values of the right-most existing form. Use this to your advantage: fill in the fields that are shared across records first, click *Clone* as many times as you need, then fill in the values unique to each record.
 
 ![Multiple Record Edit]({{ "/assets/img/biosample-multi-edit.png" | relative_url }})
 
-No matter how many entries you add, the form will not be saved to the system until you click the _Submit_
-button. Note that the entire form with all records will succeed or fail to be
-submitted as one unit. There are no partial successes when submitting multiple
-records.
+Nothing is saved until you click *Save*. The entire form succeeds or fails as a single unit — there are no partial submissions.
 
+## Step 2. Upload files {#upload-files}
 
-## 3. Upload Files
+Once your biosample records exist, you are ready to [upload files](../Upload-Files/). Choose one of the two options below.
 
-When you have created your Biosample records, you are now ready to
-[upload files](../Upload-Files/). There are two options for uploading files:
-1. Use the bulk upload utilities described on the
-    [uploading files](../Upload-Files/) page of this wiki. Note that if you use the bulk uploader you will still need to return to the web browser and associate each file with a biosample (if applicable). If you have a large number of biosamples and files, we can help automate the process as long as you have a spreadsheet that documents the mapping from your biosamples' [local identifiers](#what-are-local-identifiers) to your filenames.
-2. Go to each Biosample page, add records for each file and upload via the browser. (To find Biosample records, go to the Dataset, select the Experiment and then you'll see a listing of Biosamples for that Experiment).
-    1. Go to the Biosample record and you'll see the File section.
-    2. Click the _Add Record_ button. A new browser tab opens with the data entry form.
-    3. In the "Url" field, click the _Select file_ button to select the data file.
-    4. In the "File Format" field, click the field to open the "Select File Format" modal window. Find the appropriate extension under the "Name" column and select it.
-    5. When you are finished, click _Submit_ to upload the file.
+### Option 1: Batch upload with the DERIVA client tools
 
-## 4. Creating records for other assay types
+Recommended for anything more than a handful of files. See the [uploading files](../Upload-Files/) page for installation and usage instructions. After the upload finishes, continue to [Step 3](#link-files) to associate the files with their biosamples.
 
-To enter _clinical_ assays and _enhancer_ records, you can add them
-from the Dataset record.
+### Option 2: Upload through the browser
+
+Best for a small number of files.
+
+1. From the Dataset page, scroll to the *Biosample* section and click the *View Details* icon for the biosample you want, then scroll down to the *File* section.
+2. Click the *Add Record* button. A new browser tab opens with the data entry form.
+3. In the "Url" field, click the *Select file* button and choose your data file.
+4. Click the "File Format" field to open the "Select File Format" modal. Find the appropriate extension under the "Name" column and select it.
+5. Click *Save* to upload the file.
+
+Because you started from the biosample record, files uploaded this way are already associated with that biosample and you can skip [Step 3](#link-files).
+
+## Step 3. Link files to their biosamples {#link-files}
+
+Files uploaded with the DERIVA client tools arrive in the dataset unassociated. This step tells FaceBase which biosample each file belongs to.
+
+1. Go back to the Dataset page and scroll down to the *File* section.
+2. Narrow the list to the files for one biosample, by clicking the *Explore* button and using the search box above the table or the filters in the left sidebar. Searching on the portion of the filename that matches that sample — often the [local identifier](#which-path) — is usually the fastest way.
+3. Click the *Bulk Edit* button.
+4. On the left side of the screen, find the "Biosample" field and click the pencil icon.
+5. Click the "Select a value" dropdown, choose the correct biosample record, and click *Save*.
+
+Repeat for each remaining biosample.
+
+> **Working with a lot of files?** We can do Steps 2 and 3 for you. Send us a spreadsheet mapping your biosamples' [local identifiers](#which-path) to your filenames and we will handle the upload and the associations. Contact us at [help@facebase.org](mailto:help@facebase.org).
+
+## Step 4. Create experiments {#create-experiments}
+
+Create an experiment record if you are entering RNA-seq, ChIP-seq, array, imaging (micro-CT), or microscopy (confocal) data. The form covers a wide range of experiment types, so in many cases you will fill in only a small number of fields — sometimes only one or two.
+
+1. From the Dataset record, scroll down to the *Experiment* section.
+    - If you do not see the *Experiment* section, click the *Show empty sections* link near the top right of the page.
+2. To the right of the heading, click the *Add Record* button. A new browser tab opens with the data entry form.
+
+![Add Experiment]({{ "/assets/img/add-experiment.png" | relative_url }})
+
+![Experiment Form - Sequencing]({{ "/assets/img/experiment-form-seq.png" | relative_url }})
+
+3. Fill in the form as completely as possible for the fields relevant to your data. The example above shows a hypothetical RNA-seq experiment; many fields are left blank because they do not apply to that experiment type.
+4. Link the experiment to a protocol. See [Linking an experiment to a protocol](#link-protocol) below.
+5. Click *Save*. You will see the newly entered experiment information.
+
+### Link each biosample to its experiment {#link-biosamples-to-experiments}
+
+Now that your experiment records exist, go back and fill in the field you left blank in Step 1.
+
+1. From the Dataset page, open the *Biosample* section.
+2. For each biosample, click the *Edit* icon in the list — or open the biosample record and click *Edit*.
+3. Click the "Experiment" dropdown and choose the experiment the sample belongs to.
+4. Click *Save*.
+
+### Linking an experiment to a protocol {#link-protocol}
+
+On the experiment form, click the "Protocol" field to open the "Select Protocol" modal.
+
+![Link Experiment to Protocol]({{ "/assets/img/link-experiment-to-protocol.png" | relative_url }})
+
+From there you can either:
+
+- **Select an existing protocol.** Search for a protocol already in the system and select it.
+- **Create a new protocol.** Click the *Create New* button. A new browser tab opens, where you can:
+    - Fill in the fields with the protocol information for online display,
+    - Enter a link to an existing online source in the "Protocol Uri" field, or
+    - Upload a file (PDF, Word document, etc.) by clicking *Select File* at the "File Url" field.
+
+    Click *Save* to see the information you entered, then close the tab and return to the "Select Protocol" modal to select the protocol record you just created.
+
+![Create Protocol]({{ "/assets/img/create-protocol.png" | relative_url }})
+
+## Clinical and enhancer reporter records {#other-assay-types}
+
+Clinical assays and enhancer reporter assays are entered directly on the Dataset record and do not use the four-step workflow above.
 
 1. Go to the Dataset record.
-2. Scroll down to the "Enhancer Reporter Assay" or "Clinical Assay" section and click the _Add record_ button. A new browser tab opens with the data entry
-3. Fill in the details as completely as possible and click _Submit_.
+2. Scroll down to the *Enhancer Reporter Assay* or *Clinical Assay* section and click the *Add Record* button. A new browser tab opens with the data entry form.
+3. Fill in the details as completely as possible and click *Save*.
 
-## Review your entries
+## What happens next
 
-When you have reviewed your biosample, experiment, and/or other metadata, you are
-ready to [upload files](../Upload-Files/).
+When your biosamples, files, and experiments are entered and linked, review your dataset record for completeness and then [email us to let us know it is ready for review at help@facebase.org](mailto:help@facebase.org).
