@@ -34,16 +34,23 @@ All of the instructions that follow assume you are [logged in to the FaceBase si
 4. [Create experiments](#create-experiments) to describe the experimental details, and link each biosample to its experiment.
 5. [Link a protocol](#link-protocol) to document how the experiment was performed.
 
+![Five steps: biosamples, files, link files, experiments, protocol]({{ "/assets/img/submission-workflow.svg" | relative_url }})
+
+>**Tip:** Use the Sections panel on the left to jump straight to a section instead of scrolling. The number beside each name tells you how many records it holds. If a section isn't listed, click Show empty sections at the top right. The sections don't appear in the order you'll work through them, so use the panel rather than working top to bottom.
+
+![Example of the Sections sidebar on a Dataset record]({{ "/assets/img/example-sections-sidebar.png" | relative_url }})
+
+
 ## Step 1. Create biosamples {#create-biosamples}
 
 1. Go to the Dataset record.
-2. Scroll down the page to find the *Biosample* section.
+2. Go to the *Biosample* section.
     - If you do not see the *Biosample* section, click the *Show empty sections* link near the top right of the page.
 3. To the right of the *Biosample* heading, click the *Add records* button. A new browser tab opens with the data entry form.
 
-    ![Add Biosample]({{ "/assets/img/add-biosample.png" | relative_url }})
+![Add Biosample]({{ "/assets/img/biosample-add-records.png" | relative_url }})
 
-    ![Biosample Form]({{ "/assets/img/biosample-form.png" | relative_url }})
+![Biosample Form]({{ "/assets/img/biosample-form.png" | relative_url }})
 
 4. Fill in the form as completely as possible for the fields relevant to your data. Leave the "Experiment" field blank — you will fill it in at [Step 4](#create-experiments), after your experiment records exist.
 5. When you are done, click the *Save* button in the upper right corner.
@@ -59,7 +66,7 @@ You do not have to enter records one at a time. The following method also works 
 
 Each new form inherits the values of the right-most existing form. Use this to your advantage: fill in the fields that are shared across records first, click *Clone* as many times as you need, then fill in the values unique to each record.
 
-![Multiple Record Edit]({{ "/assets/img/biosample-multi-edit.png" | relative_url }})
+![Creating and editing multiple records at the same time with *Clone*]({{ "/assets/img/biosample-multi-edit.png" | relative_url }})
 
 Nothing is saved until you click *Save*. The entire form succeeds or fails as a single unit — there are no partial submissions.
 
@@ -88,14 +95,17 @@ Because you started from the biosample record, these files are already associate
 Files uploaded with the DERIVA client tools arrive in the dataset unassociated. This step tells FaceBase which biosample each file belongs to.
 
 1. Go back to the Dataset page and scroll down to the *File* section.
-2. Narrow the list to the files for one biosample by clicking the *Explore* button and using the search box above the table or the filters in the left sidebar. Searching on the portion of the filename that matches that sample — often the [local identifier](#which-path) — is usually the fastest way.
-    Screenshot: "The File section with Explore and the faceted search sidebar — establishes where you are.""
+2. Narrow the list to the files for one biosample by clicking the *Explore* button and using the search box above the table, or the filters in the left sidebar (click Show filter panel if they're hidden). Searching on the portion of the filename that matches that sample — often the [local identifier](#which-path) — is usually the fastest way.
+
+![The File search page filtered to the 7 files matching 'hh39-dkk3', with the Bulk edit button at the upper right.]({{ "/assets/img/explore-files.png" | relative_url }})
+
 3. Click the *Bulk Edit* button.
 4. On the left side of the screen, find the "Biosample" field and click the pencil icon. This will make that field editable across all of the file records.
-    Screenshot: "The Bulk Edit form with the "Biosample" field and pencil icon marked."
 5. Click the "Select a value" dropdown and choose the correct biosample record.
 6. Above the dropdown, select the checkbox labeled "1 of N records" to apply your choice to every record in the list, then click *Apply*.
-    Screenshot: "The "1 of N records" checkbox and Apply button."
+
+![The "1 of N records" checkbox and Apply button.]({{ "/assets/img/bulk-edit-screen.png" | relative_url }})
+
 7. Click *Save*.
 
 Repeat for each remaining biosample.
@@ -110,9 +120,9 @@ Create an experiment record to describe the experimental details of your study. 
     - If you do not see the *Experiment* section, click the *Show empty sections* link near the top right of the page.
 2. To the right of the heading, click the *Add records* button. A new browser tab opens with the data entry form.
 
-    ![Add Experiment]({{ "/assets/img/add-experiment.png" | relative_url }})
+![Add Experiment]({{ "/assets/img/add-experiment.png" | relative_url }})
 
-    ![Experiment Form - Sequencing]({{ "/assets/img/experiment-form-seq.png" | relative_url }})
+![Experiment Form - Sequencing]({{ "/assets/img/experiment-form-seq.png" | relative_url }})
 
 3. Fill in the form as completely as possible for the fields relevant to your data. The example above shows a hypothetical RNA-seq experiment; many fields are left blank because they do not apply to that experiment type.
 4. Click *Save*. You will see the newly entered experiment information.
@@ -123,7 +133,14 @@ Now that your experiment records exist, go back and fill in the field you left b
 
 1. From the Dataset page, open the *Biosample* section.
 2. For each biosample, click the *Edit* icon in the list — or open the biosample record and click *Edit*.
+
+![The biosample list with the Edit icon marked.]({{ "/assets/img/biosample-list-edit-icon.png" | relative_url }})
+
+
 3. Click the "Experiment" dropdown and choose the experiment the sample belongs to.
+
+![The "Experiment" dropdown open.]({{ "/assets/img/experiment-dropdown.png" | relative_url }})
+
 4. Click *Save*.
 
 ## Step 5. Link an experiment to a protocol {#link-protocol}
