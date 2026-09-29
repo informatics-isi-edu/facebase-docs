@@ -14,7 +14,7 @@ Not all assay types are entered the same way. Find your data in the table below 
 | Clinical assays, or sequencing, array, imaging, or microscopy data — RNA-seq, ChIP-seq, micro-CT, confocal, and similar | Follow the [five steps](#the-five-steps) on this page. These assays have data files, and files attach to biosamples, so biosamples come first. |
 | Enhancer reporter assays | Create the record directly from the Dataset page. See [Enhancer reporter records](#enhancer-records). No separate biosample or experiment record is needed. |
 
-### Key terms
+### Key terms {#key-terms}
 
 **Biosamples** represent the biological characteristics of the specimen used within an experiment. Typically, each experiment includes multiple biological samples with essentially the same biological characteristics (e.g., biological replicates).
 
@@ -48,9 +48,9 @@ All of the instructions that follow assume you are [logged in to the FaceBase si
     - If you do not see the *Biosample* section, click the *Show empty sections* link near the top right of the page.
 3. To the right of the *Biosample* heading, click the *Add records* button. A new browser tab opens with the data entry form.
 
-![The Biosample section of a Dataset page, with the Add records button outlined in red.]({{ "/assets/img/biosample-add-records.png" | relative_url }})
+{% include screenshot.html src="/assets/img/biosample-add-records.png" alt="The Biosample section of a Dataset page, with the Add records button outlined in red." width=2402 %}
 
-![The Create 1 Biosample record form, with the Dataset field already filled in and grayed out.]({{ "/assets/img/biosample-form.png" | relative_url }})
+{% include screenshot.html src="/assets/img/biosample-form.png" alt="The Create 1 Biosample record form, with the Dataset field already filled in and grayed out." width=2000 %}
 
 4. Fill in the form as completely as possible for the fields relevant to your data. Leave the "Experiment" field blank — you will fill it in at [Step 4](#create-experiments), after your experiment records exist. Note: The Dataset field is filled in automatically because you started from the Dataset page.
 5. When you are done, click the *Save* button in the upper right corner.
@@ -62,11 +62,11 @@ All of the instructions that follow assume you are [logged in to the FaceBase si
 You do not have to enter records one at a time. The following method also works for File and Experiment records.
 
 1. From an existing record page, click the *Copy* button near the upper right. A new form opens with the same values as the record you copied.
-2. Click the *Clone* button in the upper right to add another data entry form each time you click. To add several at once, type a number in the field beside *Clone* before clicking. You can expand the form to up to 200 records at a time.
+2. Click *Clone* to add another record to the form. Each click adds one record. To add several at once, enter a number in the *Qty* box before clicking *Clone*. For example, starting from one record, you can click *Clone* twice, or enter 2 in *Qty* and click *Clone* once. Either way, you end up with three records, as shown below. The form can hold up to 200 records at a time.
 
-Each new form inherits the values of the right-most existing form. Use this to your advantage: fill in the fields that are shared across records first, click *Clone* as many times as you need, then fill in the values unique to each record.
+>**Tip:** Each new form inherits the values of the right-most existing form. Use this to your advantage: fill in the fields that are shared across records first, click *Clone* as many times as you need, then fill in the values unique to each record.
 
-![The Create 3 Biosample records form with three records side by side, and the Qty box set to 2 next to the Clone button, outlined in red."]({{ "/assets/img/biosample-multi-edit.png" | relative_url }})
+{% include screenshot.html src="/assets/img/biosample-multi-edit.png" alt="The Create 3 Biosample records form with three records side by side, and the Qty box set to 2 next to the Clone button, outlined in red." width=2904 %}
 
 Nothing is saved until you click *Save*. The entire form succeeds or fails as a single unit — there are no partial submissions.
 
@@ -95,7 +95,7 @@ Because you started from the biosample record, these files are already associate
 Files uploaded with the DERIVA client tools arrive in the dataset unassociated. This step tells FaceBase which biosample each file belongs to.
 
 1. Go back to the Dataset page and scroll down to the *File* section.
-2. Narrow the list to the files for one biosample by clicking the *Explore* button and using the search box above the table, or the filters in the left sidebar (click *Show filter panel* if they're hidden). Searching on the portion of the filename that matches that sample — often the [local identifier](#which-path) — is usually the fastest way.
+2. Narrow the list to the files for one biosample by clicking the *Explore* button and using the search box above the table, or the filters in the left sidebar (click *Show filter panel* if they're hidden). Searching on the portion of the filename that matches that sample — often the [local identifier](#key-terms) — is usually the fastest way.
 
 ![The File search page filtered to the 7 files matching 'hh39-dkk3', with the Bulk edit button at the upper right.]({{ "/assets/img/explore-files.png" | relative_url }})
 
@@ -110,7 +110,7 @@ Files uploaded with the DERIVA client tools arrive in the dataset unassociated. 
 
 Repeat for each remaining biosample.
 
-> **Working with a lot of files?** We can do Steps 2 and 3 for you. Send us a spreadsheet mapping your biosamples' [local identifiers](#which-path) to your filenames and we will handle the upload and the associations. Contact us at [help@facebase.org](mailto:help@facebase.org).
+> **Working with a lot of files?** We can do Steps 2 and 3 for you. Send us a spreadsheet mapping your biosamples' [local identifiers](#key-terms) to your filenames and we will handle the upload and the associations. Contact us at [help@facebase.org](mailto:help@facebase.org).
 
 ## Step 4. Create experiments {#create-experiments}
 
