@@ -87,11 +87,7 @@ a.navbar-brand span {
     margin: 10px 0 0 0;
 }
 
-form.navbar-form.navbar-left {
-    margin-top: 2px;
-    width: 500px;
-
-}
+form.navbar-form.navbar-left { margin-top: 18px; margin-bottom: 0; width: 500px; }
 
 .gsc-control-cse {
   background-color: #4D4D4D;
@@ -114,4 +110,40 @@ form.navbar-form.navbar-left {
 
 img.img-responsive {
     border: 1px #ccc solid;
+}
+
+.screenshot {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 1em 0 1.5em;
+}
+
+/* ---- Google Programmable Search box (new-style layout) ---- */
+.gsc-control-cse {
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+}
+
+/* The magnifying glass is a background image on this cell;
+   the left padding is the space reserved for it */
+.gsc-control-cse td.gsib_a {
+  padding: 4px 8px 4px 36px !important;
+  background-position: left 10px center !important;
+  background-size: 18px 18px !important;
+}
+.gsc-control-cse td.gsib_a::before { width: 36px; } /* clickable icon area */
+
+/* The clear-"x" cell is what made the box so tall */
+.gsc-control-cse td.gsib_b {
+  height: 28px !important;
+  width: 28px !important;
+  padding: 0 4px 0 0 !important;
+}
+
+.gsc-control-cse input.gsc-input {
+  height: 24px !important;
+  line-height: 24px !important;
+  margin: 0 !important;
+  background: transparent !important;
 }
