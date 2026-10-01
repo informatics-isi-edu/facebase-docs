@@ -1,6 +1,6 @@
 [build]
   base = "docs"
-  command = "bundle exec jekyll build"
+    command = "printf 'url: %s\nbaseurl: \"\"\n' \"$DEPLOY_PRIME_URL\" > _config_netlify.yml && bundle exec jekyll build --config _config.yml,_config_netlify.yml"
   publish = "_site"
 
 [build.environment]
