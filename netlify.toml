@@ -1,0 +1,13 @@
+[build]
+  base = "docs"
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.3.6"
+  JEKYLL_ENV = "production"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
