@@ -1,0 +1,13 @@
+[build]
+  base = "docs"
+    command = "printf 'url: %s\nbaseurl: \"\"\n' \"$DEPLOY_PRIME_URL\" > _config_netlify.yml && bundle exec jekyll build --config _config.yml,_config_netlify.yml"
+  publish = "_site"
+
+[build.environment]
+  RUBY_VERSION = "3.3.6"
+  JEKYLL_ENV = "production"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
