@@ -1,11 +1,12 @@
 [build]
   base = "docs"
-  command = "bundle exec jekyll build"
+  command = "bundle exec jekyll build --baseurl ''"
   publish = "_site"
 
 [build.environment]
   RUBY_VERSION = "3.3.6"
   JEKYLL_ENV = "production"
+  PAGES_REPO_NWO = "informatics-isi-edu/facebase-docs"
 
 [[headers]]
   for = "/*"
