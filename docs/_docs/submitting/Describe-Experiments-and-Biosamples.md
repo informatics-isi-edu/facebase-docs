@@ -42,36 +42,24 @@ All of the instructions that follow assume you are [logged in to the FaceBase si
 
 *Click the image to see the full Sections panel.*
 
+>**Entering a lot of records?** Two tools can save you time: [Clone](#multi-record-entry) creates several similar records at once, and [Bulk edit](#bulk-edit) changes a field across records you've already saved.
+
 ## Step 1. Create biosamples {#create-biosamples}
 
-1. Go to the Dataset record.
-2. Go to the *Biosample* section.
+1. From the Dataset record and go to the *Biosample* section.
     - If you do not see the *Biosample* section, click the *Show empty sections* button near the top right of the page.
-3. To the right of the *Biosample* heading, click the *Add records* button. A new browser tab opens with the data entry form.
+2. To the right of the *Biosample* heading, click the *Add records* button. A new browser tab opens with the data entry form.
 
    {% include screenshot.html src="/assets/img/biosample-add-records.png" alt="The Biosample section of a Dataset page, with the Add records button outlined in red." width=2402 %}
 
    {% include screenshot.html src="/assets/img/biosample-form.png" alt="The Create 1 Biosample record form, with the Dataset field already filled in and grayed out." width=2000 %}
 
-4. Fill in the form as completely as possible for the fields relevant to your data. Leave the "Experiment" field blank — you will fill it in at [Step 4](#create-experiments), after your experiment records exist. Note: The Dataset field is filled in automatically because you started from the Dataset page.
-5. When you are done, click the *Save* button in the upper right corner.
-6. Review the confirmation page that displays the entered data.
-7. Close the browser tab and return to the Dataset page. You should now see the newly entered biosample. You may need to refresh the page.
+3. Fill in the form as completely as possible for the fields relevant to your data. Leave the "Experiment" field blank — you will fill it in at [Step 4](#create-experiments), after your experiment records exist. Note: The Dataset field is filled in automatically because you started from the Dataset page.
+4. When you are done, click the *Save* button in the upper right corner.
+5. Review the confirmation page that displays the entered data.
+6. Close the browser tab and return to the Dataset page. You should now see the newly entered biosample. You may need to refresh the page.
 
-### Entering several biosamples at once {#multi-record-entry}
-
-You do not have to enter records one at a time. The following method also works for File and Experiment records.
-
-1. From an existing record page, click the *Copy* button near the upper right. A new form opens with the same values as the record you copied.
-2. Click *Clone* to add another record to the form. Each click adds one record. To add several at once, enter a number in the *Qty* box before clicking *Clone*. For example, starting from one record, you can click *Clone* twice, or enter 2 in *Qty* and click *Clone* once. Either way, you end up with three records, as shown below. The form can hold up to 200 records at a time.
-
->**Tip:** Each new form inherits the values of the right-most existing form. Use this to your advantage: fill in the fields that are shared across records first, click *Clone* as many times as you need, then fill in the values unique to each record.
-
-{% include screenshot.html src="/assets/img/biosample-multi-edit.png" alt="The Create 3 Biosample records form with three records side by side, and the Qty box set to 2 next to the Clone button, outlined in red." width=2904 zoom=true %}
-
-*Click the image to see it full size.*
-
-Nothing is saved until you click *Save*. The entire form succeeds or fails as a single unit — there are no partial submissions.
+To enter several biosamples, see [Working with many records](#many-records).
 
 ## Step 2. Upload files {#upload-files}
 
@@ -85,7 +73,7 @@ Recommended for anything more than a handful of files. See the [uploading files]
 
 Best for a small number of files.
 
-1. From the Dataset page, scroll to the *Biosample* section and click the *View Details* icon for the biosample you want, then scroll down to the *File* section.
+1. From the Dataset page, go to the *Biosample* section and click the *View Details* icon for the biosample you want, then scroll down to the *File* section.
 2. Click the *Add records* button. A new browser tab opens with the data entry form.
 3. In the "URL" field, click the *Select file* button and choose your data file.
 4. Click the "File Format" field to open the "Select File Format" window. Find the appropriate extension under the "Name" column and select it.
@@ -97,21 +85,11 @@ Because you started from the biosample record, these files are already associate
 
 Files uploaded with the DERIVA client tools arrive in the dataset unassociated. This step tells FaceBase which biosample each file belongs to.
 
-1. Go back to the Dataset page and scroll down to the *File* section.
-2. Narrow the list to the files for one biosample by clicking the *Explore* button and using the search box above the table, or the filters in the left sidebar (click *Show filter panel* if they're hidden). Searching on the portion of the filename that matches that sample — often the [local identifier](#key-terms) — is usually the fastest way.
+1. Go back to the Dataset page, go down to the *File* section, and click *Explore*.
+2. Search for the portion of the filename that matches one biosample, often its [local identifier](#key-terms), or use the filters in the left sidebar (click *Show filter panel* if they're hidden).
 
    {% include screenshot.html src="/assets/img/explore-files.png" alt="The File search page filtered to the 7 files matching 'hh39-dkk3', with the Bulk edit button at the upper right." width=2000 %}
-
-3. Click the *Bulk edit* button.
-4. On the left side of the screen, find the "Biosample" field and click the pencil icon. This will make that field editable across all of the file records.
-5. Click the "Select a value" dropdown and choose the correct biosample record.
-6. Above the dropdown, select the checkbox labeled *N of N selected records* (for example, *7 of 7 selected records*) to apply your choice to every record in the list, then click *Apply*.
-
-   {% include screenshot.html src="/assets/img/bulk-edit-screen.png" alt="The bulk edit panel for the Biosample field, with the '7 of 7 selected records' checkbox and the Apply button outlined in red." width=2566 zoom=true %}
-
-   *Click the image to see it full size.*
-
-7. Click *Save*.
+3. Use [Bulk edit](#bulk-edit) to set the "Biosample" field for all of the listed files.
 
 Repeat for each remaining biosample.
 
@@ -121,7 +99,7 @@ Repeat for each remaining biosample.
 
 Create an experiment record to describe the experimental details of your study. The form covers a wide range of experiment types, so in many cases you will fill in only a small number of fields.
 
-1. From the Dataset record, scroll down to the *Experiment* section.
+1. From the Dataset record, go down to the *Experiment* section.
     - If you do not see the *Experiment* section, click the *Show empty sections* button near the top right of the page.
 2. To the right of the heading, click the *Add records* button. A new browser tab opens with the data entry form.
 
@@ -136,7 +114,7 @@ Create an experiment record to describe the experimental details of your study. 
 
 Now that your experiment records exist, go back and fill in the field you left blank in Step 1.
 
-1. From the Dataset page, open the *Biosample* section.
+1. From the Dataset page, go to the *Biosample* section.
 2. For each biosample, click the pencil (*Edit*) icon in the list — or open the biosample record and click *Edit*. The Experiment column will be empty until you complete this step.
 
    {% include screenshot.html src="/assets/img/biosample-list-edit-icon.png" alt="The Biosample list on a Dataset page, with the pencil (Edit) icon for the first record outlined in red." width=783 %}
@@ -147,11 +125,13 @@ Now that your experiment records exist, go back and fill in the field you left b
 
 4. Click *Save*.
 
+>**Tip:** If several biosamples belong to the same experiment, use [Bulk edit](#bulk-edit) to link them all at once.
+
 ## Step 5. Link an experiment to a protocol {#link-protocol}
 
 Linking a protocol tells others exactly how the experiment was performed, which is often what makes your data reusable.
 
-1. From the Dataset page, scroll down to the *Experiment* section and click the *View Details* icon.
+1. From the Dataset page, go to the *Experiment* section and click the *View Details* icon.
 2. On the experiment record, find the "Protocols" field and click *Link records*. This opens the "Link Protocols to Experiment" window. If your protocol is already in the system, check the box next to it and click *Link*.
 
    {% include screenshot.html src="/assets/img/link-experiment-to-protocol.png" alt="The Protocols field on an experiment record, showing None, with the Link records button outlined in red." width=2000 %}
@@ -171,14 +151,44 @@ Linking a protocol tells others exactly how the experiment was performed, which 
 
 5. Click *Save*. Close the tab and return to the "Link Protocols to Experiment" window to select the protocol record you just created.
 
+## Working with many records {#many-records}
+
+Use Clone to create new records, and Bulk edit to change multiple records you've already saved.
+
+### Create several records at once with Clone {#multi-record-entry}
+
+1. From an existing record page, click the *Copy* button near the upper right. A new form opens with the same values as the record you copied.
+2. Click *Clone* to add another record to the form. Each click adds one record. To add several at once, enter a number in the *Qty* box before clicking *Clone*. For example, starting from one record, you can click *Clone* twice, or enter 2 in *Qty* and click *Clone* once. Either way, you end up with three records, as shown below. The form can hold up to 200 records at a time.
+
+>**Tip:** Each new form inherits the values of the right-most existing form. Use this to your advantage: fill in the fields that are shared across records first, click *Clone* as many times as you need, then fill in the values unique to each record.
+
+{% include screenshot.html src="/assets/img/biosample-multi-edit.png" alt="The Create 3 Biosample records form with three records side by side, and the Qty box set to 2 next to the Clone button, outlined in red." width=2904 zoom=true %}
+
+*Click the image to see it full size.*
+
+Nothing is saved until you click *Save*. The entire form succeeds or fails as a single unit — there are no partial submissions.
+
+### Change a field across several records with Bulk edit {#bulk-edit}
+
+1. Go to the section for the records you want to change and click *Explore*.
+2. Use the search box or filters to narrow the list to those records.
+3. Click *Bulk edit*.
+4. Find the field you want to change and click its pencil icon.
+5. Enter or select the new value.
+6. Above the field, select the *N of N selected records* checkbox to apply the value to every record in the list, then click *Apply*.
+7. Click *Save*.
+
+{% include screenshot.html src="/assets/img/bulk-edit-screen.png" alt="The bulk edit panel for the Biosample field, with the '7 of 7 selected records' checkbox and the Apply button outlined in red." width=2566 zoom=true %}
+
+*Click the image to see it full size.*
+
 ## Enhancer reporter records {#enhancer-records}
 
 Enhancer reporter assays are entered directly on the Dataset record and do not use the five-step workflow above.
 
-1. Go to the Dataset record.
-2. Scroll down to the *Enhancer Reporter Assay* section and click *Add records*. A new window opens where you can select existing records in the system. To create a new record, go to the next step.
-3. Click *Create new*. A new browser tab opens with the data entry form.
-4. Fill in the details as completely as possible and click *Save*.
+1. From the Dataset record, go to the *Enhancer Reporter Assay* section and click *Add records*. A new window opens where you can select existing records in the system. To create a new record, go to the next step.
+2. Click *Create new*. A new browser tab opens with the data entry form.
+3. Fill in the details as completely as possible and click *Save*.
 
 ## What happens next
 
