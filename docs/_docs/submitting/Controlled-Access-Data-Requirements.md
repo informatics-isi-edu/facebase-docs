@@ -3,7 +3,9 @@ title: Guidelines for Submitting Controlled Access Data
 permalink: /docs/Controlled-Access-Data-Requirements/
 ---
 
-The purpose of this document is to provide guidelines for the submission of controlled access data to FaceBase. For a more general overview of Data Management and Sharing (DMS) with respect to controlled access data, please see [Designating Scientific Data for Controlled Access (NIH)](https://sharing.nih.gov/data-management-and-sharing-policy/protecting-participant-privacy-when-sharing-scientific-data/designating-scientific-data-for-controlled-access).
+Human subjects data that can’t be shared openly can often be shared through controlled access, with the NIH Data Access Committee reviewing each request. This page explains what you need to have in place to share your data through FaceBase.
+
+For a more general overview of Data Management and Sharing (DMS) with respect to controlled access data, please see [Designating Scientific Data for Controlled Access (NIH)](https://sharing.nih.gov/data-management-and-sharing-policy/protecting-participant-privacy-when-sharing-scientific-data/designating-scientific-data-for-controlled-access).
 
 ## Contents
 
@@ -22,12 +24,11 @@ The purpose of this document is to provide guidelines for the submission of cont
 
 ## FaceBase as an NIH-Designated Genomic Data Repository
 
-FaceBase is listed by NIH as an NIH Controlled-Access Data Repository (CADR), and is designated on that list as an NIH-Designated Genomic Data Repository. This means it satisfies the "dbGaP or similar" repository requirement referenced in NIH data sharing policy and journal data availability requirements. If a journal or reviewer questions whether FaceBase meets this requirement for a manuscript based on human subjects data, you may cite FaceBase's listing on the NIH page above as documentation. Please contact [help@facebase.org](help@facebase.org) with any questions or if you need further documentation for a journal or funder.
+FaceBase is listed by NIH as an NIH Controlled-Access Data Repository (CADR), and is designated on that list as an NIH-Designated Genomic Data Repository. This means it satisfies the "dbGaP or similar" repository requirement referenced in NIH data sharing policy and journal data availability requirements. If a journal or reviewer questions whether FaceBase meets this requirement for a manuscript based on human subjects data, you may cite FaceBase's listing on the NIH page above as documentation. Please contact [help@facebase.org](mailto:help@facebase.org) with any questions or if you need further documentation for a journal or funder.
 
 ## Required submission certification
 
-Controlled access data submissions must be accompanied by an [Institutional Certification](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/gds/institutional-certifications),  a submission certificate signed by the submitting institution (Institutional Certificate) that provides assurance that the data are appropriate to share and that the data will be shared in a way that is consistent with the informed consent of the original study participants and/or the preferences of the original study population. Contact **help@facebase.org** with questions regarding completing and submitting the Institutional Certification covering your FaceBase controlled access data submission.
-
+Before you upload controlled access data, your institution must provide an [Institutional Certification](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/gds/institutional-certifications). In it, your institution confirms that sharing is consistent with participants’ informed consent and states any limits on how the data may be used. These limits determine the terms of access to your data. If you’re not sure what your consent forms allow, contact [help@facebase.org](mailto:help@facebase.org) and we can work through it with you.
 
 ## Subject-level Data
 
@@ -39,7 +40,9 @@ If your human subjects data includes distinct consent groups or other cohort gro
 
 ## De-identification
 
-Investigators **MUST** de-identify their research data, removing all Personally Identifiable Information (PII) and Protected Health Information (PHI), _to the extent possible_. For example, explicit identifiers such as name, date of birth, address, and medical record number, can and should be removed or otherwise de-identified _before_ submission to FaceBase. However, it may be impossible to fully de-identify data of all _implictly_ or _theoretically_ identifiable information. For example, some rare diseases may be so rare that just knowing the disease and broad geographic location or age in years, may be enough for some specialists in the disease to be able to combine information to re-identify the individual. Investigators are not expected to de-identify data to such an extent that it would be impossible to re-identify the subjects by combining with other knowledge or out-of-band information. With this qualified definition in mind, investigators **MUST** de-identify data to the extent possible.
+Investigators **MUST** de-identify their research data, removing all Personally Identifiable Information (PII) and Protected Health Information (PHI), _to the extent possible_. For example, explicit identifiers such as name, date of birth, address, and medical record number, can and should be removed or otherwise de-identified _before_ submission to FaceBase.
+
+However, it may be impossible to fully de-identify data of all _implictly_ or _theoretically_ identifiable information. For example, some rare diseases may be so rare that just knowing the disease and broad geographic location or age in years, may be enough for some specialists in the disease to be able to combine information to re-identify the individual. Investigators are not expected to de-identify data to such an extent that it would be impossible to re-identify the subjects by combining with other knowledge or out-of-band information. With this qualified definition in mind, investigators **MUST** de-identify data to the extent possible.
 
 ## Metadata
 

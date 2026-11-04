@@ -24,7 +24,6 @@
   - select-datasets
   - print-sign-submit
   - notification
-  - encryption-keys
   - renewing
 - title: Submitting Data
   docs:
