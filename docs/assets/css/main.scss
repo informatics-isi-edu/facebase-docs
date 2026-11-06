@@ -118,6 +118,13 @@ img.img-responsive {
   margin: 1em 0 1.5em;
 }
 
+/* override default blockquote style */
+
+blockquote p {
+
+  font-size: 16px !important;
+}
+
 /* ---- Google Programmable Search box (new-style layout) ---- */
 .gsc-control-cse {
   padding: 0 !important;
