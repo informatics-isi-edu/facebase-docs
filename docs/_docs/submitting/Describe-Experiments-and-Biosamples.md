@@ -46,7 +46,7 @@ All of the instructions that follow assume you are [logged in to the FaceBase si
 
 ## Step 1. Create biosamples {#create-biosamples}
 
-1. From the Dataset record and go to the *Biosample* section.
+1. From the Dataset record, go to the *Biosample* section.
     - If you do not see the *Biosample* section, click the *Show empty sections* button near the top right of the page.
 2. To the right of the *Biosample* heading, click the *Add records* button. A new browser tab opens with the data entry form.
 
