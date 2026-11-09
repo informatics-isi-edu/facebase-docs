@@ -13,11 +13,26 @@ Go to the [Data Access Request (DAR) page](https://www.facebase.org/chaise/recor
 
 ## Complete fields (1) to (24) on the DAR form
 
-![DAR form, fields 1 to 11]({{ "/assets/img/dar-form-1.png" | relative_url }})
-
-![DAR form, fields 12 to 21]({{ "/assets/img/dar-form-2.png" | relative_url }})
-
-![DAR form, fields 22 to 26 and Status]({{ "/assets/img/dar-form-3.png" | relative_url }})
+<div class="row">
+  <div class="col-sm-4">
+    <a href="{{ '/assets/img/dar-form-1.png' | relative_url }}" class="thumbnail">
+      <img src="{{ '/assets/img/dar-form-1.png' | relative_url }}" alt="DAR form, fields 1 to 11">
+    </a>
+    <p class="text-center"><small>Fields 1–11</small></p>
+  </div>
+  <div class="col-sm-4">
+    <a href="{{ '/assets/img/dar-form-2.png' | relative_url }}" class="thumbnail">
+      <img src="{{ '/assets/img/dar-form-2.png' | relative_url }}" alt="DAR form, fields 12 to 21">
+    </a>
+    <p class="text-center"><small>Fields 12–21</small></p>
+  </div>
+  <div class="col-sm-4">
+    <a href="{{ '/assets/img/dar-form-3.png' | relative_url }}" class="thumbnail">
+      <img src="{{ '/assets/img/dar-form-3.png' | relative_url }}" alt="DAR form, fields 22 to 26 and Status">
+    </a>
+    <p class="text-center"><small>Fields 22–26 and Status</small></p>
+  </div>
+</div>
 
 - A red asterisk denotes the field is required to create the request. Other fields can initially be left blank and completed at a later time.
 - Fields marked **Renewal or Revision only** can be left blank when you start a new DAR. They are described under [Renewal or Revision requests](#renewal-or-revision-requests) below.
