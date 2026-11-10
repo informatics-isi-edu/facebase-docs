@@ -15,19 +15,19 @@ Go to the [Data Access Request (DAR) page](https://www.facebase.org/chaise/recor
 
 <div class="row">
   <div class="col-sm-4">
-    <a href="{{ '/assets/img/dar-form-1.png' | relative_url }}" class="thumbnail">
+    <a href="{{ '/assets/img/dar-form-1.png' | relative_url }}" class="thumbnail" target="_blank">
       <img src="{{ '/assets/img/dar-form-1.png' | relative_url }}" alt="DAR form, fields 1 to 11">
     </a>
     <p class="text-center"><small>Fields 1–11</small></p>
   </div>
   <div class="col-sm-4">
-    <a href="{{ '/assets/img/dar-form-2.png' | relative_url }}" class="thumbnail">
+    <a href="{{ '/assets/img/dar-form-2.png' | relative_url }}" class="thumbnail" target="_blank">
       <img src="{{ '/assets/img/dar-form-2.png' | relative_url }}" alt="DAR form, fields 12 to 21">
     </a>
     <p class="text-center"><small>Fields 12–21</small></p>
   </div>
   <div class="col-sm-4">
-    <a href="{{ '/assets/img/dar-form-3.png' | relative_url }}" class="thumbnail">
+    <a href="{{ '/assets/img/dar-form-3.png' | relative_url }}" class="thumbnail" target="_blank">
       <img src="{{ '/assets/img/dar-form-3.png' | relative_url }}" alt="DAR form, fields 22 to 26 and Status">
     </a>
     <p class="text-center"><small>Fields 22–26 and Status</small></p>
@@ -59,9 +59,21 @@ If you are starting a new DAR, complete the following fields:
 Some of these fields need additional steps:
 
 - In field *(6) Principal Investigator*, if you don't find the PI's name listed there, click on the **+ Create new** button to create a new person record in the system. Then select the newly created record from the list of investigators.
-    ![The list of investigators with the + Create new button]({{ "/assets/img/dar-create-person-1.png" | relative_url }})
-    ![The Create new Person form]({{ "/assets/img/dar-create-person-2.png" | relative_url }})
-    ![Selecting the newly created person record]({{ "/assets/img/dar-create-person-3.png" | relative_url }})<br/><br/>
+
+<div class="row">
+  <div class="col-sm-6">
+    <a href="{{ '/assets/img/dar-create-person-1.png' | relative_url }}" class="thumbnail" target="_blank">
+      <img src="{{ '/assets/img/dar-form-1.png' | relative_url }}" alt="The list of investigators with the + Create new button">
+    </a>
+    <p class="text-center"><small>List of investigators with the Create button highlighted.</small></p>
+  </div>
+  <div class="col-sm-6">
+    <a href="{{ '/assets/img/dar-create-person-2.png' | relative_url }}" class="thumbnail" target="_blank">
+      <img src="{{ '/assets/img/dar-form-2.png' | relative_url }}" alt="The Create new Person form">
+    </a>
+    <p class="text-center"><small>The Create new Person form</small></p>
+  </div>
+</div>
 
 - If the dataset requires IRB approval (per the *Data Use Limitations* field), then in fields *(23) Submit a copy of the IRB approval letter...* and *(24) Submit a copy of the IRB-approved protocol...* click on the **Select file** button to the right of each field and select the file to upload from your local file system. The files will be uploaded to the FaceBase site once you save the form. The Data Access Committee (DAC) will not review your request without this documentation.
     **[QUESTION: The Data Use Limitations (DUL) field is blank on some DARs. Why is it blank, and where should requesters look to find out whether a dataset requires IRB approval?]**
