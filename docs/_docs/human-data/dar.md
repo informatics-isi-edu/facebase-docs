@@ -63,13 +63,13 @@ Some of these fields need additional steps:
 <div class="row">
   <div class="col-sm-6">
     <a href="{{ '/assets/img/dar-create-person-1.png' | relative_url }}" class="thumbnail" target="_blank">
-      <img src="{{ '/assets/img/dar-form-1.png' | relative_url }}" alt="The list of investigators with the + Create new button">
+      <img src="{{ '/assets/img/dar-create-person-1.png' | relative_url }}" alt="The list of investigators with the + Create new button">
     </a>
     <p class="text-center"><small>List of investigators with the Create button highlighted.</small></p>
   </div>
   <div class="col-sm-6">
     <a href="{{ '/assets/img/dar-create-person-2.png' | relative_url }}" class="thumbnail" target="_blank">
-      <img src="{{ '/assets/img/dar-form-2.png' | relative_url }}" alt="The Create new Person form">
+      <img src="{{ '/assets/img/dar-create-person-2.png' | relative_url }}" alt="The Create new Person form">
     </a>
     <p class="text-center"><small>The Create new Person form</small></p>
   </div>
