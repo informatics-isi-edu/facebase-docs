@@ -44,7 +44,7 @@ The list of selected datasets appears under the *Requested Datasets* section of 
 
 ![The DAR form with the selected datasets listed under Requested Datasets]({{ "/assets/img/dar-select-datasets-4.png" | relative_url }})
 
-**[QUESTION: Why is the DUL field blank in the Requested Datasets list on some DARs? Once this is resolved, should this page tell requesters to check each dataset's DUL against field (11) and their IRB documentation?]**
+**[QUESTION: Why is the DUL field blank in the Requested Datasets list on some DARs? It seems to happen with EarBase datasets. Once this is resolved, should this page tell requesters to check each dataset's DUL against field (11) and their IRB documentation?]**
 
 ## Removing datasets from the request
 

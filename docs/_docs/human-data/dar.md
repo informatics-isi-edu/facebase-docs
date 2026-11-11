@@ -76,7 +76,7 @@ Some of these fields need additional steps:
 </div>
 
 - If the dataset requires IRB approval (per the *Data Use Limitations* field), then in fields *(23) Submit a copy of the IRB approval letter...* and *(24) Submit a copy of the IRB-approved protocol...* click on the **Select file** button to the right of each field and select the file to upload from your local file system. The files will be uploaded to the FaceBase site once you save the form. The Data Access Committee (DAC) will not review your request without this documentation.
-    **[QUESTION: The Data Use Limitations (DUL) field is blank on some DARs. Why is it blank, and where should requesters look to find out whether a dataset requires IRB approval?]**
+    **[QUESTION: Where should requesters look to find out whether a dataset requires IRB approval?]**
 - Fields *(25) Upload the signed Data Use Certification Agreement* and *(26) Upload the signed copy of the Data Access Request (DAR)* should initially be left blank. **Once you print the complete DUC and DAR forms and obtain all required signatures you must edit this form to add the signed documents to these fields**.
 - Leave *Approval Date* and *Expiration Date* blank.
 
@@ -84,6 +84,10 @@ Some of these fields need additional steps:
 
 - Make sure the *Status* field remains "In progress (Pending Signature)". Update it to "Completed" only when you have finished all fields and attachments, **including the signed documents**.
 - Click the **Save** button in the upper right corner to save all information entered in the form at this point.
+
+## Next step: Select your datasets
+
+**Your request is not finished yet.** This step creates the basic DAR form, but the form does not yet include the datasets you are requesting, and it has not been submitted. Next, [select the requested datasets]({{ "/docs/select-datasets/" | relative_url }}).
 
 ## Renewal or Revision requests
 
@@ -106,7 +110,3 @@ Then complete the following fields in addition to the fields listed above:
 ## If you are a researcher at an academic institute outside the US or if you are unfamiliar with IRBs...
 
 [Please see our relevant FAQ on the main FaceBase site](https://www.facebase.org/help/faqs/#irb) that points you to resources at the US NIH website for more information on IRBs. For institutes outside the US, they usually have a comparable “ethics board” or something similar that can provide the necessary information. You may also contact your own university offices that deal with research on human subjects and they should provide guidance.
-
-## Next step: Select your datasets
-
-**Your request is not finished yet.** This step creates the basic DAR form, but the form does not yet include the datasets you are requesting, and it has not been submitted. Next, [select the requested datasets]({{ "/docs/select-datasets/" | relative_url }}).

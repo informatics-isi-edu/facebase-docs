@@ -20,17 +20,19 @@ If your request is approved, your FaceBase login account provides access to the 
 
 Select the desired dataset from the list, scroll down to the *File* section of that dataset, and click on a file to download it to your computer.
 
-### Download all files for one dataset
+### Download all files for one or more datasets in your DAR using a BDBag
 
-Select the desired dataset. In the top right corner of the dataset page, click **Export** and select **BDBag**. This downloads a `dataset.zip` file to your computer. You can repeat this process for other datasets.
+A BDBag file contains metadata and information on how to download the data files, but not the data files themselves.
 
-### Download all files for all datasets in your DAR using a BDBag
+Click the RID to open the desired dataset or, if you want to download all the files in all the datasets in your DAR, click **Explore** to the right of the *Requested Datasets* section.
 
-Click **Explore** to the right of the *Requested Datasets* section, then click **Export** at the top right corner and select **BDBag**. This downloads a `dataset.zip` file to your computer.
+[**QUESTION: There is no Explore button to the right of the *Requested Datasets* section.**]
 
-A BDBag file contains metadata and information on how to download the data files, but not the data files themselves. To get the files, follow the instructions in [Exporting Data from FaceBase]({{ "/docs/Exporting-Data-from-FaceBase/" | relative_url }}).
+Then click **Export** at the top right corner and select **BDBag**. This downloads a `dataset.zip` file to your computer. ]
 
-**Be cautious:** downloading the files from this BDBag can result in a very large amount of data being downloaded to your machine.
+To download the data files, follow the instructions in [Exporting Data from FaceBase]({{ "/docs/Exporting-Data-from-FaceBase/" | relative_url }}).
+
+**Be cautious:** downloading the files from a BDBag may result in a very large amount of data being downloaded to your machine.
 
 ## Your access period and responsibilities
 
@@ -47,22 +49,27 @@ This is only a summary. See the DUC for the full terms.
 
 If you have any questions regarding this process or need help with downloads please contact the FaceBase Help Desk via email: **help AT facebase.org**.
 
-## [Editor] Questions for Reviewers
+## [Questions from Cris to resolve]
 
-- **Who else gets access with their own login?** The DUC makes others named on a DAR Approved Users, including the IT Director and staff under the PI, but the email only mentions the credential used to create the DAR. Do they each get access, and how? The draft doesn’t cover this, and they’re likely to ask.
+- **Who else gets access with their own login?** The DUC defines Approved Users as
+"Approved User: A user approved by the relevant Data Access Committee(s) to access one or more
+datasets for a specified period of time and only for the purposes outlined in the Principal Investigator
+(PI)’s approved Research Use Statement. **The Information Technology (IT) Director indicated on the
+Data Access Request, as well as any staff members and trainees under the direct supervision of the PI
+are also Approved Users** and must abide by the terms laid out in the Data Use Certification Agreement."
 
-- **Can a DAR be partly approved?** The email says “the 4 approved Datasets,” which suggests some requested datasets might not be approved. If that can happen, how would requesters tell which ones were, since they’d all appear under Requested Datasets?
+But we only mention that the credential of the person who created the DAR may access the DAR and datasets. Do the other approved users each get access, and how? We don't cover this, and someone is likely to ask at some point.
 
-- **What happens to access after one year?** Does it end automatically? This draft only gives the one-year period and the renewal requirement.
+- **Can a DAR be partly approved?** There is one case when only a subset of requested datasets were approved (Tom Cox). If that can happen, how would requesters tell which ones were, since they’d all appear under Requested Datasets?
 
-- **Who should get questions about a request?** The page sends everything to the Help Desk, but the DAC handles requests and communicates directly with requesters. You could send questions about review or status to the DAC once its email is confirmed, and keep the Help Desk for download problems.
+- **What happens to access after one year?** Does it end automatically (in other words, will the system prevent access after one year unless a Renewal has been approved)?
 
-- **Text the Exporting Data link**.
+- **Who should get questions about a request?** Just confirming that we want questions to go to help@facebase.org. Technically, the DAC handles requests and communicates directly with requesters. We could send questions about review or status to the DAC, and keep the Help Desk for technical problems.
 
-### [Editor] Screenshots
+### [Suggested screenshots - for Cris]
 
 Most useful would be
 - Export > BDBag on a dataset page
-- Explore next to Requested Datasets.
+- Explore next to Requested Datasets. [But I can't do this yet because it doesn't exist]
 
 Both should come from a test DAR with placeholder details.

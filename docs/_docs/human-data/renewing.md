@@ -29,7 +29,7 @@ To submit your closeout, complete the following form and send it to the DAC at n
 
 If you have any questions regarding this process please contact the FaceBase Help Desk via email: **help AT facebase.org**.
 
-## [Editor] Questions for Reviewers
+## [Questions from Cris to resolve]
 
 - How early should people renew? Review can take 4–6 weeks, so someone who renews just before expiration could lose access while they wait. If access doesn’t continue during review, I’d add a recommended lead time.
 - Does the form cover everything the DUC requires for progress updates? Section 11 asks for presentations and downstream intellectual property. Field 19 only asks for manuscripts, and I don’t see a field for intellectual property. This one may be for Alicia.
