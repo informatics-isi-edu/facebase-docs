@@ -19,7 +19,12 @@ If you know details of the datasets like Title, Description, etc, you can search
 
 ![The Datasets selection page with the Show filter panel link]({{ "/assets/img/dar-select-datasets-2.png" | relative_url }})
 
-Then select "Yes" on the Protected Human Subjects filter to show all datasets that contain protected human data. You can continue narrowing your search by using the other filters like Experiment Type, Gene, Syndrome, Anatomy, etc, and then pick the desired datasets from the results set shown on the right by clicking on each dataset checkbox.
+Then scroll down the panel to the Protected Human Subjects filter and select "Yes" to show all datasets that contain protected human data. You can continue narrowing your search by using the other filters in the panel like Experiment Type, Gene, Syndrome, Anatomy, etc.
+
+![The Datasets selection page with the Show filter panel open and the Protected Human Subjects filter with "Yes" selected]({{ "/assets/img/dar-select-datasets-human.png" | relative_url }})
+
+Pick the desired datasets from the results set shown on the right by clicking on each dataset checkbox.
+
 
 ### Finding EarBase datasets
 
@@ -29,7 +34,7 @@ If you are requesting access to EarBase datasets, you can find them quickly by o
 
 ## Save the form
 
-Once you are done picking all your datasets, click on the **Save** button on the top right corner of the page.
+Once you are done picking all your datasets, click on the **Link** button on the top right corner of the page.
 
 ![The Datasets selection page with datasets selected and the Save button at the top right]({{ "/assets/img/dar-select-datasets-3.png" | relative_url }})
 
