@@ -32,7 +32,7 @@ If you are requesting access to EarBase datasets, you can find them quickly by o
 
 ![The Consortium filter with EarBase selected]({{ "/assets/img/dar-select-datasets-earbase.png" | relative_url }})
 
-## Save the form
+## Link the datasets
 
 Once you are done picking all your datasets, click on the **Link** button on the top right corner of the page.
 
