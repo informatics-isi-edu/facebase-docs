@@ -2,13 +2,24 @@
 layout: default
 ---
 
+{% comment %}
+  "On this page" sidebar: shown on wide screens when the page has at least
+  3 h2 headings. Turn it off for a page with `toc: false` in its front matter.
+  The list itself is filled in by buildPageToc() in assets/js/main.js.
+{% endcomment %}
+{% assign h2_count = content | split: '<h2' | size | minus: 1 %}
+{% assign show_toc = false %}
+{% if page.toc != false and h2_count >= 3 %}
+  {% assign show_toc = true %}
+{% endif %}
+
 <div class="container">
-    <div class="row">
-        <div class="col-md-4">
+    <div class="row docs-row">
+        <div class="col-md-4 col-lg-3">
           {% include docs_nav.html %}
         </div>
 
-        <div class="col-md-8">
+        <div class="col-md-8 {% if show_toc %}col-lg-7{% else %}col-lg-9{% endif %}">
             <h1>{{ page.title }}</h1>
             <div id="markdown-content-container">{{ content }}</div>
             <!--
@@ -24,6 +35,15 @@ layout: default
             <hr>
             {% include section_nav.html %}
         </div>
+
+        {% if show_toc %}
+        <div class="col-lg-2 visible-lg-block page-toc-col">
+            <nav id="page-toc" class="page-toc" aria-label="On this page">
+                <p class="page-toc-title">On this page</p>
+                <ul class="nav"></ul>
+            </nav>
+        </div>
+        {% endif %}
 
     </div>
 </div>

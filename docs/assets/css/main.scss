@@ -154,3 +154,60 @@ blockquote p {
   margin: 0 !important;
   background: transparent !important;
 }
+
+/* ---- "On this page" sidebar (see _layouts/docs.html) ---- */
+
+/* Keep headings from hiding under the fixed top navbar when you jump to them */
+#markdown-content-container h2 {
+  scroll-margin-top: 90px;
+}
+
+@media (min-width: 1200px) {
+  /* Flex lets the sidebar column stay in view as you scroll */
+  .docs-row {
+    display: flex;
+    align-items: flex-start;
+  }
+  .docs-row:before,
+  .docs-row:after {
+    display: none; /* Bootstrap's float clearfix isn't needed with flex */
+  }
+  .page-toc-col {
+    position: sticky;
+    top: 91px;
+    max-height: calc(100vh - 111px);
+    overflow-y: auto;
+  }
+}
+
+.page-toc {
+  font-size: 14px;
+  border-left: 1px solid #ddd;
+  padding-left: 12px;
+}
+
+.page-toc-title {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.page-toc .nav > li > a {
+  padding: 4px 0 4px 10px;
+  margin-left: -14px; /* lines the highlight bar up with the grey border */
+  border-left: 3px solid transparent;
+  color: #555;
+  line-height: 1.35;
+}
+
+.page-toc .nav > li > a:hover,
+.page-toc .nav > li > a:focus {
+  background: none;
+  color: #000;
+}
+
+.page-toc .nav > li.active > a {
+  border-left-color: $link-color;
+  color: $link-color;
+  font-weight: 500;
+}
