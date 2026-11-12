@@ -22,7 +22,7 @@ The purpose of this document is to provide guidelines for the submission of cont
 
 ## FaceBase as an NIH-Designated Genomic Data Repository
 
-FaceBase is listed by NIH as an NIH Controlled-Access Data Repository (CADR), and is designated on that list as an NIH-Designated Genomic Data Repository. This means it satisfies the "dbGaP or similar" repository requirement referenced in NIH data sharing policy and journal data availability requirements. If a journal or reviewer questions whether FaceBase meets this requirement for a manuscript based on human subjects data, you may cite FaceBase's listing on the NIH page above as documentation. Please contact [help@facebase.org](help@facebase.org) with any questions or if you need further documentation for a journal or funder.
+FaceBase is listed by NIH as an NIH Controlled-Access Data Repository (CADR), and is designated on that list as an NIH-Designated Genomic Data Repository. This means it satisfies the "dbGaP or similar" repository requirement referenced in NIH data sharing policy and journal data availability requirements. If a journal or reviewer questions whether FaceBase meets this requirement for a manuscript based on human subjects data, you may cite FaceBase's listing on the NIH page above as documentation. Please contact [help@facebase.org](mailto:help@facebase.org) with any questions or if you need further documentation for a journal or funder.
 
 ## Required submission certification
 

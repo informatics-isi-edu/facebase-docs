@@ -26,7 +26,7 @@ Not all assay types are entered the same way. Find your data in the table below 
 
 ### The five steps {#the-five-steps}
 
-All of the instructions that follow assume you are [logged in to the FaceBase site](../Data-Submission-Process/#prerequisites-for-submitting-data).
+All of the instructions that follow assume you are [logged in to the FaceBase site](../Data-Submission-Process/#before-you-begin).
 
 1. [Create biosamples](#create-biosamples) to describe the biological samples in your study.
 2. [Upload files](#upload-files) — in batch with the DERIVA client tools, or one at a time through the browser.

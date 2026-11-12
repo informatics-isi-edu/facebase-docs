@@ -45,7 +45,7 @@ Begin your data submission by creating a Dataset record.
         - If your dataset is part of a series, please reference a description of the series if it is not repeated for each set.
         - Note that the field accepts text with "Markdown" rendering. There is a toolbar available to help you format the text (with icons for bold, italics, lists, etc.).
     - _Study Design_: Use this field to add more details about the design of this study.
-5. When you are finished Click _Submit_ (upper right hand of the form).
+4. When you are finished Click _Submit_ (upper right hand of the form).
 
 ## 2. Add tags for filtering and search
 

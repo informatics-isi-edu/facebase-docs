@@ -43,9 +43,9 @@ So once you have joined the right group and are logged in to the FaceBase Data B
 
 ## Submitting Human Subjects Data (Controlled Access Data)
 
-Please see the [data access policy](https://www.facebase.org/methods/policies/) on the FaceBase site, regarding what data are classified as 'controlled access' (human subjects) data.
+Please see the [data access policy](https://www.facebase.org/methods/policies/) on the FaceBase site, regarding what data are classified as "controlled access" (human subjects) data.
 
-If you have already deposited your data at dbGaP, or another similar repository, you should include the dbGaP accession numbers for the relevant data in the "Related Datasets" field of your Dataset entries on FaceBase.
+If you have already deposited data in dbGaP or another similar repository, link your FaceBase dataset to it instead of uploading the same data again. See [Link to related datasets](../Create-a-Dataset/#3-link-to-related-datasets) for how to do this.
 
 If your research was _not_ sponsored by the NIH, we will request the following documentation: Federalwide Assurance (FWA) number, IRB approval letter (or letter from equivalent ethics board at your institution), description of variables, and contact information of PIs.
 
