@@ -29,6 +29,24 @@ $(function () {
   }
 
 
+  // "On this page" sidebar: list the page's h2 headings and highlight the
+  // one being read. The layout only adds #page-toc when the page qualifies
+  // (3+ h2 headings and no `toc: false`), so this does nothing elsewhere.
+  function buildPageToc() {
+    var $toc = $('#page-toc');
+    if (!$toc.length) return;
+
+    var $list = $toc.find('ul');
+    $('#markdown-content-container h2[id]').each(function () {
+      var $link = $('<a>').attr('href', '#' + this.id).text($(this).text());
+      $list.append($('<li>').append($link));
+    });
+
+    // Offset is a bit more than the fixed top navbar's height.
+    $('body').scrollspy({ target: '#page-toc', offset: 110 });
+  }
+
+
   fetch(baseurl + '/search.json')
     .then((r) => {
       if (r.ok) {
@@ -39,4 +57,5 @@ $(function () {
 
 
   styleContentToMD();
+  buildPageToc();
 });
