@@ -5,7 +5,7 @@ permalink: /docs/Create-a-Dataset/
 
 A **dataset** represents a unit of data collected and submitted to the FaceBase site. Typically, a dataset represents a whole or a logical unit of an investigation (i.e., a study within an overall investigation/project). When you submit your data, the first step is creating the **dataset record**, which acts as a container record that describes the unit of data as a whole.
 
-This page describes how to create a dataset record and add tags that will allow your data to be discovered in searches.
+This page describes how to create a dataset record, add tags that will allow your data to be discovered in searches, and link your dataset to related datasets.
 
 **Important**: make sure that you are on the [www.facebase.org](https://www.facebase.org/) site. Do not use the _development_ or _staging_ site for data entry.
 
@@ -75,8 +75,48 @@ For each category, add tags using the following procedure:
 7. Confirm that your tags appear on the dataset page. If you do not see the tags
    that you just added, refresh your browser page.
 
-Your new dataset is only visible to you and other members of your project until it is released by the Hub. Learn more about
-[dataset status](../Dataset-Status/).
+## 3. Link to related datasets
+
+Use the _Related Datasets_ section of your dataset page to link your dataset to
+other datasets it is connected to. A related dataset can be:
+
+- **in another repository**, such as GEO or dbGaP. Link to it whether your
+  FaceBase dataset holds complementary data (for example, imaging that goes with
+  sequencing data in GEO) or only the descriptive metadata for the external data.
+- **another FaceBase dataset**. For example, if your dataset is derived from or
+  is an analysis of an existing FaceBase dataset, link to that dataset.
+
+To add a related dataset:
+
+1. On your dataset page, find the _Related Datasets_ section (look through the
+   hotlinks on the left side of the page).
+2. Click the _Add records_ button. The "Create Related Dataset record" form
+   opens in a new tab. The _Dataset_ field is already filled in with your
+   dataset.
+<br/><br/>
+    ![Create Related Dataset form]({{ "/assets/img/create-related-dataset.png" | relative_url }})
+<br/><br/>
+3. In the _Relationship_ field, choose how the datasets are related:
+    - For a dataset in another repository: _dbGaP dataset_, _GEO GSE dataset_,
+      or _GEO GDS dataset_.
+    - For another FaceBase dataset:
+        - _Derived from_: your dataset was derived from the related dataset.
+        - _Secondary analysis of_: your dataset is an analysis of the related
+          dataset.
+        - _Primary data source of_: your dataset is the original data that the
+          related dataset was derived from or analyzed.
+        - _Related FaceBase dataset_: the datasets are related in another way.
+4. Identify the related dataset. Fill in **one** of these fields, not both:
+    - **For a dataset in another repository**, enter its permanent URL in the
+      _Related Dataset URL_ field. Use the DOI link or other permanent URL where
+      possible (for example, the GEO or dbGaP page for its accession number).
+    - **For another FaceBase dataset**, choose it from the _FaceBase related
+      dataset_ list. If the related dataset has not been released yet, only
+      logged-in users who can see it will see it listed on your dataset page.
+5. Click _Save_, and confirm the related dataset appears on your dataset page.
+
+Please do not upload data to FaceBase that is identical to data you have
+already deposited in another repository. Link to it instead.
 
 ## Review
 
