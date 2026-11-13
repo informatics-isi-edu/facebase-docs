@@ -23,7 +23,7 @@ early leaves time to fix anything the review turns up.
 ## Before you request release: checklist
 
 Make sure each of these is complete. This is not a complete list, but these are the items most often missing
-when a release request comes in.
+when a release request comes in. Each item helps make your dataset FAIR: findable, accessible, interoperable, and reusable by other researchers and by the computational tools that increasingly depend on well-described data.
 
 - **Dataset description.** Edit the dataset and add a full description of what
   it contains, including:

@@ -54,7 +54,7 @@ page for the new Dataset. Since you are logged in, you will see many categories 
 
 At a minimum, please add tags for the following categories using the "Add Record" button:
 - _Experiment Type_
-- _Organism_
+- _Species_
 
 We encourage you to use as many tags as apply to make your data more discoverable. Other likely tags are:
 - _Age Stage_
@@ -75,10 +75,14 @@ For each category, add tags using the following procedure:
 7. Confirm that your tags appear on the dataset page. If you do not see the tags
    that you just added, refresh your browser page.
 
+Tags are what make your dataset findable: they power the search filters other researchers use, and they label your data with standard terms that both people and computational tools can rely on. Learn more about [FAIR data in FaceBase]({{ "/docs/Data-Submission-Key-Concepts/#fair-data-in-facebase" | relative_url }}).
+
 ## 3. Link to related datasets
 
 Use the _Related Datasets_ section of your dataset page to link your dataset to
-other datasets it is connected to. A related dataset can be:
+other datasets it is connected to. Links to related datasets connect your data to the wider research record, so others can find and combine all of the data from your study.
+
+A related dataset can be:
 
 - **in another repository**, such as GEO or dbGaP. Link to it whether your
   FaceBase dataset holds complementary data (for example, imaging that goes with

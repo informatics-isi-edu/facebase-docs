@@ -3,16 +3,55 @@ title: Key Concepts for Data Contributors
 permalink: /docs/Data-Submission-Key-Concepts/
 ---
 
-In this section, you will learn about the key concepts and relationships in the FaceBase database, [vocabulary](#vocabulary) terms used to label data in FaceBase, and the supported [data types and file formats](#data-types-and-file-formats). If you are planning to submit data to FaceBase, see our listing of currently supported [Experiment Types](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type). Please [contact us](mailto:help@facebase.org) if you do not see your experiment type on the list.
+In this section, you will learn how FaceBase supports [FAIR data](#fair-data-in-facebase), the key concepts and relationships in the FaceBase database, [vocabulary](#vocabulary) terms used to label data in FaceBase, and the supported [data types and file formats](#data-types-and-file-formats). If you are planning to submit data to FaceBase, see our listing of currently supported [Experiment Types](https://www.facebase.org/chaise/recordset/#1/vocab:experiment_type). Please [contact us](mailto:help@facebase.org) if you do not see your experiment type on the list.
 
 Note that FaceBase is designated by NIH as an [NIH-Designated Genomic Data Repository](https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/accessing-data/requirements). Please see [Guidelines for Submitting Controlled Access Data]({{ "/docs/Controlled-Access-Data-Requirements/" | relative_url }}) for details, particularly relevant if you need to satisfy a journal's data-sharing repository requirement.
 
 ## Contents
 
+- [FAIR Data in FaceBase](#fair-data-in-facebase)
 - [Database Structure](#database-structure)
 - [Vocabulary](#vocabulary)
 - [Data Types and File Formats](#data-types-and-file-formats)
 - [References to External Data and Visualization](#references-to-external-data-and-visualization)
+
+## FAIR Data in FaceBase
+
+FaceBase is built to provide research data that is **FAIR**: Findable,
+Accessible, Interoperable, and Reusable. The
+[FAIR principles](https://www.go-fair.org/fair-principles/) are widely adopted
+guidelines for sharing research data, and following them is one of the main
+reasons the information we ask you to enter matters.
+
+FAIR data is also an important foundation towards making datasets **AI-ready**. Computational tools,
+including machine learning and AI, depend on data that is described
+consistently, labeled with standard terms, and structured so that machines as
+well as people can read it. The metadata you add when you submit is what makes
+your data usable this way, by other researchers and in large-scale analyses
+that combine many datasets.
+
+Here is how each part of the submission process contributes:
+
+- **Findable.** Your dataset title, description, and tags (such as
+  experiment type, organism, anatomy, and gene) let others discover your data
+  through search and filtering. Each released dataset also receives a
+  Digital Object Identifier (DOI), a permanent identifier that can be cited.
+- **Accessible.** Once released, your dataset can be browsed and downloaded
+  through the FaceBase website, and accessed programmatically through our
+  [Application Programming Interface]({{ "/docs/Application-Programming-Interface/" | relative_url }}).
+  Controlled access human data is available to approved users through a Data
+  Access Request.
+- **Interoperable.** Standard [vocabulary](#vocabulary) terms, recognized
+  [data types and file formats](#data-types-and-file-formats), and links to
+  related datasets in other repositories (such as GEO or dbGaP) let your data
+  be compared and combined with other data.
+- **Reusable.** Protocols for each experiment, detailed biosample metadata,
+  files linked to the biosamples they came from, and clear citation and terms
+  of use give others what they need to understand, trust, and build on your
+  data.
+
+The more complete your metadata, the more useful your data is to others, and
+the more it will be found, cited, and reused.
 
 ## Database Structure
 
@@ -34,7 +73,7 @@ The following diagram depicts the structure of the FaceBase database.
 
 ## Vocabulary
 
-In order for your data to best reusable and interoperable with other data, it is important to label them with shared terminology broadly understood by other researchers. FaceBase has adopted [external, standardized "vocabulary" a.k.a. "ontology"](https://en.wikipedia.org/wiki/Ontology_(information_science)) for most terminology wherever possible. If you cannot find a term that you need in order to describe your data, please [contact us](mailto:help@facebase.org). To search for terms not already available in FaceBase, see the [NCBO BioPortal](https://bioportal.bioontology.org/).
+In order for your data to be reusable and interoperable with other data (see [FAIR Data in FaceBase](#fair-data-in-facebase)), it is important to label them with shared terminology broadly understood by other researchers. FaceBase has adopted [external, standardized "vocabulary" a.k.a. "ontology"](https://en.wikipedia.org/wiki/Ontology_(information_science)) for most terminology wherever possible. If you cannot find a term that you need in order to describe your data, please [contact us](mailto:help@facebase.org). To search for terms not already available in FaceBase, see the [NCBO BioPortal](https://bioportal.bioontology.org/).
 
 Currently, we use the following vocabulary:
 

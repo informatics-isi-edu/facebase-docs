@@ -46,6 +46,8 @@ All of the instructions that follow assume you are [logged in to the FaceBase si
 
 ## Step 1. Create biosamples {#create-biosamples}
 
+Detailed biosample metadata, such as species, age stage, anatomy, and genotype, is what lets others understand and reuse your data and lets computational tools compare it with other datasets.
+
 1. From the Dataset record, go to the *Biosample* section.
     - If you do not see the *Biosample* section, click the *Show empty sections* button near the top right of the page.
 2. To the right of the *Biosample* heading, click the *Add records* button. A new browser tab opens with the data entry form.
@@ -82,6 +84,8 @@ Best for a small number of files.
 Because you started from the biosample record, these files are already associated with it and you can skip [Step 3](#link-files).
 
 ## Step 3. Link files to their biosamples {#link-files}
+
+Linking each file to its biosample records exactly where the data came from, which is essential for anyone reanalyzing your files.
 
 Files uploaded with the DERIVA client tools arrive in the dataset unassociated. This step tells FaceBase which biosample each file belongs to.
 
