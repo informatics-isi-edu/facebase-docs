@@ -76,7 +76,6 @@ Some of these fields need additional steps:
 </div>
 
 - If the dataset requires IRB approval (per the *Data Use Limitations* field), then in fields *(23) Submit a copy of the IRB approval letter...* and *(24) Submit a copy of the IRB-approved protocol...* click on the **Select file** button to the right of each field and select the file to upload from your local file system. The files will be uploaded to the FaceBase site once you save the form. The Data Access Committee (DAC) will not review your request without this documentation.
-    **[QUESTION: Where should requesters look to find out whether a dataset requires IRB approval?]**
 - Fields *(25) Upload the signed Data Use Certification Agreement* and *(26) Upload the signed copy of the Data Access Request (DAR)* should initially be left blank. **Once you print the complete DUC and DAR forms and obtain all required signatures you must edit this form to add the signed documents to these fields**.
 - Leave *Approval Date* and *Expiration Date* blank.
 
