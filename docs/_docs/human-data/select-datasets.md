@@ -38,13 +38,9 @@ Once you are done picking all your datasets, click on the **Link** button on the
 
 ![The Datasets selection page with datasets selected and the Save button at the top right]({{ "/assets/img/dar-select-datasets-3.png" | relative_url }})
 
-The list of selected datasets appears under the *Requested Datasets* section of the DAR form. You may add new datasets to this list by repeating this process. After your DAR is approved, adding new datasets to the project requires an amendment to your request.
-
-**[QUESTION: The DUC says adding datasets to an approved project requires an "amendment," but the form offers Revision or Renewal. Is an amendment the same as a Revision? If so, change this to "requires a Revision" and link to the Renewal or Revision section on page B.]**
+The list of selected datasets appears under the *Requested Datasets* section of the DAR form. You may add new datasets to this list by repeating this process. After your DAR is approved, adding new datasets to the project requires a [Revision to your request]({{ "/docs/dar/#renewal-or-revision-requests" | relative_url }}).
 
 ![The DAR form with the selected datasets listed under Requested Datasets]({{ "/assets/img/dar-select-datasets-4.png" | relative_url }})
-
-**[QUESTION: Why is the DUL field blank in the Requested Datasets list on some DARs? It seems to happen with EarBase datasets. Once this is resolved, should this page tell requesters to check each dataset's DUL against field (11) and their IRB documentation?]**
 
 ## Removing datasets from the request
 
