@@ -70,6 +70,5 @@ But we only mention that the credential of the person who created the DAR may ac
 
 Most useful would be
 - Export > BDBag on a dataset page
-- Explore next to Requested Datasets. [But I can't do this yet because it doesn't exist]
 
-Both should come from a test DAR with placeholder details.
+Should come from a test DAR with placeholder details.

@@ -6,7 +6,7 @@ permalink: /docs/print-sign-submit/
 ## Print the DAR form
 
 1. Print the DAR form using the **Print** option in your browser's *File* menu.
-2. **[QUESTION: What and where do people sign on the printed DAR now? This step used to say to obtain signatures from all relevant personnel and complete fields (16), (17) and (18), but those field numbers are now collaborator and renewal fields, and the test DAR shows no signature lines. Who signs the DAR, and where? Do requesters fill in the blank PI lines (title, phone, fax, mailing address) by hand?]**
+2. Fill out and sign fields 27 (PI) and 28 (Signing Official) **[QUESTION: Do requesters fill in the blank PI lines (title, phone, fax, mailing address) by hand?]**
 
 ## Submit the DUC and DAR Forms
 
