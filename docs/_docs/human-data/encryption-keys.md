@@ -1,7 +1,9 @@
 ---
-title: F. Create and upload your encryption keys
+title: [OBSOLETE] Create and upload your encryption keys
 permalink: /docs/encryption-keys/
 ---
+
+**This page is out of date and will soon be removed**
 
 If your request is approved, you will receive email from the FaceBase Hub and will be requested to create and upload your encryption in order to access the data.
 

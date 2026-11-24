@@ -30,17 +30,26 @@ To create and submit a DAR, you must join the FaceBase Users group.
 2. Log in with Globus  
 3. Request to join the **FaceBase Users** group  
 
+You will receive email notification once your request is approved by the FaceBase Hub.
+
 *If you have previously submitted data to FaceBase, you may already be a member.*
 
 ### Information You’ll Need
 
 Prepare the following before starting your request.
 
+#### Project and Organization
+
+- Title of your proposed project
+- Name of the Principal Investigator (PI)
+- Name of the organization or corporation requesting the data
+
 #### Research Description
 
 - **Research Use Statement**  
   Summary of your research intent, including:
   - Objectives  
+  - Aims  
   - Study design  
   - Analysis plan  
 
@@ -56,14 +65,23 @@ Prepare the following before starting your request.
 
 #### Team Information
 
-- List of collaborators (internal and external)
+- List of collaborators at your organization who will have access to the data
+- List of collaborators from other organizations involved in the project, and any planned data sharing among them
+- Names of your IT Director and Institutional Signing Official, who must sign the DUC
+
+*Collaborators from other organizations who wish to have access to the data must submit their own DARs. The DARs can be submitted simultaneously or sequentially, but neither project will be granted access until both are approved.*
 
 #### IRB Documentation (if required)
 
 If the requested dataset requires IRB approval, you will need:
 
-- IRB letter  
-- IRB-approved protocol describing your use of the data  
+- IRB approval letter
+- IRB-approved protocol that documents approval to use FaceBase data
+- IRB protocol number
+- IRB approval expiration date
+- Federalwide Assurance Number (FWA#) for the institution overseeing the IRB that approved your project
+
+The DAC will not review your request without the IRB approval letter and protocol. If you have questions about your institution's FWA#, contact your institution's Office of Research.
 
 For questions about IRB requirements, contact the DAC at  
 <a href="mailto:nidcrfacebasedac@mail.nih.gov">nidcrfacebasedac@mail.nih.gov</a>  
@@ -77,13 +95,5 @@ To access controlled data, follow the steps below:
 - [B. Complete the online Data Access Request (DAR) form]({{ "/docs/dar/" | relative_url }})
 - [C. Select the requested datasets]({{ "/docs/select-datasets/" | relative_url }})
 - [D. Print, sign, and submit the DUC and DAR forms]({{ "/docs/print-sign-submit/" | relative_url }})
-- [E. Await notification]({{ "/docs/notification/" | relative_url }})
-- [F. Create or upload an encryption key]({{ "/docs/encryption-keys/" | relative_url }})
-- [G. Renew access or submit closeout]({{ "/docs/renewing/" | relative_url }})
-
-## Video Overview
-
-The following video (from a FaceBase Bootcamp) provides an overview of the request process:
-
-<i class="fa fa-video-camera" aria-hidden="true"></i>  
-[Requesting controlled-access (human subjects) data](https://youtu.be/WQuRC71yMBw?si=KBOAyfxflzSxG95B)
+- [E. Receive notification and access your data]({{ "/docs/notification/" | relative_url }})
+- [F. Renew access or submit closeout]({{ "/docs/renewing/" | relative_url }})
