@@ -3,10 +3,12 @@ title: D. Print, Gather Signatures and Submit the DUC and DAR forms
 permalink: /docs/print-sign-submit/
 ---
 
-## Print the DAR form
+## Print the DAR form and obtain signatures
 
-1. Print the DAR form using the **Print** option in your browser's *File* menu.
-2. Fill out and sign fields 27 (PI) and 28 (Signing Official) **[QUESTION: Do requesters fill in the blank PI lines (title, phone, fax, mailing address) by hand?]**
+1. Open your DAR and print it using the **Print** option in your browser's *File* menu.
+2. On the printed form, fill in any blank fields, then have it signed by:
+   - the Principal Investigator (PI), in field *(27)*
+   - the Institutional Signing Official, in field *(28)*
 
 ## Submit the DUC and DAR Forms
 

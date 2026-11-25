@@ -1,5 +1,5 @@
 ---
-title: F. Renew Access or Submit Closeout
+title: F. Renew Access or Submit Close-out
 permalink: /docs/renewing/
 ---
 
@@ -15,20 +15,17 @@ To submit your renewal request:
 2. Select **Renewal** in field *(2)* and select your original DAR in field *(3) Parent DAR*.
 3. Complete the form as described in [Renewal or Revision requests]({{ "/docs/dar/#renewal-or-revision-requests" | relative_url }}).
 
-## Submit Closeout
+## Submit Close-out
 
 When access to data is no longer needed, the Data Access Requester must submit a Project Close-out which describes any results from data use, as well as provides certification that any downloaded data has been destroyed in accordance with terms in the DUC. If you are moving to a new institution, complete the Project Close-out before you move.
 
-To submit your closeout, complete the following form and send it to the DAC at nidcrfacebasedac AT mail DOT nih.gov:
+To submit your close-out, complete the following form and send it to the DAC at nidcrfacebasedac AT mail DOT nih.gov:
 
 - [FaceBase Project Close-out Form (pdf)]({{ "/assets/files/7_FaceBase Project Close Out Report_Fillable.pdf" | relative_url }})
-
-**[QUESTION: The DAR page now has a Close Out File section. Should requesters upload the completed form there instead of, or in addition to, emailing it to the DAC?]**
 
 ## Questions
 
 If you have any questions regarding this process please contact the FaceBase Help Desk via email: **help AT facebase.org**.
 
-## [Question from Cris to resolve]
-
-- How early should people renew? Review can take 4–6 weeks, so someone who renews just before expiration could lose access while they wait. If access doesn’t continue during review, I’d add a recommended lead time.
+- **About the close-out form, renewal or close-out status, or policy:** contact the NIDCR FaceBase Data Access Committee (DAC) at <a href="mailto:nidcrfacebasedac@mail.nih.gov">nidcrfacebasedac@mail.nih.gov</a>.
+- **About technical problems with submitting the renewal or close-out:** contact the FaceBase Help Desk at <a href="mailto:help@facebase.org">help@facebase.org</a>.

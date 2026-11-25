@@ -3,11 +3,11 @@ title: Controlled-Access Human Data - Policy and Requests
 permalink: /docs/human-data/
 ---
 
-Controlled-access data is available to authorized users for specific research use only after approval by the Data Access Committee (DAC). The request process is described below.
+Controlled-access data is available to authorized users for specific research use only after submitting Data Access Request (DAR) and receiving approval by the Data Access Committee (DAC). The request process is described below.
 
 ## Before You Begin
 
-Before starting a Data Access Request (DAR), make sure you:
+Before starting a DAR, make sure you:
 
 - Confirm you meet eligibility requirements ([see required credentials]({{ "/assets/files/FaceBase-Access-Standards-Required-Credentials-for-Controlled-Access.pdf" | relative_url }}))
 - Join the FaceBase Users group
@@ -96,4 +96,4 @@ To access controlled data, follow the steps below:
 - [C. Select the requested datasets]({{ "/docs/select-datasets/" | relative_url }})
 - [D. Print, sign, and submit the DUC and DAR forms]({{ "/docs/print-sign-submit/" | relative_url }})
 - [E. Receive notification and access your data]({{ "/docs/notification/" | relative_url }})
-- [F. Renew access or submit closeout]({{ "/docs/renewing/" | relative_url }})
+- [F. Renew access or submit close-out]({{ "/docs/renewing/" | relative_url }})
